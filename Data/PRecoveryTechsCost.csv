@@ -1,0 +1,41 @@
+Sector,Flow,Technology,Type,"P recovery potential
+(% related to influent)",P recovery cost (EUR/kg P recovered),P recovery cost with extra costs (EUR/kg P recovered),TRL,P recovery cost available?,Ref tech,Ref cost
+Agriculture,Manure (liquid phase),Multiform,Struvite,60,24.4,24.4,9,Yes,Absorbed by Ostara: https://www.newtrient.com/catalog/multiform-harvest-struvite-crystallization/,"Edgar, for instance https://www.sciencedirect.com/science/article/pii/S0921344921004523#sec0033"
+Agriculture,Manure (liquid phase),Crystalactor,Struvite/Calcium phosphate,60,3.4,3.4,9,Yes,https://global.royalhaskoningdhv.com/crystalactor,"Edgar, for instance https://www.sciencedirect.com/science/article/pii/S0921344921004523#sec0033"
+Agriculture,Manure (liquid phase),Ostara Pearl,Struvite,60,11.9,11.9,9,Yes,https://ostara.com/nutrient-management-solutions/,"Edgar, for instance https://www.sciencedirect.com/science/article/pii/S0921344921004523#sec0033"
+Agriculture,Manure (liquid phase),Nuresys,Struvite,60,9.8,9.8,9,Yes,http://www.nuresys.be/,"Edgar, for instance https://www.sciencedirect.com/science/article/pii/S0921344921004523#sec0033"
+Agriculture,Manure (liquid phase),P-RoC,Calcium phosphate,60,36.8,36.8,6,Yes,https://iwaponline.com/wst/article-abstract/63/2/339/13814/P-Recovery-from-sewage-by-seeded-crystallisation?redirectedFrom=fulltext,"Edgar, for instance https://www.sciencedirect.com/science/article/pii/S0921344921004523#sec0033"
+Agriculture,Manure (liquid phase),MAPHEX,Solid,90,100,100,6,Yes,https://elibrary.asabe.org/abstract.asp?aid=48976,"Edgar, for instance https://www.sciencedirect.com/science/article/pii/S0921344921004523#sec0033"
+Agriculture,Manure (solid phase),Incineration + SSA tech,"Calcium phosphates or
+Phosphoric acid",,,,3,No,https://pubs.rsc.org/en/content/articlepdf/2021/cs/d0cs01150a,
+Agriculture,Slaughterhouse waste (liquid phase),Multiform,Struvite,84,22.6,22.6,9,Yes,Absorbed by Ostara: https://www.newtrient.com/catalog/multiform-harvest-struvite-crystallization/,"AMPC, 2018. Struvite or traditional chemical phosphorus precipitation what option rocks? Australian Meat Processor Corporation https://drive.google.com/file/d/19tvzRp4mLTjmXgha3Qat7tokK350tjTC/view?usp=sharing"
+Agriculture,Slaughterhouse waste (liquid phase),Ostara Pearl,Struvite,58,15.6,15.6,9,Yes,https://ostara.com/nutrient-management-solutions/,"AMPC, 2018. Struvite or traditional chemical phosphorus precipitation what option rocks? Australian Meat Processor Corporation https://drive.google.com/file/d/19tvzRp4mLTjmXgha3Qat7tokK350tjTC/view?usp=sharing"
+Agriculture,Slaughterhouse waste (solid phase),Incineration + SSA tech,"Calcium phosphates or
+Phosphoric acid",,,,4,No,https://link.springer.com/book/10.1007/978-981-10-8031-9?noAccess=true,
+Urban,WWTPs (liquid phase),Crystalactor,Struvite/Calcium phosphate,38,12.3,12.3,9,Yes,https://global.royalhaskoningdhv.com/crystalactor,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (liquid phase),Ostara Pearl,Struvite,20,9.7,9.7,9,Yes,https://ostara.com/nutrient-management-solutions/,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (liquid phase),P-RoC,Calcium phosphate,27,6.1,6.1,6,Yes,https://iwaponline.com/wst/article-abstract/63/2/339/13814/P-Recovery-from-sewage-by-seeded-crystallisation?redirectedFrom=fulltext,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (liquid phase),REM-NUT,Struvite,47,28.8,28.8,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (liquid phase),AirPrex,Struvite,15,7.7,7.7,9,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (liquid phase),PRISA,Struvite,18,8.4,8.4,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sludge phase),Stuttgart process,Struvite,40,16.6,16.6,9,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sludge phase),Gifhorn process,Struvite,40,13,13,9,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sludge phase),PHOXNAN,Struvite,51,26.6,26.6,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sludge phase),Aqua Reci,Calcium phosphate,61,23.2,23.2,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sludge phase),MEPHREC,P rich slag,68,13.5,13.5,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sewage sludge ash),EcoPhos,Phosphoric acid,82,4.5,12.5,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sewage sludge ash),AshDec depollution,Calcium phosphate,86,1.8,9.8,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sewage sludge ash),AshDec Rhenania,Calcium phosphate,86,1.9,9.9,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sewage sludge ash),PASCH,Calcium phosphate,79,4.7,12.7,6,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sewage sludge ash),LEACHPHOS,Calcium phosphate,78,5.1,13.1,9,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sewage sludge ash),RecoPhos,Mineral,87,2.5,10.5,9,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,WWTPs (sewage sludge ash),Thermophos,P4,81,2.7,10.7,9,Yes,https://www.sciencedirect.com/science/article/pii/S0048969716314656,https://www.sciencedirect.com/science/article/pii/S0048969716314656
+Urban,Organic MSW,"Chemical extraction and
+Struvite precipitation",Struvite,94,24.8,24.8,3,"Partially (pilot scale, it should be scaled up)",https://onlinelibrary.wiley.com/doi/epdf/10.1002/jctb.6926,https://onlinelibrary.wiley.com/doi/epdf/10.1002/jctb.6926
+Urban,Organic MSW,Incineration + SSA tech,"Calcium phosphates or
+Phosphoric acid",,,,4,No,https://link.springer.com/book/10.1007/978-981-10-8031-9?noAccess=true,
+Industrial,Steel production,Reductive melting,"I have doubts if this P
+can be recycled",,,,5,No,https://onlinelibrary.wiley.com/doi/full/10.1111/j.1530-9290.2009.00162.x,https://link.springer.com/content/pdf/10.1007/978-3-319-48217-0.pdf
+Industrial,Steel production,"Selective leaching–chemical
+Precipitation ","I have doubts if this P
+can be recycled",,,,4,No,https://www.sciencedirect.com/science/article/pii/S0304386X19300908,
