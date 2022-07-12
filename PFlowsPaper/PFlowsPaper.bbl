@@ -1,4 +1,4 @@
-\begin{thebibliography}{7}
+\begin{thebibliography}{16}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -11,6 +11,22 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Boh and Clark(2020)}]{boh2020nitrogen}
+\bibinfo{author}{Boh, M.Y.}, \bibinfo{author}{Clark, O.G.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Nitrogen and phosphorus flows in ontario’s food
+  systems}.
+\newblock \bibinfo{journal}{Resources, Conservation and Recycling}
+  \bibinfo{volume}{154}, \bibinfo{pages}{104639}.
+%Type = Article
+\bibitem[{Chen and Graedel(2016)}]{chen2016half}
+\bibinfo{author}{Chen, M.}, \bibinfo{author}{Graedel, T.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{A half-century of global phosphorus flows, stocks,
+  production, consumption, recycling, and environmental impacts}.
+\newblock \bibinfo{journal}{Global Environmental Change} \bibinfo{volume}{36},
+  \bibinfo{pages}{139--152}.
 %Type = Article
 \bibitem[{Cordell et~al.(2009)Cordell, Drangert and White}]{cordell2009story}
 \bibinfo{author}{Cordell, D.}, \bibinfo{author}{Drangert, J.O.},
@@ -38,12 +54,38 @@
   for global agricultural markets and the risks associated with the war in
   Ukraine}}.
 %Type = Article
+\bibitem[{Mart{\'\i}n-Hern{\'a}ndez et~al.(2021)Mart{\'\i}n-Hern{\'a}ndez,
+  Mart{\'\i}n and Ruiz-Mercado}]{martin2021geospatial}
+\bibinfo{author}{Mart{\'\i}n-Hern{\'a}ndez, E.}, \bibinfo{author}{Mart{\'\i}n,
+  M.}, \bibinfo{author}{Ruiz-Mercado, G.J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{A geospatial environmental and techno-economic
+  framework for sustainable phosphorus management at livestock facilities}.
+\newblock \bibinfo{journal}{Resources, Conservation and Recycling}
+  \bibinfo{volume}{175}, \bibinfo{pages}{105843}.
+%Type = Article
+\bibitem[{Nesme et~al.(2018)Nesme, Metson and Bennett}]{nesme2018global}
+\bibinfo{author}{Nesme, T.}, \bibinfo{author}{Metson, G.S.},
+  \bibinfo{author}{Bennett, E.M.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Global phosphorus flows through agricultural trade}.
+\newblock \bibinfo{journal}{Global Environmental Change} \bibinfo{volume}{50},
+  \bibinfo{pages}{133--141}.
+%Type = Article
 \bibitem[{Pingali(2012)}]{pingali2012green}
 \bibinfo{author}{Pingali, P.L.}, \bibinfo{year}{2012}.
 \newblock \bibinfo{title}{Green revolution: impacts, limits, and the path
   ahead}.
 \newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
   \bibinfo{volume}{109}, \bibinfo{pages}{12302--12308}.
+%Type = Article
+\bibitem[{Sampat et~al.(2018)Sampat, Martin-Hernandez, Mart{\'\i}n and
+  Zavala}]{sampat2018technologies}
+\bibinfo{author}{Sampat, A.M.}, \bibinfo{author}{Martin-Hernandez, E.},
+  \bibinfo{author}{Mart{\'\i}n, M.}, \bibinfo{author}{Zavala, V.M.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Technologies and logistics for phosphorus recovery
+  from livestock waste}.
+\newblock \bibinfo{journal}{Clean Technologies and Environmental Policy}
+  \bibinfo{volume}{20}, \bibinfo{pages}{1563--1579}.
 %Type = Incollection
 \bibitem[{Samreen and Kausar(2019)}]{Kausar19}
 \bibinfo{author}{Samreen, S.}, \bibinfo{author}{Kausar, S.},
@@ -52,6 +94,15 @@
   sources}, in: \bibinfo{editor}{Zhang, T.} (Ed.),
   \bibinfo{booktitle}{Phosphorus}. \bibinfo{publisher}{IntechOpen}.
   chapter~\bibinfo{chapter}{6}.
+%Type = Article
+\bibitem[{Senthilkumar et~al.(2012)Senthilkumar, Nesme, Mollier and
+  Pellerin}]{senthilkumar2012conceptual}
+\bibinfo{author}{Senthilkumar, K.}, \bibinfo{author}{Nesme, T.},
+  \bibinfo{author}{Mollier, A.}, \bibinfo{author}{Pellerin, S.},
+  \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Conceptual design and quantification of phosphorus
+  flows and balances at the country scale: The case of france}.
+\newblock \bibinfo{journal}{Global Biogeochemical Cycles} \bibinfo{volume}{26}.
 %Type = Misc
 \bibitem[{{United Nations Environment Programme}(2022)}]{UN_Phosphorus}
 \bibinfo{author}{{United Nations Environment Programme}}, \bibinfo{year}{2022}.
@@ -66,5 +117,35 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/plantsanimals/livestock/afo/}}.
 \newblock \bibinfo{note}{[Online; accessed 10-August-2020]}.
+%Type = Article
+\bibitem[{Van~Dijk et~al.(2016)Van~Dijk, Lesschen and
+  Oenema}]{van2016phosphorus}
+\bibinfo{author}{Van~Dijk, K.C.}, \bibinfo{author}{Lesschen, J.P.},
+  \bibinfo{author}{Oenema, O.}, \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Phosphorus flows and balances of the european union
+  member states}.
+\newblock \bibinfo{journal}{Science of the Total Environment}
+  \bibinfo{volume}{542}, \bibinfo{pages}{1078--1093}.
+%Type = Article
+\bibitem[{Villalba et~al.(2008)Villalba, Liu, Schroder and
+  Ayres}]{villalba2008global}
+\bibinfo{author}{Villalba, G.}, \bibinfo{author}{Liu, Y.},
+  \bibinfo{author}{Schroder, H.}, \bibinfo{author}{Ayres, R.U.},
+  \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Global phosphorus flows in the industrial economy
+  from a production perspective}.
+\newblock \bibinfo{journal}{Journal of Industrial ecology}
+  \bibinfo{volume}{12}, \bibinfo{pages}{557--569}.
+%Type = Article
+\bibitem[{Zhou et~al.(2021)Zhou, Jiao, Ma, de~Vries, Zhang and
+  Shen}]{zhou2021model}
+\bibinfo{author}{Zhou, J.}, \bibinfo{author}{Jiao, X.}, \bibinfo{author}{Ma,
+  L.}, \bibinfo{author}{de~Vries, W.}, \bibinfo{author}{Zhang, F.},
+  \bibinfo{author}{Shen, J.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Model-based analysis of phosphorus flows in the food
+  chain at county level in china and options for reducing the losses towards
+  green development}.
+\newblock \bibinfo{journal}{Environmental Pollution} \bibinfo{volume}{288},
+  \bibinfo{pages}{117768}.
 
 \end{thebibliography}
