@@ -1,4 +1,4 @@
-\begin{thebibliography}{0}
+\begin{thebibliography}{7}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -11,5 +11,60 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Article
+\bibitem[{Cordell et~al.(2009)Cordell, Drangert and White}]{cordell2009story}
+\bibinfo{author}{Cordell, D.}, \bibinfo{author}{Drangert, J.O.},
+  \bibinfo{author}{White, S.}, \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{The story of phosphorus: global food security and
+  food for thought}.
+\newblock \bibinfo{journal}{Global environmental change} \bibinfo{volume}{19},
+  \bibinfo{pages}{292--305}.
+%Type = Article
+\bibitem[{Ehlert et~al.(2003)Ehlert, Morel, Fotyma and
+  Destain}]{ehlert2003potential}
+\bibinfo{author}{Ehlert, P.}, \bibinfo{author}{Morel, C.},
+  \bibinfo{author}{Fotyma, M.}, \bibinfo{author}{Destain, J.P.},
+  \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{Potential role of phosphate buffering capacity of
+  soils in fertilizer management strategies fitted to environmental goals}.
+\newblock \bibinfo{journal}{Journal of plant nutrition and soil science}
+  \bibinfo{volume}{166}, \bibinfo{pages}{409--415}.
+%Type = Misc
+\bibitem[{{Food and Agriculture Organization of the United
+  Nations}(2022)}]{FAO_UkraineWar}
+\bibinfo{author}{{Food and Agriculture Organization of the United Nations}},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{The importance of Ukraine and the Russian Federation
+  for global agricultural markets and the risks associated with the war in
+  Ukraine}}.
+%Type = Article
+\bibitem[{Pingali(2012)}]{pingali2012green}
+\bibinfo{author}{Pingali, P.L.}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{Green revolution: impacts, limits, and the path
+  ahead}.
+\newblock \bibinfo{journal}{Proceedings of the National Academy of Sciences}
+  \bibinfo{volume}{109}, \bibinfo{pages}{12302--12308}.
+%Type = Incollection
+\bibitem[{Samreen and Kausar(2019)}]{Kausar19}
+\bibinfo{author}{Samreen, S.}, \bibinfo{author}{Kausar, S.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Phosphorus fertilizer: The original and commercial
+  sources}, in: \bibinfo{editor}{Zhang, T.} (Ed.),
+  \bibinfo{booktitle}{Phosphorus}. \bibinfo{publisher}{IntechOpen}.
+  chapter~\bibinfo{chapter}{6}.
+%Type = Misc
+\bibitem[{{United Nations Environment Programme}(2022)}]{UN_Phosphorus}
+\bibinfo{author}{{United Nations Environment Programme}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Resolution adopted by the United Nations Environment
+  Assembly on 2 March 2022, UNEP/EA.5 Res.2, on Sustainable nitrogen
+  management}}.
+%Type = Misc
+\bibitem[{{U.S. Department of Agriculture}(2011)}]{animal_unit_definition}
+\bibinfo{author}{{U.S. Department of Agriculture}}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{Animal Feeding Operations (AFO) and Concentrated
+  Animal Feeding Operations (CAFO)}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/plantsanimals/livestock/afo/}}.
+\newblock \bibinfo{note}{[Online; accessed 10-August-2020]}.
 
 \end{thebibliography}

@@ -23,29 +23,20 @@
 %\usepackage{cleveref}
 %\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \usepackage{lineno}
-%\linenumbers
+\linenumbers
 \usepackage{setspace}
 \doublespacing
 \usepackage[flushleft]{threeparttable}
+\usepackage[colorlinks,citecolor=blue,urlcolor=blue]{hyperref} 
 %\usepackage{apacite}
 \bibliographystyle{elsarticle-harv}
 
-\usepackage{hyperref}
-\hypersetup{
-	colorlinks=true,
-%	linkcolor=green,
-%	filecolor=magenta,      
-%	urlcolor=green,
-}
-
-%Removing Preprint submitted to Elsevier
 \makeatletter
 \def\ps@pprintTitle{%
 	\let\@oddhead\@empty
 	\let\@evenhead\@empty
-	\let\@oddfoot\@empty
-	\let\@evenfoot\@oddfoot
-}
+	\def\@oddfoot{\centerline{\thepage}}%
+	\let\@evenfoot\@oddfoot}
 \makeatother
 
 
@@ -77,7 +68,10 @@
 %\tableofcontents
 
 \section{Introduction}
+Phosphorus is an essential for production of food which has been intensively used for crop and livestock production since the development of synthetic fertilizers in the XIX and XX centuries \citep{Kausar19}. The combination of synthetic fertilizers with other modern intensive agricultural techniques have increased the productivity of agriculture and farming industries \citep{pingali2012green}.
+However, the intensive use of fertilizers in agriculture has resulted in the over-application of phosphorus in many regions worldwide REF, while the run of intensive livestock production facilities, also known as concentrated animal feeding operations (CAFOs) \citep{animal_unit_definition}, result in important difficulties in the management of the large amounts of manure produced, which is often spread in lands in the vicinity of CAFOs, which also leads to the accumulation of phosphorus in soil. Soil acts as a phosphorus reservoir \citep{ehlert2003potential}, building-up a legacy P that can be used for future crops, but also can be transported to waterbodies by erosion and runoff leading to the eutrophication of aquatic ecosystems.
 
+The dual dimension of the anthropogenic use of phosphorus, i.e., its key role in the food production system and the negative environmental impacts associated with the phosphorus used in intensive agricultural techniques, has been stated by the United Nations Environment Assembly in the resolution UNEP/EA.5/Res.2 \citep{UN_Phosphorus}. An additional factor to be considered for addressing the phosphorus challenge is the non-renewable nature of phosphorus, since the phosphorus consumed is not replenished by natural means at human time scale, and there is currently no known synthetic substitute for this material \citep{cordell2009story}. Since the global phosphorus reserves are concentrated in a few number of regions, the supply of phosphorus from a limited number of global supply chains lacks resiliency and it has been proven that it can be globally disrupted by regional events and conflicts, resulting geopolitical tensions \citep{FAO_UkraineWar}. As a consequence, the recovery and recycling of phosphorus is not just a desirable but also a necessary approach to assure a sustainable, reliable, and sovereign food production system. 
 \section{Methods}
 %\subsection{Scope}
 %We seek to quantify the phosphorus flows used in human activities, including the agricultural, urban, and industrial sectors. 
@@ -109,7 +103,15 @@
 \subsection{Phosphorus flows in Ontario}
 \emph{\color{red}Showing an overview of the P flows in the province. The use of figures summarizing all the flows of the province in the shape of Sankey or network flow figures could be so great}
 
-Figure ?? summarizes the phosphorus flows in the province of Ontario. It can be observed that the flow of of phosphorus through the anthropogenic activities are divided into 3 independent networks, i.e., the flow of phosphorus involved the production and processing of food (including the treatment of wastewater), the flow of phosphorus used in the steel and chemical industries, and the phosphorus involved in the forestry industry.
+\begin{figure}[H]
+	\centering
+	%	\begin{subfigure}[t]{0.5\linewidth}
+	\includegraphics[width=1\linewidth, trim={0cm 0cm 0cm 0cm},clip]{Figures/Diagram2-3.pdf} 
+	\caption{Phosphorus flows in the province of Ontario. The streams within red rectangles denote phosphorus inflows into the province, while those streams within blue rectangles denote phosphorus outflows out of the province.}
+	\label{fig:FigFlowsSummary}
+\end{figure}
+
+Figure \ref{fig:FigFlowsSummary} summarizes the phosphorus flows in the province of Ontario. It can be observed that the flow of of phosphorus through the anthropogenic activities are divided into 3 independent networks, i.e., the flow of phosphorus involved the production and processing of food (including the treatment of wastewater), the flow of phosphorus used in the steel and chemical industries, and the phosphorus involved in the forestry industry.
 
 The production of animal food products exhibits a lower phosphorus use efficiency than the production of plant base products, similarly to the use effciciency of other resources such as water CITE HERE, CALCULAR ENTRA VS SALE!
 
@@ -436,7 +438,7 @@ Implications on food production self-sufficiency derived from the (partial) recy
 %
 %\subsection{Phosphorus released into the environment}
 
-\bibliographystyle{apacite}
+%\bibliographystyle{apacite}
 %\bibliographystyle{ieee}
 \bibliography{references}
 
