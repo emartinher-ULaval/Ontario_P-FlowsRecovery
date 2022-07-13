@@ -42,7 +42,11 @@
 
 \begin{document}
 \begin{frontmatter}
-	\title{Anthropocentric uses of phosphorus: flows quantification and potential for recycling in Ontario}
+	\title{
+%		Anthropocentric uses of phosphorus: flows quantification and potential for recycling in Ontario
+%	Mapping phosphorus flows in the economic sectors of Ontario and assessing recovery and recycling potential
+	Phosphorus in Ontario's economic sectors: mapping flows and assessing recovery and recycling potential
+	}
 	
 	%% Group authors per affiliation:
 	\author[ULaval]{Université Laval team\corref{mycorrespondingauthor}}
@@ -57,7 +61,7 @@
 	\address[Waterloo]{University of Waterloo}
 	
 	\begin{abstract}
-		Anthropocentric uses of phosphorus: flows quantification and potential for recycling in Ontario
+		The dual dimension of the anthropogenic use of phosphorus, i.e., its key role in the food production system and the negative environmental impacts associated with the phosphorus used in intensive agricultural techniques, has been stated by the United Nations Environment Assembly. In addition, phosphorus is a non-renewable material which reserves are concentrated in a few number of regions, making global supply chains vulnerable to regional events and conflicts. As a consequence, the recovery and recycling of phosphorus is not just a desirable but also a necessary approach to assure a sustainable, reliable, and sovereign food production system. In this work we map the phosphorus flows through the economic sectors of the Canadian province of Ontario, and phosphorus recovery and recycling opportunities are identified. These mainly belong to the agricultural sector, including manure (30.5 kt/year) and slaughterhouse waste (3.7 kt/year), although significant amounts of P are also found in food and organic waste, including municipal wastewater (6.4 kt/year). Different scenarios are studied to determine the amount of phosphorus that could be recovered within the province considering according with the technology readiness level of different phosphorus recovery processes, as well as the costs associated with phosphorus recovery {\color{red}Add some more numbers here}. Finally, we discuss the implications that would be derived from implementing active phosphorus recovery and recycling approaches regarding phosphorus supply and use in Ontario. 
 	\end{abstract}
 %	
 %	\begin{keyword}
@@ -75,7 +79,7 @@ The dual dimension of the anthropogenic use of phosphorus, i.e., its key role in
 
 Although the main uses of phosphorus are in the agri-food sector, phosphorus is also involved in other industrial activities, including steel, chemical, and forestry industries. Henceforth, phosphorus is a key material for many aspects of human development. As a result, mapping the phosphorus flows involved in human activities to detect opportunities for recovery and recycling is essential for, in a second stage, assess amount of phosphorus that is viable to recover, the economical costs involved, and the enhancement in terms of resiliency of the regional food production system, savings from the reduction of phosphorus imports, and the mitigation of phosphorus pollution on the region implementing strategies for phosphorus recovery and recycling. The quantification of phosphorus flows has been addressed in previous works in the literature for certain sectors such as the agri-food sector \citep{boh2020nitrogen, zhou2021model, nesme2018global}. Additionally, studies on the global phosphorus flows have also been performed \citep{villalba2008global, chen2016half}, although these studies tend to have a low flow resolution since these are aggregated by major sectors. Additionally, the works quantifying phosphorus often include qualitative recommendations to improve the phosphorus use efficiency and recycling \citep{van2016phosphorus, senthilkumar2012conceptual}, but often they do not include quantitivae assessments on the amount of phopshorus which recovery is feasible along with the costs involved. Conversely, those works focused on estimating the recoverable phosphorus and the associated recovery cost target specific flows, lacking a holistic perspective of the phosphorus flows in the various human activities \citep{martin2021geospatial, sampat2018technologies}.
 
-In this work, we have selected the Canadian province of Ontario for mapping the phosphorus flows involved in the agri-food, industrial and urban sectors. This data is used to assess the amount of phosphorus that could be recovered within the province, considering different scenarios regarding the availability of phosphorus recovery technologies, and to estimate the costs associated with the recovery of phosphorus. Finally, we discuss the implications on the use of phosphorus in Ontario that would be derived from implementing active phosphorus recovery and recycling approaches.
+In this work, we intend to perform a holistic approach to the opportunities for phosphorus recovery and recycling in the Canadian province of Ontario. In a first stage, we proceed to ma the phosphorus flows involved in the economical sectors of Ontario, i.e., the agri-food, industrial, and urban sectors. This data is used in a second stage to identify the flows in which phosphorus recovery is feasible, determining the amount of phosphorus that could be recovered within the province considering different scenarios regarding the technology readiness level of different phosphorus recovery processes, as well as the costs associated with phosphorus recovery. Finally, we discuss the implications that would be derived from implementing active phosphorus recovery and recycling approaches regarding phosphorus supply and use in Ontario.
 
 \section{Methods}
 %\subsection{Scope}
@@ -91,14 +95,36 @@ In this work, we have selected the Canadian province of Ontario for mapping the 
 %\end{figure}
 
 \subsection{Spatial resolution}
-%The study is carried out at Census Division level \citep{CensusDivisionCD}. The database collecting the IDs of Ontario Census Divisions, their names, and geospatial information is taken from \citet{CensusDivisionOpendatasoft}.
+Phosphorus flows have been mapped within the Canadian province of Ontario, and thus the political borders of Ontario has been considered as the boundaries for the substance flow analysis performed. In those cases where the data was availbale, the distribution of phosphorus flows within Ontario has also been studied at Census Division level \citep{CensusDivisionCD}. The database collecting the IDs of Ontario Census Divisions, their names, and geospatial information is taken from \citet{CensusDivisionOpendatasoft}.
 
 \subsection{Temporal resolution}
+The study has being performed for year 2019 since the most of data required is available for this year. In addition, the temporal evolution of the largest phosphorus flows, i.e., agricultural and wastewater phosphorus flows, has been studied for a period of 13 years from 2007 to 2019.
 %The study has being performed for years 2001-2021. However, for the years 2001-2006 and 2020-2021 there are some unavailable data, resulting in a partial loose resolution of the study. Therefore, the most complete information on agricultural P flows is reported for the years 2007-2019.
 
 \subsection{Estimation of phosphorus flows}
+The estimation of phosphorus flows within the Ontario's agricultural sectors is based on open data sources, often from governmental institutions, complemented with information from scientific articles when needed. The particular procedure followed for each flow depends on the information publicly available. In the next sections we depict the main lines of the estimating procedure for each sector, {\color{red}while we refer the reader to \citet{PFlows_Ontario} for a more comprehensive description of the procedure followed for estimating each phosphorus flow.}
 
 \subsubsection{Agricultural sector}
+P flows in the agricultural sector are estimated based on production data of livestock and crop products, as well as data on fertilizer application.
+
+For those production data were not available, a number of different
+methods were used to estimate the P flow based on approaches established in the literature. For example, P inflows
+associated with synthetic fertilizers could be directly estimated based on application data reported in the Fertilizer
+Shipments Survey (FSS).37 Conversely, 
+P flows associated with manure were determined indirectly by accounting for
+the magnitude from which the flow of P could be derived. In this case, 
+
+Phosphorus in livestock imports and exports is estimated from livestock trading data REF, multiplying the number of animals by the concentration of phosphorus in the different types of livestock REF,
+
+Phosphorus in livestock feeding and manure
+%meat and slaughterhouse waste
+is estimated based on the number and type of animals reported for Ontario at Census Division level in the Census of Agriculture REF!, multiplied by the phosphorus feeding requirements REF, and concentration of phosphorus in manure REF.
+%and carcasses REF respectively. 
+The Census of Agriculture is published by Statistics Canada every five years (i.e., 2001, 2006, 2011, and 2016) for cattle52 REF, sheep53 REF, swine54 REF, poultry55 REF, and other livestock56 REF, with the exception of rabbits, where data is not available prior to 2009. The number of animals for the years in between census reporting have been estimated using a linear interpolation. We assumed that the number of animals reported is throughout the year (i.e., the animals culled are replaced by new ones). However, in the case of broilers and turkeys, the number of animals reported by the livestock census have been reduced by a factor of 0.68 (broilers) and 0.80 (turkeys), since these animals have life cycles of 43 and 80 days respectively, meaning barns are empty for 20 days between cycles. 305 REF
+
+Phosphorus contained in meat and slaughterhouse waste is based on the number of animals slaughtered reported by both federally and provincially licensed meat plants.59, 60 REF multiplied by the concentration of phosphorus in carcasses REF.
+
+Phosphorus flows associated with the production of milk and eggs is based on provincial production data, multiplying these products by their average phosphorus concentration 57, 58 REF.
 
 \subsubsection{Industrial sector}
 
@@ -112,7 +138,7 @@ In this work, we have selected the Canadian province of Ontario for mapping the 
 	\centering
 	%	\begin{subfigure}[t]{0.5\linewidth}
 	\includegraphics[width=1\linewidth, trim={0cm 0cm 0cm 0cm},clip]{Figures/Diagram2-3.pdf} 
-	\caption{Phosphorus flows in the province of Ontario. The streams within red rectangles denote phosphorus inflows into the province, while those streams within blue rectangles denote phosphorus outflows out of the province.}
+	\caption{Phosphorus flows in the province of Ontario (kt/year). The streams within red rectangles denote phosphorus inflows into the province, while those streams within blue rectangles denote phosphorus outflows out of the province.}
 	\label{fig:FigFlowsSummary}
 \end{figure}
 
