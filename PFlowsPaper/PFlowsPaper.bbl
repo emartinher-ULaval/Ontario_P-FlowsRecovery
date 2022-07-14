@@ -1,4 +1,4 @@
-\begin{thebibliography}{24}
+\begin{thebibliography}{25}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -26,6 +26,12 @@
   systems}}.
 \newblock \bibinfo{journal}{Resources, Conservation and Recycling}
   \bibinfo{volume}{154}, \bibinfo{pages}{104639}.
+%Type = Misc
+\bibitem[{{Canadian Forest Service}(2020)}]{CanadianForestServiceStatistics}
+\bibinfo{author}{{Canadian Forest Service}}, \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{{Statistical data}}.
+\newblock \bibinfo{howpublished}{\url{https://cfs.nrcan.gc.ca/statsprofile/}}.
+\newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
 %Type = Misc
 \bibitem[{{Cheminfo Services Inc.}(2019)}]{CheminfoServices}
 \bibinfo{author}{{Cheminfo Services Inc.}}, \bibinfo{year}{2019}.
