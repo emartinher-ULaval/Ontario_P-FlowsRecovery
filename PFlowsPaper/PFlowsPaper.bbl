@@ -1,4 +1,4 @@
-\begin{thebibliography}{19}
+\begin{thebibliography}{24}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -11,6 +11,13 @@
 \providecommand{\Pubmed}[1]{\href{pmid:#1}{\path{#1}}}
 \providecommand{\bibinfo}[2]{#2}
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
+%Type = Misc
+\bibitem[{{Algoma Steel Inc.}(2022)}]{AlgomaSteel}
+\bibinfo{author}{{Algoma Steel Inc.}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Corporate Profile}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://algoma.com/about-algoma/corporate-profile/}}.
+\newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
 %Type = Article
 \bibitem[{Boh and Clark(2020)}]{boh2020nitrogen}
 \bibinfo{author}{Boh, M.Y.}, \bibinfo{author}{Clark, O.G.},
@@ -19,6 +26,14 @@
   systems}}.
 \newblock \bibinfo{journal}{Resources, Conservation and Recycling}
   \bibinfo{volume}{154}, \bibinfo{pages}{104639}.
+%Type = Misc
+\bibitem[{{Cheminfo Services Inc.}(2019)}]{CheminfoServices}
+\bibinfo{author}{{Cheminfo Services Inc.}}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{{Economic Assessment of the Integrated Steel
+  Industry}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.canadiansteel.ca/files/resources/Final-Report-Economic-Assessment-of-the-Integrated-Steel-Industry.pdf}}.
+\newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
 %Type = Article
 \bibitem[{Chen and Graedel(2016)}]{chen2016half}
 \bibinfo{author}{Chen, M.}, \bibinfo{author}{Graedel, T.},
@@ -127,6 +142,22 @@
   \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/n1/pub/92-195-x/2016001/geo/cd-dr/cd-dr-eng.htm}}.
 \newblock \bibinfo{note}{[Online; accessed 23-November-2021]}.
 %Type = Misc
+\bibitem[{{Statistics Canada - Statisque
+  Canada}(2022)}]{InterprovincialImportsExports}
+\bibinfo{author}{{Statistics Canada - Statisque Canada}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Interprovincial and international trade flows, basic
+  prices, summary level}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210008801}}.
+\newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Misc
+\bibitem[{{Stelco Inc.}(2022)}]{Stelco}
+\bibinfo{author}{{Stelco Inc.}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Our Facilities}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.stelco.com/about-us/our-facilities}}.
+\newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Misc
 \bibitem[{{United Nations Environment Programme}(2022)}]{UN_Phosphorus}
 \bibinfo{author}{{United Nations Environment Programme}}, \bibinfo{year}{2022}.
 \newblock \bibinfo{title}{{Resolution adopted by the United Nations Environment
@@ -159,6 +190,13 @@
   from a production perspective}.
 \newblock \bibinfo{journal}{Journal of Industrial ecology}
   \bibinfo{volume}{12}, \bibinfo{pages}{557--569}.
+%Type = Misc
+\bibitem[{{World Integrated Trade
+  Solution}(2022)}]{WorldIntegratedTradeSolution}
+\bibinfo{author}{{World Integrated Trade Solution}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Data on Export, Import, Tariff}}.
+\newblock \bibinfo{howpublished}{\url{https://wits.worldbank.org/}}.
+\newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
 %Type = Article
 \bibitem[{Zhou et~al.(2021)Zhou, Jiao, Ma, de~Vries, Zhang and
   Shen}]{zhou2021model}
