@@ -1,4 +1,4 @@
-\begin{thebibliography}{25}
+\begin{thebibliography}{32}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -26,6 +26,15 @@
   systems}}.
 \newblock \bibinfo{journal}{Resources, Conservation and Recycling}
   \bibinfo{volume}{154}, \bibinfo{pages}{104639}.
+%Type = Article
+\bibitem[{Bureau et~al.(2003)Bureau, Gunther and Cho}]{bureau2003chemical}
+\bibinfo{author}{Bureau, D.P.}, \bibinfo{author}{Gunther, S.J.},
+  \bibinfo{author}{Cho, C.Y.}, \bibinfo{year}{2003}.
+\newblock \bibinfo{title}{{Chemical composition and preliminary theoretical
+  estimates of waste outputs of rainbow trout reared in commercial cage culture
+  operations in Ontario}}.
+\newblock \bibinfo{journal}{North American Journal of Aquaculture}
+  \bibinfo{volume}{65}, \bibinfo{pages}{33--38}.
 %Type = Misc
 \bibitem[{{Canadian Forest Service}(2020)}]{CanadianForestServiceStatistics}
 \bibinfo{author}{{Canadian Forest Service}}, \bibinfo{year}{2020}.
@@ -67,6 +76,14 @@
 \newblock \bibinfo{journal}{Journal of plant nutrition and soil science}
   \bibinfo{volume}{166}, \bibinfo{pages}{409--415}.
 %Type = Misc
+\bibitem[{{FAO}(2011)}]{FoodLossesFAO}
+\bibinfo{author}{{FAO}}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{Global food losses and food waste - Extent, causes
+  and prevention}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.fao.org/3/i2697e/i2697e.pdfg}}.
+\newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
+%Type = Misc
 \bibitem[{{Food and Agriculture Organization of the United
   Nations}(2022)}]{FAO_UkraineWar}
 \bibinfo{author}{{Food and Agriculture Organization of the United Nations}},
@@ -74,6 +91,13 @@
 \newblock \bibinfo{title}{{The importance of Ukraine and the Russian Federation
   for global agricultural markets and the risks associated with the war in
   Ukraine}}.
+%Type = Misc
+\bibitem[{{Health Canada}(202)}]{CanadianNutrientFile}
+\bibinfo{author}{{Health Canada}}, \bibinfo{year}{202}.
+\newblock \bibinfo{title}{{Canadian Nutrient File}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://food-nutrition.canada.ca/cnf-fce/index-eng.jsp}}.
+\newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
 %Type = Article
 \bibitem[{Mart{\'\i}n-Hern{\'a}ndez et~al.(2021)Mart{\'\i}n-Hern{\'a}ndez,
   Mart{\'\i}n and Ruiz-Mercado}]{martin2021geospatial}
@@ -90,6 +114,16 @@
 \newblock \bibinfo{title}{Global phosphorus flows through agricultural trade}.
 \newblock \bibinfo{journal}{Global Environmental Change} \bibinfo{volume}{50},
   \bibinfo{pages}{133--141}.
+%Type = Misc
+\bibitem[{{Ontario Ministry of the Environment, Conservation and
+  Parks}(2019)}]{OntarioAquaculture}
+\bibinfo{author}{{Ontario Ministry of the Environment, Conservation and
+  Parks}}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{{Provincial policy objectives for managing effects of
+  cage aquaculture operations on the quality of water and sediment in
+  Ontario’s waters}}.
+\newblock \bibinfo{howpublished}{\url{https://ero.ontario.ca/notice/012-7186}}.
+\newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
 %Type = Misc
 \bibitem[{{Opendatasoft}(2019)}]{CensusDivisionOpendatasoft}
 \bibinfo{author}{{Opendatasoft}}, \bibinfo{year}{2019}.
@@ -149,13 +183,39 @@
 \newblock \bibinfo{note}{[Online; accessed 23-November-2021]}.
 %Type = Misc
 \bibitem[{{Statistics Canada - Statisque
-  Canada}(2022)}]{InterprovincialImportsExports}
-\bibinfo{author}{{Statistics Canada - Statisque Canada}}, \bibinfo{year}{2022}.
+  Canada}(2021)}]{StatisticsCanadaAquaculture}
+\bibinfo{author}{{Statistics Canada - Statisque Canada}}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{{Aquaculture, production and value}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210010701}}.
+\newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
+%Type = Misc
+\bibitem[{{Statistics Canada - Statisque
+  Canada}(2022a)}]{InterprovincialImportsExports}
+\bibinfo{author}{{Statistics Canada - Statisque Canada}},
+  \bibinfo{year}{2022}a.
 \newblock \bibinfo{title}{{Interprovincial and international trade flows, basic
   prices, summary level}}.
 \newblock
   \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210008801}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Misc
+\bibitem[{{Statistics Canada - Statisque Canada}(2022b)}]{PopulationCanada}
+\bibinfo{author}{{Statistics Canada - Statisque Canada}},
+  \bibinfo{year}{2022}b.
+\newblock \bibinfo{title}{{Population estimates, quarterly}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901}}.
+\newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
+%Type = Misc
+\bibitem[{{Statistics Canada - Statisque
+  Canada}(2022c)}]{TradeDataOnlineCanada}
+\bibinfo{author}{{Statistics Canada - Statisque Canada}},
+  \bibinfo{year}{2022}c.
+\newblock \bibinfo{title}{{Trade Data Online}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.ic.gc.ca//app/scr/tdst/tdo/crtr.html?&productType=HS6&lang=eng}}.
+\newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
 %Type = Misc
 \bibitem[{{Stelco Inc.}(2022)}]{Stelco}
 \bibinfo{author}{{Stelco Inc.}}, \bibinfo{year}{2022}.

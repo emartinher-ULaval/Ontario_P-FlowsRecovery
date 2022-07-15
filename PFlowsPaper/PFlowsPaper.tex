@@ -104,9 +104,9 @@ The study has being performed for year 2019 since the most of data required is a
 %The study has being performed for years 2001-2021. However, for the years 2001-2006 and 2020-2021 there are some unavailable data, resulting in a partial loose resolution of the study. Therefore, the most complete information on agricultural P flows is reported for the years 2007-2019.
 
 \subsection{Estimation of phosphorus flows}
-The estimation of phosphorus flows within the Ontario's agricultural sectors is based on open data sources, often from governmental institutions, complemented with information from scientific articles when needed. The particular procedure followed for each flow depends on the information publicly available. In the next sections we depict the main lines of the estimating procedure for each sector, {\color{red}while we refer the reader to \citet{PFlows_Ontario} for a more comprehensive description of the procedure followed for estimating each phosphorus flow.}
+The estimation of phosphorus flows within the Ontario's agricultural sectors is based on the methodology used in \citet{PFlows_Ontario}. It is based on the use open data sources, often from governmental institutions, complemented with information from scientific articles when needed. The particular procedure followed for each flow depends on the information publicly available. In the next sections we depict the main lines of the estimating procedure for each sector, {\color{red}while we refer the reader to \citet{PFlows_Ontario} for a more comprehensive description of the procedure followed for estimating each phosphorus flow.}
 
-\subsubsection{Agricultural sector}
+\subsubsection{Agricultural sector} \label{section:AgriSector}
 Phosphorus flows in the agricultural sector are estimated based on production data of livestock and crop products, as well as data on fertilizer application.
 
 For those production data were not available, a number of different
@@ -140,6 +140,15 @@ A fraction of the P supplied to crop fields is not taken up by the plants and re
 
 Regarding greenhouse crops, the data available was limited, resulting in an estimation of phosphorus applied as synthetic fertilizers based on the sum of phosphorus uptake by greenhouse crops (i.e., tomatoes, peppers, and cucumbers)119 and the phosphorus releases from greenhouse irrigation systems (greenhouse nutrient feedwater systems (GNF) REF ONTARIO) systems. The phosphorus uptake by greenhouse crops is determined by multiplying the production of greenhouse crops 120 REF by the phosphorus content of each vegetable type 121, 122 REF. The phosphorus releases from the GNF systems was estimated based on the average concentration of phosphorus in GNF outlet streams of Ontario (33.6 mg/L) 123 REF and the total water discharges from GNF systems 124 REF, assuming that water discharges from GNF systems is equivalent to 25\% of the total water applied in greenhouses, which corresponding with the worst-case scenario of no water recirculation in the GNF system. The average water consumption in greenhouses in Ontario was assumed to be 1,000 L/m2/year 125 REF. We have also estimated the phosphorus releases from the seasonal workers live in households in the vicinity of the greenhouses that may use septic systems, considering that the seasonal labour force in Ontario greenhouses is estimated to be 6,699 workers 126 REF, and an average phosphorus load rate of f 0.0156 kg P/person/week from septic systems 128 REF.
 
+{\color{red} REVISAR POR SIDNEY Food imports and exports (other than livestock)
+are estimated scaling each type of food 
+%available in Canada \citep{FoodAvailableCanada} 
+traded in Canada \citep{TradeDataOnlineCanada}
+with the population of Ontario \citep{PopulationCanada}.
+%and then subtracting the amount of each type of food produced within Ontario.
+The phosphorus contained in each type of imported and exported food is estimated multiplying the amount of ech type of traded food by its phosphorus content \citep{CanadianNutrientFile}.
+}
+
 
 \subsubsection{Industrial sector}
 Phosphorus flows through imports, production, exports and waste for the steel, forestry, and food and beverage, industries of Ontario were mapped.
@@ -147,9 +156,32 @@ The steel industry is the first non-food sector in terms of phosphorus use. The 
 
 Phosphorus flows in Ontario's forestry industry includes wood harvesting, wood products manufacturing, as well as the production of pulp and paper. The estimation of these phosphorus flows are the result of multiplying the production data of wood, wood products, pulp and paper, and their retrospectives imports, exports, and waste streams \citep{CanadianForestServiceStatistics, InterprovincialImportsExports}, by the average phosphorus content, which is assumed to be 0.01\% for wood 181 REF and 0.005\% for pulp and paper products REF.
 
-Regarding other industrial activities which could involve the use of phosphorus, the local production of phosphorus is assumed to be negligible since phosphorus is not mined or refined in Ontario, and the synthetic phosphorus fertilizer imports are accounted in the agricultural section. The general chemical facilities located in Ontario report 350 t/year of phosphorus as waste REF, in addition of imports and exports of chemical products REF. However, there exist a significant fraction of untracked phosphorus used in the industrial sector.
+Phosphorus in aquaculture are mainly due to supply of feed as part of fish feed the grow of trouts, part of which is uptake by fishes, while the rest of phosphorus is released into aquatic ecosystems since aquaculture effluents are directly discharged to the environment \citep{OntarioAquaculture}. The amount phosphorus uptakes by fishes
+%supplied to aquaculture as fish feed is taken from, while the phosphorus uptakes by fishes are 
+is calculated multiplying the fish production \citep{StatisticsCanadaAquaculture}, by their phosphorus content \citep{CanadianNutrientFile}, while the phosphorus content in the aquaculture waste effluents of Ontario is estimated to be 10 kg of phosphorus per ton of fish produced \citep{bureau2003chemical}. The sum of phosphorus uptakes by fishes and phosphorus in aquaculture waste effluents result in the phosphorus supplied to aquaculture as fish feed.
+
+Regarding other industrial activities which could involve the use of phosphorus, the local production of phosphorus is assumed to be negligible since phosphorus is not mined or refined in Ontario, and the synthetic phosphorus fertilizer imports are accounted in the agricultural section. The general chemical facilities located in Ontario report 350 t/year of phosphorus as waste REF, in addition of imports and exports of chemical products REF. However, there exist a significant fraction of phosphorus used in the industrial sector that cannot be tracked due to the lack of data.
+
+{\color{red}Ask sidney what to do with food industry, and pet feed. My approach is to merge all of them as it is currently in the figure, but confirm with her}
 
 \subsubsection{Urban sector}
+In this section we include the phosphorus inflows and outflows through wastewater treatment plants (WWTPs), septic systems, and food and organic waste management facilities (landfills, composting sites, and anaerobic digestion facilities).
+
+{\color{red}Jorge do you mind if the purposes of the papaer we stick with just one method? I think it is better, otherwise it becomes lengthy and confusing}
+
+Phosphorus flows through WWTPs is estimated combining data from the National Pollutant Release Inventory (NPRI) REF, a public database of releases, disposals and transfers of pollutants, including industrial facilities, and data from the Wastewater Systems Effluent Regulations (WSER) database REF. Since the NPRI only contains data of those facilities that meet certain regulatory requirements, the information of this database must be complemented with the data from the WSER database, which includes information of Canadian WWTPs at the federal, provincial, and municipal level. The estimations on phosphorus flows through WWTPs are valitaed using the Municipal Treated Wastewater Effluent (MTWE) database REF, which collects annual data on water quality data and effluent levels for WWTPs in Ontario. {\color{red}We note that this data set only provides information about phosphorus releases from municipal WWTPs, but it does not collect phosphorus disposals and transfers. REVISAR POR JORGE.} This methodology is shown in Figure \ref{fig:MethodWWTPs}
+
+{\color{red}Ask Jorge if I can make a new Figure}
+
+\begin{figure}[H]
+	\centering
+	%	\begin{subfigure}[t]{0.5\linewidth}
+	\includegraphics[width=0.5\linewidth, trim={0cm 0cm 0cm 0cm},clip]{Figures/TEmporary.png} 
+	\caption{Methodology used for estimating phosphorus flows through wastewater treatment plants.}
+	\label{fig:MethodWWTPs}
+\end{figure}
+
+Phophorus flows in the form of food and organic waste are based on applying food loss factors for the steps associated with food processing \citep{FoodLossesFAO}, considering the food production and import values estimated in Section \ref{section:AgriSector}
 
 \section{Results and discussion}
 \subsection{Phosphorus flows in Ontario}
