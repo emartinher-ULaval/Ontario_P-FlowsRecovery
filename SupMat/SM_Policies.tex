@@ -93,7 +93,37 @@
 	\tableofcontents
 	
 \section{Distribution of CAFOs size in regions of the the Great Lakes area}
-The size distribution of Ontario's CAFOs is not reported by public databases, but the number of animals is aggreggated at Census Division level REF, REF. As an approximation, the size distribution of CAFOs of other regions in the vicinity of the Great Lakes area reporting the size of CAFOs is calculated and extrapolated to the province of Ontario. The size distribution of CAFOs is determined for the US states of Ohio REF, Pennsylvania REF, Indiana REF, Michigan REF, and Wisconsin REF. The distribution of CAFOs size has been fit to a truncated normal distribution REF INCLUDE EQUATION, since the possible size of livestock facilities is bounded between 300 animal units for being considered as an intensive livestock production facility REF, and 10,000 animal units in order to remove extra-large CAFOs that are outliers in the size distribution, avoiding excessive long tails distorting the distributions. Figure \ref{fig:CAFOsSizeDist} represent the distribution of CAFOs using the kernel density estimation (KDE) REF, and the fitting parameters for the truncated normal distribution for each evaluated region.
+The size distribution of Ontario's CAFOs is not reported by public databases, but the number of animals is aggreggated at Census Division level REF, REF. As an approximation, the size distribution of CAFOs of other regions in the vicinity of the Great Lakes area reporting the size of CAFOs is calculated and extrapolated to the province of Ontario. The size distribution of CAFOs is determined for the US states of Ohio REF, Pennsylvania REF, Indiana REF, Michigan REF, and Wisconsin REF. The distribution of CAFOs size has been fit to a truncated normal distribution, since the possible size of livestock facilities is bounded between 300 animal units for being considered as an intensive livestock production facility REF, and 10,000 animal units in order to remove extra-large CAFOs that are outliers in the size distribution, avoiding excessive long tails distorting the distributions. The probability density distribution of a truncated normal distribution is shown in Eq. \ref{eq:tuncnorm}, where $\mu$, $\sigma^2$, $a$, and $b$ denote the mean, variance, and lower and upper bounds respectively, while $\Theta$ denotes the probability density distribution of the standard normal distribution, as shown in Eq. \ref{eq:PDFstandardnorm}, and $\Phi$ denotes the cumulative distribution function of the standard normal distribution, as shown in Eq. \ref{eqCDFstandardnorm}. Figure \ref{fig:CAFOsSizeDist} represent the distribution of CAFOs using the kernel density estimation (KDE) REF, and Table \ref{table:CAFOsFitParameters} collect the truncated normal distribution fitting parameters for each evaluated region.
+
+\begin{align}
+	& f \left( x\right)  = \frac{1}{\sigma} \frac{\Theta\left(\frac{x - \mu}{\sigma} \right) }{\Phi \left( \frac {b - \mu}{\sigma}\right) - \Phi \left( \frac {a - \mu}{\sigma}\right)}\label{eq:tuncnorm}\\
+	&\Theta \left( \xi \right) = \frac{1}{\sqrt{2 \pi}} e^{-\frac{1}{2}\xi^ 2} \label{eq:PDFstandardnorm}\\
+	& \Phi \left( \xi \right) = \frac{1}{\sqrt{2 \pi}} \int_{-\infty}^{\infty} e^{\frac{-\xi^2}{2}} d\xi \label{eqCDFstandardnorm}
+\end{align}
+
+\begin{table}[h]
+	\centering
+	\caption{Truncated normal distribution fitting parameters for the distribution of cAFOs sizes in regions of the Great Lakes area.} \label{table:CAFOsFitParameters}
+	\resizebox{0.75\columnwidth}{!}{
+%		\begin{threeparttable}
+			\begin{tabular}{lrrrrr}
+				\toprule
+				{Parameters} &      Ohio &  Michigan &  Wisconsin &  Pennsylvania &   Indiana  \\
+				\midrule
+				mean       &  2415.245 &  2461.528 &   2393.431 &      1398.358 &  1529.522 \\
+				std        &  1588.247 &  1333.813 &   1457.033 &      1076.217 &  1541.599 \\
+				a          &   820.000 &   420.000 &    396.000 &       328.000 &   310.000 \\
+				b          &  9800.000 &  7601.000 &   9979.000 &      7533.000 &  7040.000 \\
+				\bottomrule
+			\end{tabular}
+%			\begin{tablenotes}
+%				\footnotesize
+%				\item 1: \citet{MilkOntario}
+%			\end{tablenotes}
+%	\end{threeparttable}
+	}
+\end{table}
+
 \begin{figure}[H]
 	\centering
 	%	\begin{subfigure}[t]{0.5\linewidth}
