@@ -1,0 +1,1382 @@
+Identification_Information:
+  Citation:
+    Citation_Information:
+      Originator: Indiana Department of Environmental Management, Office of Land Quality
+      Publication_Date: 20181019
+      Title:
+        CONFINED_FEEDING_OPERATIONS_IDEM_IN: Confined Feeding Operation Facilities in Indiana (Indiana Department of Environmental
+        Management, Point Shapefile)
+      Geospatial_Data_Presentation_Form: Vector digital data
+      Publication_Information:
+        Publication_Place: Indianapolis, Indiana
+        Publisher: Indiana Department of Environmental Management, Office of Land Quality
+      Other_Citation_Details:
+        This data set was originally provided to personnel of the Indiana Geological and Water Survey (IGWS) by Indiana Department
+        of Environmental Management, Office of Land Quality personnel on August 16, 2002. It has been subsequently updated on
+        January 14, 2003, July 11, 2003, June 3, 2004, January 4, 2005, April 25, 2005, July 27, 2006, January 24, 2007,
+        June 4, 2009, April 16, 2010, June 25, 2013, February 25, 2015, and October 19, 2018.
+
+        For more information about Confined Feeding Operations (CFOs) and Concnetrated Animal Feeding Operations (CAFOs), please visit
+        the following IDEM Web site: https://www.in.gov/idem/cfo/2344.htm
+
+      Online_Linkage: https://maps.indiana.edu/layerGallery.html?category=Agribusiness
+      Online_Linkage: https://maps.indiana.edu/download/Environment/Agribusiness_Confined_Feeding_Operations.zip
+      Online_Linkage: https://maps.indiana.edu/metadata/Environment/Agribusiness_Confined_Feeding_Operations.html
+      Online_Linkage: https://maps.indiana.edu/metadata/Environment/Agribusiness_Confined_Feeding_Operations.xml
+      Online_Linkage: https://maps.indiana.edu/arcgis/rest/services/Environment/Agribusiness_Confined_Feeding_Operations/MapServer
+      Online_Linkage: https://indianamap.maps.arcgis.com/home/item.html?id=a87f87ba21134a5f834c4a8f45868789
+      Online_Linkage: https://indianamap.maps.arcgis.com/home/webmap/viewer.html?useExisting=1&layers=a87f87ba21134a5f834c4a8f45868789
+
+  Description:
+    Abstract:
+      CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP contains 1,837 locations of all regulated animal confined feeding operations (CFO)
+      in Indiana, provided by personnel of Indiana Department of Environmental Management, Office of Land Quality (IDEM, OLQ).
+      IDEM personnel provided these upated data on October 19, 2018, as an Esri point shapefile named "IDEM_CFO.SHP."
+      Attributes include farm size (CFO versus CAFO), site name, identification numbers (IDEM), address information,
+      NPDES information, and number and types of animals handled.
+
+      The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile IDEM_CFO.SHP:
+
+      "This dataset consists of Confined Feeding Operations -  i.e. A swine, chicken, turkey, beef or dairy
+      agri-business that has large enough numbers of animals that IDEM regulates for environmental concerns,
+      as defined by IC 13-18-10 of the Indiana Code.
+
+      "CFO - All regulated animal feeding operations in Indiana are considered 'confined feeding
+      operations' (CFO). To be regulated under the 'Confined Feeding Control Law' in Indiana, you
+      must meet the following size of any one livestock group listed below:
+
+      "300 or more cattle
+
+      "600 or more swine or sheep
+
+      "30,000 or more poultry
+
+      "5,000 horses in confinement
+
+      "CAFO - The Concentrated Animal Feeding Operation (CAFO) designation is strictly a size designation
+      in Indiana. Farms of this size are permitted under the CFO rule, but have a few added requirements
+      under Indiana regulations. A CFO that meets the size classification as a CAFO is a farm that meets
+      or exceeds an animal threshold number in the U.S. Environmental Protection Agency’s definition of a
+      large CAFO, which is:
+
+      "700 mature dairy cows
+
+      "1,000 veal calves
+
+      "1,000 cattle other than mature dairy cows
+
+      "2,500 swine above 55 pounds
+
+      "10,000 swine less than 55 pounds
+
+      "500 horses
+
+      "10,000 sheep or lambs
+
+      "55,000 turkeys
+
+      "30,000 laying hens or broilers with a liquid manure handling system
+
+      "125,000 broilers with a solid manure handling system
+
+      "82,000 laying hens with a solid manure handling system
+
+      "30,000 ducks with a solid manure handling system
+
+      "5,000 ducks with a liquid manure handling system"
+    Purpose:
+      This data set was developed to provide accurate coordinate information for managed facilities and customers of the Indiana
+      Department of Environmental Management.
+    Supplemental_Information:
+      This data set generally contains the location of access points to managed sites, along with a unique identifier for
+      each location.
+  Time_Period_of_Content:
+    Time_Period_Information:
+      Single_Date/Time:
+        Calendar_Date: 20181019
+    Currentness_Reference: Based on metadata provided by IDEM, OLQ for the source shapefile IDEM_CFO.SHP
+  Status:
+    Progress: In work
+    Maintenance_and_Update_Frequency: Quarterly
+  Spatial_Domain:
+    Bounding_Coordinates:
+      West_Bounding_Coordinate: -87.967644
+      East_Bounding_Coordinate: -84.743926
+      North_Bounding_Coordinate: 41.763646
+      South_Bounding_Coordinate: 37.850708
+  Keywords:
+    Theme:
+      Theme_Keyword_Thesaurus: Geography Network Keyword Thesaurus
+      Theme_Keyword: environment
+      Theme_Keyword: farming
+    Theme:
+      Theme_Keyword_Thesaurus: IGS Metadata Thesaurus
+      Theme_Keyword: Indiana Geological and Water Survey (IGWS)
+      Theme_Keyword: Indiana Department of Environmental Management (IDEM)
+      Theme_Keyword: Office of Land Quality (OLQ)
+      Theme_Keyword: global positioning system (GPS)
+      Theme_Keyword: access point
+      Theme_Keyword: facility
+      Theme_Keyword: managed site
+      Theme_Keyword: solid waste
+      Theme_Keyword: Confined Feeding Operation (CFO)
+      Theme_Keyword: Concentrated Animal Feeding Operation (CAFO)
+      Theme_Keyword: animal waste
+      Theme_Keyword: manure
+      Theme_Keyword: agri-business
+    Place:
+      Place_Keyword_Thesaurus: IGS Metadata Thesaurus
+      Place_Keyword: Indiana
+      Place_Keyword: Adams County
+      Place_Keyword: Allen County
+      Place_Keyword: Bartholomew County
+      Place_Keyword: Benton County
+      Place_Keyword: Blackford County
+      Place_Keyword: Boone County
+      Place_Keyword: Brown County
+      Place_Keyword: Carroll County
+      Place_Keyword: Cass County
+      Place_Keyword: Clark County
+      Place_Keyword: Clay County
+      Place_Keyword: Clinton County
+      Place_Keyword: Crawford County
+      Place_Keyword: Daviess County
+      Place_Keyword: Dearborn County
+      Place_Keyword: Decatur County
+      Place_Keyword: Dekalb County
+      Place_Keyword: Delaware County
+      Place_Keyword: Dubois County
+      Place_Keyword: Elkhart County
+      Place_Keyword: Fayette County
+      Place_Keyword: Floyd County
+      Place_Keyword: Fountain County
+      Place_Keyword: Franklin County
+      Place_Keyword: Fulton County
+      Place_Keyword: Gibson County
+      Place_Keyword: Grant County
+      Place_Keyword: Greene County
+      Place_Keyword: Hamilton County
+      Place_Keyword: Hancock County
+      Place_Keyword: Harrison County
+      Place_Keyword: Hendricks County
+      Place_Keyword: Henry County
+      Place_Keyword: Howard County
+      Place_Keyword: Huntington County
+      Place_Keyword: Jackson County
+      Place_Keyword: Jasper County
+      Place_Keyword: Jay County
+      Place_Keyword: Jefferson County
+      Place_Keyword: Jennings County
+      Place_Keyword: Johnson County
+      Place_Keyword: Knox County
+      Place_Keyword: Kosciusko County
+      Place_Keyword: Lagrange County
+      Place_Keyword: Lake County
+      Place_Keyword: LaPorte County
+      Place_Keyword: Lawrence County
+      Place_Keyword: Madison County
+      Place_Keyword: Marion County
+      Place_Keyword: Marshall County
+      Place_Keyword: Martin County
+      Place_Keyword: Miami County
+      Place_Keyword: Monroe County
+      Place_Keyword: Montgomery County
+      Place_Keyword: Morgan County
+      Place_Keyword: Newton County
+      Place_Keyword: Noble County
+      Place_Keyword: Ohio County
+      Place_Keyword: Orange County
+      Place_Keyword: Owen County
+      Place_Keyword: Parke County
+      Place_Keyword: Perry County
+      Place_Keyword: Pike County
+      Place_Keyword: Porter County
+      Place_Keyword: Posey County
+      Place_Keyword: Pulaski County
+      Place_Keyword: Putnam County
+      Place_Keyword: Randolph County
+      Place_Keyword: Ripley County
+      Place_Keyword: Rush County
+      Place_Keyword: Scott County
+      Place_Keyword: Shelby County
+      Place_Keyword: Spencer County
+      Place_Keyword: Starke County
+      Place_Keyword: Steuben County
+      Place_Keyword: St Joseph County
+      Place_Keyword: Sullivan County
+      Place_Keyword: Switzerland County
+      Place_Keyword: Tippecanoe County
+      Place_Keyword: Tipton County
+      Place_Keyword: Union County
+      Place_Keyword: Vanderburgh County
+      Place_Keyword: Vermillion County
+      Place_Keyword: Vigo County
+      Place_Keyword: Wabash County
+      Place_Keyword: Warren County
+      Place_Keyword: Warrick County
+      Place_Keyword: Washington County
+      Place_Keyword: Wayne County
+      Place_Keyword: Wells County
+      Place_Keyword: White County
+      Place_Keyword: Whitley County
+  Access_Constraints:
+    This file is available to anyone, but access may be contingent on written request, specific terms relevant to the agency
+    or person making the request, and (or) current freedom of information statutes in the state of Indiana.
+  Use_Constraints:
+    DATA DISCLAIMER - This data set is provided by Indiana University, Indiana Geological and Water Survey, and contains data believed to
+    be accurate; however, a degree of error is inherent in all data. This product is distributed "AS-IS" without warranties of any kind,
+    either expressed or implied, including but not limited to warranties of suitability of a particular purpose or use. No attempt has been
+    made in either the designed format or production of these data to define the limits or jurisdiction of any federal, state, or local
+    government. These data are intended for use only at the published scale or smaller and are for reference purposes only. They are not to
+    be construed as a legal document or survey instrument. A detailed on-the-ground survey and historical analysis of a single site may differ
+    from these data.
+
+    COPYRIGHT 2018, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL AND WATER SURVEY, ALL RIGHTS RESERVED
+
+    CREDIT - It is requested that the CFO Program, Office of Land Quality, Indiana Department of Environmental Management be cited
+    in any products generated from this data. The following source citation should be included: [CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP:
+    Confined Feeding Operation Facilities in Indiana (Indiana Department of Environmental Management, Point Shapefile), digital compilation
+    by IGWS, 20181019].
+
+    LIMITATION OF WARRANTIES AND LIABILITY - This product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting
+    from the use of this product is assumed by the user. Indiana University, Indiana Geological and Water Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+    damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third
+    party. The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+  Point_of_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological and Water Survey
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove Avenue
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812-855-7636
+      Contact_Facsimile_Telephone: 812-855-2862
+      Contact_Electronic_Mail_Address: IGSinfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+
+  Data_Set_Credit: CFO Program personnel, Office of Land Quality, Indiana Department of Environmental Management (20181019)
+
+  Native_Data_Set_Environment: Esri ArcGIS 10.6 shapefile format, approximately 2.49 Mb
+
+Data_Quality_Information:
+  Attribute_Accuracy:
+    Attribute_Accuracy_Report:
+      This data set was provided by IDEM personnel and is assumed to be accurate.
+
+      The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile IDEM_CFO.SHP:
+
+      "All attributes created during the data collection process were verified by visual inspection of
+      the information in the database  with IDEM OLQ records to verify consistency. However, no formal
+      tests were performed. Therefore accuracy cannot be guaranteed or verified. Omissions or null values
+      in certain fields are either a result of changes made in the data dictionary used by the program or
+      Section (adding or deleting attributes collected) as the project progressed, information was unknown
+      or mistakenly left out, or the ommission was not relative to the method used to collect the data."
+
+  Logical_Consistency_Report: This data set was provided by IDEM personnel and is assumed to be accurate.
+
+  Completeness_Report:
+    The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile IDEM_CFO.SHP:
+
+    "This data set consists of locations of Confined Feeding Operations within the state of Indiana.
+    This dataset is incomplete and a work in progress, as sites are GPS'd as they are inspected.
+    This dataset contains information that represents what had been recorded, processed, and archived
+    by IDEM personnel at a time previous to publication. However the data set may be incomplete and/or
+    inaccurate due to the ever-changing status of managed facilities and sites, and due to the data
+    collection and processing efforts of IDEM staff. It is an ever-changing work in progress. Data were
+    collected by the Solid Waste Compliance section within the Office of Land Quality, Indiana Department
+    of Environmental Management. The Section was also responsible for collecting attribute information
+    for each location. The data has been QA/QC'd for consistency but no formal tests were performed
+    on accuracy. Therefore accuracy cannot be guaranteed or verified. Omissions or null values are due to
+    the fact that edits were made in the data dictionary (adding or deleting attribute information) as
+    the project progressed, information was unknown or mistakenly left out, or the field with the ommission
+    was not relative to the method used to collect the data.
+
+    "Due to the mobility and short-life of many CFO operations, this data is unlikely to be complete. Staff
+    has had difficulty determining locations for Out-Of-Business sites thay may have been inactive for a
+    number of years. Secondly, if Operators efuse to report their business, it is difficult to be aware of
+    their existence."
+
+  Positional_Accuracy:
+    Horizontal_Positional_Accuracy:
+      Horizontal_Positional_Accuracy_Report:
+        The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile IDEM_CFO.SHP:
+
+        "The data were collected with a GPS GIS-mapping system. The accuracy of the coordinates should be from
+        1-5 meters, depending upon the type of GPS instrument used, the collection environment (ie., multipath,
+        SNR, and PDOP), and the number of positions logged for each location. However, this accuracy cannot
+        be guaranteed or verified. Each GPS unit should have been configured within the specifications of the
+        manufacturer. However, if necessary, the field personnel would configure the unit outside of specifications
+        if environmental conditions warranted. Accuracy was checked by logging both Maximum PDOP and the standard
+        deviations of the positional average of each location collected. If maximum PDOP value was > 6, the value
+        for the "In_specs" field was input as "NO". If the standard deviation was > 8, the corrected GPS file was
+        analyzed for signs of multipath and/or outliers, and edited accordingly. It was then re-exported to the
+        archive. If the data set was uneditable it was still left in the archive. The "In-specs" field was changed
+        to "No" and the location could have an accuracy > 5 meters.
+
+        "If the environmental conditions of the collection session fell within the acceptable ranges for data collection
+        as defined by the technical specifications of the instrument used and specific instrument configuration, then
+        the accuracy of the collected coordinates should be within those values as given by the manufacturer. The GeoExplorer
+        Unit has an accuracy range of 2 to 5 meters (post-processed), the GeoExplorer 3 and 3c a range of 1 to 5 meters
+        (post-processed), and the Pro XR has a range of .50 cm - 1m differential accuracy to real-time differential correction.
+
+        "If the environmental conditions and/or technical configurations were not met, then the values could exceed those
+        given by the manufacturer."
+    Vertical_Positional_Accuracy:
+      Vertical_Positional_Accuracy_Report:
+        The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile CONFINED_FEEDING_OPERATIONS:
+
+        "The vertical accuracy for GPS data collection can be two to three times less accurate than horizontal accuracy.
+        The vertical accuracy for these locations could have up to 15 meters of error. However, this accuracy cannot be
+        guaranteed or verified. Height above Ellipsoid values have been recorded, but it is strongly suggested that the
+        values not be used for any analysis.
+
+        "Due to the nature of how these values are derived in the GPS data collection process, the error variable is large
+        enough to make the coordinate values unuseable in any type of locational analysis."
+  Lineage:
+    Source_Information:
+      Source_Citation:
+        Citation_Information:
+          Originator: IDEM Office of Land Quality
+          Publication_Date: 20181019
+          Title: IDEM_DATA_UPDATES_October2018.ZIP (IDEM_CFO.SHP)
+          Edition: 1
+          Geospatial_Data_Presentation_Form: Vector digital data
+          Publication_Information:
+            Publication_Place: Indianapolis, Indiana
+            Publisher: IDEM OLQ
+          Other_Citation_Details:
+            IGS personnel requested locational information for confined feeding operations in Indiana from IDEM, OLQ personnel.
+            Kevin Miller (IDEM, OLQ) provided a CD-ROM that contained the shapefile CONFINED_FEEDING_OPERATIONS.SHP on August 16, 2002.
+            Shane Moore (IDEM, OLQ) provided an updated shapefile and updated metadata on January 14, 2003.
+            Shane Moore (IDEM, OLQ) provided an updated shapefile and updated metadata on July 11, 2003.
+            Shane Moore (IDEM, OLQ) provided an updated shapefile and updated metadata on June 3, 2004.
+            Shane Moore (IDEM, OLQ) provided an updated shapefile and updated metadata on January 4, 2005.
+            Shane Moore (IDEM, OLQ) provided an updated Esri geodatabase and updated metadata on April 25, 2005.
+            Shane Moore (IDEM, OLQ) provided an updated Esri geodatabase and updated metadata on July 27, 2006.
+            Shane Moore (IDEM, OLQ) provided an updated Esri geodatabase and updated metadata on January 24, 2007.
+            Shane Moore (IDEM, OLQ) provided an Esri geodatabase and metadata on June 4, 2009.
+            Shane Moore (IDEM, OLQ) provided an Esri geodatabase and metadata on April 16, 2010.
+            Shane Moore (IDEM, OLQ) provided an Esri geodatabase and metadata on June 25, 2013.
+            Shane Moore (IDEM, OLQ) provided an Esri geodatabase and metadata on February 25, 2015.
+            Miranda Hancock (IDEM, GIS Coordinator) provided an updated Esri shapfile and metadata on October 19, 2018.
+      Type_of_Source_Media: Zip file (containing updated shapefiles)
+      Source_Time_Period_of_Content:
+        Time_Period_Information:
+          Single_Date/Time:
+            Calendar_Date: 20181019
+        Source_Currentness_Reference: Based on metadata provided by IDEM, OLQ for the source shapefile named IDEM_CFO.SHP.
+      Source_Citation_Abbreviation: IDEM_DATA_UPDATES_October2018.ZIP (IDEM_CFO.SHP)
+      Source_Contribution: Confined feeding operation facility locations within Indiana
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an Esri shapefile named CONFINED_FEEDING_OPERATIONS from IDEM personnel on August 16, 2002. CONFINED_FEEDING_OPERATIONS
+        was loaded into Esri ArcView 3.3 and the shapefile was visually checked to insure that all data points provided actually fell
+        within the accepted IGS state boundary. IGS personnel then saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN.
+        It should also be noted that portions of the associated metadata provided by IDEM for CONFINED_FEEDING_OPERATIONS was extracted
+        and included in this metadata file.
+      Source_Used_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS.SHP
+      Process_Date: 20021219
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri shapefile (and metadata) named CONFINED_FEEDING_OPERATIONS from IDEM
+        personnel (Shane Moore) on January 14, 2003. CONFINED_FEEDING_OPERATIONS was loaded into Esri ArcView 3.3 and the
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, and COUNTY_NAM.
+        IGS personnel then saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS.SHP
+      Process_Date: 20030417
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri shapefile (and metadata) named CONFINED_FEEDING_OPERATIONS from IDEM
+        personnel (Shane Moore) on July 11, 2003. CONFINED_FEEDING_OPERATIONS was loaded into Esri ArcView 3.3 and the
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, and COUNTY_NAM.
+        IGS personnel then saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS.SHP
+      Process_Date: 20030711
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri shapefile (and metadata) named CONFINED_FEEDING_OPERATIONS from IDEM
+        personnel (Shane Moore) on June 3, 2004. CONFINED_FEEDING_OPERATIONS was loaded into Esri ArcMap 8.3 and the
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, and COUNTY_NAM.
+        IGS personnel then saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS.SHP
+      Process_Date: 20040603
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri shapefile (and metadata) named CONFINED_FEEDING_OPERATIONS from IDEM
+        personnel (Shane Moore) on January 4, 2005. CONFINED_FEEDING_OPERATIONS was loaded into Esri ArcMap 9.0 and the
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, and COUNTY_NAM.
+        IGS personnel then saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS.SHP
+      Process_Date: 20050104
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri geodatabase (and metadata) named "OLQ_GPS_DATA_IGS.MDB" from IDEM personnel
+        (Shane Moore) on April 25, 2005. OLQ_GPS_DATA_IGS.MDB was loaded into Esri ArcMap 9.0 and the
+        subset of data containing confined feeding operation locations was exported to an ESRI shapefile format. The
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, and COUNTY_NAM. IGS personnel then
+        saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: OLQ_GPS_DATA_IGS.MDB
+      Process_Date: 20050425
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri geodatabase (and metadata) named "GPSDATA_UPDATES.MDB" from IDEM personnel
+        (Shane Moore) on July 27, 2006. GPSDATA_UPDATES.MDB was loaded into Esri ArcMap 9.0 and the
+        subset of data containing confined feeding operation locations was exported to an ESRI shapefile format. The
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, and COUNTY_NAM. IGS personnel then
+        saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: GPSDATA_UPDATES.MDB
+      Process_Date: 20060727
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri geodatabase (and metadata) named "GPSDATA_UPDATES.MDB" from IDEM personnel
+        (Shane Moore) on January 24, 2007. GPSDATA_UPDATES.MDB was loaded into Esri ArcMap 9.2 and the
+        subset of data containing confined feeding operation locations was exported to an ESRI shapefile format. The
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, and COUNTY_NAM. IGS personnel then
+        saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: GPSDATA_UPDATES.MDB
+      Process_Date: 20070124
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri geodatabase (and metadata) named "OLQ IndianaMap Export-06012009.gdb" from
+        IDEM personnel (Shane Moore) on June 4, 2009. "OLQ IndianaMap Export-06012009.gdb" was loaded into Esri ArcMap 9.3.1
+        and the subset of data containing confined feeding operation locations was exported to an ESRI shapefile format. The
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, COUNTY_NAM and CLOSED_HIS. IGS personnel then
+        saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: OLQ IndianaMap Export-06012009.gdb
+      Process_Date: 20090604
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri geodatabase (and metadata) named "OLQ IndianaMap Export-04162010.gdb" from
+        IDEM personnel (Shane Moore) on April 16, 2010. "OLQ IndianaMap Export-04162010.gdb" was loaded into Esri ArcMap 9.3.1
+        and the subset of data containing confined feeding operation locations was exported to an ESRI shapefile format. The
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, COUNTY_NAM and CLOSED_HIS. IGS personnel then
+        saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: OLQ IndianaMap Export-04162010.gdb
+      Process_Date: 20100416
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812-856-5654
+          Contact_Facsimile_Telephone: 812-855-2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri geodatabase (and metadata) named "IndianaMapUpdate_June2013.gdb" from
+        IDEM personnel (Shane Moore) on June 25, 2013. "IndianaMapUpdate_June2013.gdb" was loaded into Esri ArcMap 9.3.1
+        and the subset of data containing confined feeding operation locations was exported to an ESRI shapefile format. The
+        shapefile was visually checked to insure that all data points provided actually fell within the accepted IGS
+        state boundary. The shapefile was then edited by removing the following fields from the associated attribute
+        table: HORIZONTAL, NORTHING, EASTING, STANDARD_D, LOCATION_A, POSTAL_COD, COUNTY_NAM and CLOSED_HIS. IGS personnel then
+        saved the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: IndianaMapUpdate_June2013.gdb
+      Process_Date: 20130625
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812 856 5654
+          Contact_Facsimile_Telephone: 812 855 2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGS personnel received an updated Esri geodatabase (and metadata) named "IndianaMapUpdate_February2015.gdb" from IDEM personnel (Shane Moore) on
+        February 25, 2015. "IndianaMapUpdate_February2015.gdb" was loaded into Esri ArcMap10.3 and the subset of data containing confined feeding operation
+        locations were exported to an Esri shapefile format. The shapefile was visually checked to insure that all data points provided actually fell within
+        the accepted IGS state boundary. The shapefile was then edited by removing the following fields from the associated attribute table: AGENCY_INT,
+        LONGITUDE, LATITUDE, METHOD_DES, COLLECTOR_, COLLECTOR1, ACCURACY, ACCURACY_U, GPS_RECEIV, SOURCE_MAP, EASTING, and NORTHING. IGS personnel then saved
+        the edited shapefile as CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP to follow internal naming conventions.
+      Source_Used_Citation_Abbreviation: IndianaMapUpdate_February2015.gdb
+      Process_Date: 20150225
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812 856 5654
+          Contact_Facsimile_Telephone: 812 855 2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        IGWS personnel received an Esri point shapefile named "IDEM_CFO.SHP" from IDEM personnel (Miranda Hancock) on
+        October 19, 2018. IDEM_CFO.SHP was re-projected using ESRI ArcCatalog 10.6.0.8321 from geographic coordinates
+        (World WGS 1984) to projected coordinates (UTM Zone 16 NAD83), and then renamed "CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP"
+        to conform to internal naming conventions of the IGWS.
+
+        CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP was then loaded into Esri ArcMap, along with to the most recent version
+        of the previously published data (20150225). The layers were visually compared to record any significant changes to the
+        structure of the attribute table, fields, or values, as well as to the changes in the total number of records provided
+        (20150225 contained 3,437 locations, 20181019 contains 1,837 locations).
+      Source_Used_Citation_Abbreviation: IDEM_CFO.SHP
+      Process_Date: 20181019
+      Source_Produced_Citation_Abbreviation: CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812 856 5654
+          Contact_Facsimile_Telephone: 812 855 2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+    Process_Step:
+      Process_Description:
+        This metadata file was pre-parsed and parsed using CNS (Chew and Spit, v. 2.6.1) and MP (Metadata Parser, v. 2.7.1) software
+        written by Peter N. Schweitzer (U.S. Geological Survey). The errors generated by MP were all addressed and corrected, except
+        that no values were assigned to "Abscissa_Resolution" and "Ordinate_Resolution."
+      Process_Date: 20181221
+      Process_Contact:
+        Contact_Information:
+          Contact_Person_Primary:
+            Contact_Organization: Indiana Geological and Water Survey
+            Contact_Person: Chris Dintaman
+          Contact_Position: Geologist, GIS Specialist
+          Contact_Address:
+            Address_Type: Mailing and physical address
+            Address: 611 North Walnut Grove Avenue
+            City: Bloomington
+            State_or_Province: Indiana
+            Postal_Code: 47405-2208
+            Country: USA
+          Contact_Voice_Telephone: 812 856 5654
+          Contact_Facsimile_Telephone: 812 855 2862
+          Contact_Electronic_Mail_Address: cdintama@indiana.edu
+          Hours_of_Service: 0800 to 1700 Eastern Standard Time
+          Contact_Instructions: Monday through Friday, except holidays
+
+Spatial_Data_Organization_Information:
+  Indirect_Spatial_Reference: Indiana
+  Direct_Spatial_Reference_Method: Point
+  Point_and_Vector_Object_Information:
+    SDTS_Terms_Description:
+      SDTS_Point_and_Vector_Object_Type: Point
+      Point_and_Vector_Object_Count: 1837
+
+Spatial_Reference_Information:
+  Horizontal_Coordinate_System_Definition:
+    Planar:
+      Grid_Coordinate_System:
+        Grid_Coordinate_System_Name: Universal Transverse Mercator
+        Universal_Transverse_Mercator:
+          UTM_Zone_Number: 16
+          Transverse_Mercator:
+            Scale_Factor_at_Central_Meridian: 0.999600
+            Longitude_of_Central_Meridian: -87.000000
+            Latitude_of_Projection_Origin: 0.000000
+            False_Easting: 500000.000000
+            False_Northing: 0.000000
+      Planar_Coordinate_Information:
+        Planar_Coordinate_Encoding_Method: Row and column
+        Coordinate_Representation:
+          Abscissa_Resolution:
+          Ordinate_Resolution:
+        Planar_Distance_Units: Meters
+    Geodetic_Model:
+      Horizontal_Datum_Name: North American Datum of 1983
+      Ellipsoid_Name: GRS 80
+      Semi-major_Axis: 6378137.0000000
+      Denominator_of_Flattening_Ratio: 298.26
+
+Entity_and_Attribute_Information:
+  Detailed_Description:
+    Entity_Type:
+      Entity_Type_Label: CONFINED_FEEDING_OPERATIONS_IDEM_IN.DBF
+      Entity_Type_Definition: Shapefile Attribute Table
+      Entity_Type_Definition_Source: None
+    Attribute:
+      Attribute_Label: FID
+      Attribute_Definition: Internal feature number
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Sequential unique whole numbers that are automatically generated
+    Attribute:
+      Attribute_Label: Shape
+      Attribute_Definition: Feature geometry
+      Attribute_Definition_Source: ESRI
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Coordinates defining the features
+    Attribute:
+      Attribute_Label: SUB_PROGRAM
+      Attribute_Definition: IDEMs managing sub-program name (CFO = Confined Feeding Operations)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: PHYSICAL_A
+      Attribute_Definition: The street address of the site
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: MASTER_AI
+      Attribute_Definition: Identification number used by IDEM personnel, refers to "master attribute identifier"
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique ID for the facility (Numeric field)
+    Attribute:
+      Attribute_Label: ALTERNATE_
+      Attribute_Definition: An older IDEM Identification number (formerly "REGULATORY") used to track the facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: ALTERNATE1
+      Attribute_Definition: Name of the site or facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: PARISH_OR_
+      Attribute_Definition: Indiana Parish or Township number where the facility is located
+      Attribute_Definition_Source: IDEM
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric field
+    Attribute:
+      Attribute_Label: PARISH_OR1
+      Attribute_Definition: Name of the Indiana Parish or township where the facility is located
+      Attribute_Definition_Source: IDEM
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: PHYSICAL_1
+      Attribute_Definition: Name of the street address for the site or facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+    Attribute:
+      Attribute_Label: PHYSICAL_2
+      Attribute_Definition: Name of the Indiana town or city for the address to the site or facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique ID for the facility (Numeric field)
+    Attribute:
+      Attribute_Label: PHYSICAL_3
+      Attribute_Definition: ZIP code for the address information to the site or facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: SECTION_DE
+      Attribute_Definition: Section number (for a given Township and Range value in Indiana) that contains the site or facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric field
+    Attribute:
+      Attribute_Label: TOWNSHIP_C
+      Attribute_Definition: PLSS Township address (Public Land Survey System), coded value for the location of the site or facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Unique ID for the facility (Numeric field)
+    Attribute:
+      Attribute_Label: RANGE_CODE
+      Attribute_Definition: PLSS Range address (Public Land Survey System), coded value for the location of the site or facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: Y_COORD_ST
+      Attribute_Definition: Latitude coordinate value for access point location (WGS 1984)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 37.88775
+          Range_Domain_Maximum: 41.759879
+          Attribute_Units_of_Measure: Decimal degrees
+    Attribute:
+      Attribute_Label: X_COORD_ST
+      Attribute_Definition: Longitude coordinate value for access point location (WGS 1984)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: -87.90216
+          Range_Domain_Maximum: -84.803188
+          Attribute_Units_of_Measure: Decimal degrees
+    Attribute:
+      Attribute_Label: FARM_SIZE_
+      Attribute_Definition: Coded values that indicate the relative size of the facility (CFO and CAFO)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CFO
+          Enumerated_Domain_Value_Definition:
+            All regulated animal feeding operations in Indiana are considered Confined Feeding
+            Operations (CFO). To be regulated under the Confined Feeding Control Law in Indiana, you must meet the following
+            size of any one livestock group listed; 300 or more cattle, 600 or more swine/sheep, 30,000 or more poultry, or 500 horses.
+          Enumerated_Domain_Value_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: CAFO
+          Enumerated_Domain_Value_Definition:
+            Concentrated Animal Feeding Operation (CAFO) designation is strictly a size
+            designation in Indiana. Farms of this size are permitted under the CFO rule, but have a few added requirements
+            under Indiana regulations. A CFO that meets the size classification as a CAFO is a farm that meets or exceeds
+            an animal threshold number provided by the U.S. EPA’s current definition of a large CAFO.
+          Enumerated_Domain_Value_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+    Attribute:
+      Attribute_Label: APP_RECEIV
+      Attribute_Definition: Calendar date for which the CFO application was submitted to IDEM OLQ (contains 2 null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 05/18/1971
+          Range_Domain_Maximum: 08/17/2018
+    Attribute:
+      Attribute_Label: APPROVAL_D
+      Attribute_Definition: Calendar date when the application was approved by IDEM OLQ (contains 1 null value)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 05/18/1971
+          Range_Domain_Maximum: 09/26/2018
+    Attribute:
+      Attribute_Label: EFFECTIVE_
+      Attribute_Definition: Effective calendar date on which the facility began operating as a regulated CFO
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 05/18/1971
+          Range_Domain_Maximum: 09/26/2018
+    Attribute:
+      Attribute_Label: APPROVAL_N
+      Attribute_Definition: Approval number, identification number for the approval documentation on file with IDEM, (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric field
+    Attribute:
+      Attribute_Label: NPDES_PERM
+      Attribute_Definition: NPDES permit identification number (National Pollutant Discharge Elimination System ID) for the facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric field
+    Attribute:
+      Attribute_Label: NPDES_ISSU
+      Attribute_Definition: Calendar date when the NPDES Permit number was issued for the facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric field
+    Attribute:
+      Attribute_Label: NPDES_TYPE
+      Attribute_Definition: Description of the type of work done in response to the NPDES Permit requirements
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Numeric field
+
+    Attribute:
+      Attribute_Label: TRANSITION
+      Attribute_Definition: Is the CAFO site transitioning into the NPDES System, due to ongoing discharge? (Yes, or null)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character Field
+    Attribute:
+      Attribute_Label: MMP_APP_RE
+      Attribute_Definition: Calendar date for which the MMP application was submitted to IDEM OLQ (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 12/22/1999
+          Range_Domain_Maximum: 09/24/2018
+    Attribute:
+      Attribute_Label: MMP_ISSUE_
+      Attribute_Definition: Calendar date when the MMP application was approved and issued by IDEM OLQ (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 01/03/2000
+          Range_Domain_Maximum: 09/26/2018
+    Attribute:
+      Attribute_Label: NOTICE_DUE
+      Attribute_Definition: Calendar date for which the "Notices are Due" (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 09/27/1996
+          Range_Domain_Maximum: 09/26/2018
+    Attribute:
+      Attribute_Label: NOTICE_REC
+      Attribute_Definition: Calendar date for which the "Notices are received" (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 01/02/2000
+          Range_Domain_Maximum: 07/06/2019
+    Attribute:
+      Attribute_Label: AFFIDAVIT_
+      Attribute_Definition: Calendar date for the submitted Affidavit (current or future) for the facility
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 09/28/1998
+          Range_Domain_Maximum: 09/25/2023
+    Attribute:
+      Attribute_Label: AFFIDAVIT1
+      Attribute_Definition: Calendar date for which the facility began operating as a regulated CFO
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 12/20/1997
+          Range_Domain_Maximum: 09/17/2018
+    Attribute:
+      Attribute_Label: AFFIDAVI_1
+      Attribute_Definition: Description of affidavit, status of the affidavit for the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Completed
+          Enumerated_Domain_Value_Definition: Completed
+          Enumerated_Domain_Value_Definition_Source: Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Construction Completed
+          Enumerated_Domain_Value_Definition: A building within an areal boundary
+          Enumerated_Domain_Value_Definition_Source: Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Deleted
+          Enumerated_Domain_Value_Definition: Deleted
+          Enumerated_Domain_Value_Definition_Source: Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Incomplete
+          Enumerated_Domain_Value_Definition: Incomplete
+          Enumerated_Domain_Value_Definition_Source: Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Late
+          Enumerated_Domain_Value_Definition: Late
+          Enumerated_Domain_Value_Definition_Source: Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Enumerated_Domain:
+          Enumerated_Domain_Value: Not Required
+          Enumerated_Domain_Value_Definition: Not Required
+          Enumerated_Domain_Value_Definition_Source: Indiana Department of Environmental Management
+    Attribute:
+      Attribute_Label: NURSERY_PL
+      Attribute_Definition: Approximate number of 'Nursery Poultry' in hatcheries (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 70
+          Range_Domain_Maximum: 22,224
+    Attribute:
+      Attribute_Label: FINISHERS
+      Attribute_Definition: Approximate number of 'Finishers' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 10
+          Range_Domain_Maximum: 37,948
+    Attribute:
+      Attribute_Label: SOWS
+      Attribute_Definition: Approximate number of 'Sows' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 5
+          Range_Domain_Maximum: 11,356
+    Attribute:
+      Attribute_Label: BOARS
+      Attribute_Definition: Approximate number of 'Boars' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 50
+    Attribute:
+      Attribute_Label: BEEF_CATTL
+      Attribute_Definition: Approximate number of 'Beef Cattle' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 6,261
+    Attribute:
+      Attribute_Label: BEEF_CALVE
+      Attribute_Definition: Approximate number of 'Beef Calves' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 4
+          Range_Domain_Maximum: 990
+    Attribute:
+      Attribute_Label: DAIRY_CATT
+      Attribute_Definition: Approximate number of 'Dairy Cattle' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 5
+          Range_Domain_Maximum: 10,560
+    Attribute:
+      Attribute_Label: DAIRY_CALV
+      Attribute_Definition: Approximate number of 'Dairy Calves' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 7
+          Range_Domain_Maximum: 6,000
+    Attribute:
+      Attribute_Label: VEAL_CALVE
+      Attribute_Definition: Approximate number of 'Veal Calves' at the facility or site (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 60
+          Range_Domain_Maximum: 1,040
+    Attribute:
+      Attribute_Label: DAIRY_HEIF
+      Attribute_Definition: Approximate number of 'Dairy Heifers' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 10
+          Range_Domain_Maximum: 2,650
+    Attribute:
+      Attribute_Label: LAYERS
+      Attribute_Definition: Approximate number of 'Layers' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 15
+          Range_Domain_Maximum: 3,648,000
+    Attribute:
+      Attribute_Label: PULLETS
+      Attribute_Definition: Approximate number of 'Pullets' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 120
+          Range_Domain_Maximum: 1,280,000
+    Attribute:
+      Attribute_Label: BROILERS
+      Attribute_Definition: Approximate number of 'Broilers' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1,000
+          Range_Domain_Maximum: 339,000
+    Attribute:
+      Attribute_Label: POULTS
+      Attribute_Definition: Approximate number of 'Poultry' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 14,800
+          Range_Domain_Maximum: 180,000
+    Attribute:
+      Attribute_Label: TURKEYS
+      Attribute_Definition: Approximate number of 'Turkeys' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 5,000
+          Range_Domain_Maximum: 180,000
+    Attribute:
+      Attribute_Label: DUCKS
+      Attribute_Definition: Approximate number of 'Ducks' at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 5,000
+          Range_Domain_Maximum: 83,900
+    Attribute:
+      Attribute_Label: SHEEP
+      Attribute_Definition: Approximate number of 'Sheep' held at the facility (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 1
+          Range_Domain_Maximum: 470
+    Attribute:
+      Attribute_Label: HORSES
+      Attribute_Definition: Approximate number of confined 'Horses' at the facility or site (contains null values)
+      Attribute_Definition_Source: Solid Waste Section, Office of Land Quality, Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Range_Domain:
+          Range_Domain_Minimum: 2
+          Range_Domain_Maximum: 1,169
+    Attribute:
+      Attribute_Label: GLOABALID
+      Attribute_Definition: IDEM internal idenfication number
+      Attribute_Definition_Source: Indiana Department of Environmental Management
+      Attribute_Domain_Values:
+        Unrepresentable_Domain: Character field
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological and Water Survey
+        Contact_Person: Publication Sales
+      Contact_Position: Clerk
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove Avenue
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812-855-7636
+      Contact_Facsimile_Telephone: 812-855-2862
+      Contact_Electronic_Mail_Address: IGSInfo@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+
+  Resource_Description: Downloadable data
+
+  Distribution_Liability:
+    DATA DISCLAIMER - This data set is provided by Indiana University, Indiana Geological and Water Survey, and contains data believed to
+    be accurate; however, a degree of error is inherent in all data. This product is distributed "AS-IS" without warranties of any kind,
+    either expressed or implied, including but not limited to warranties of suitability of a particular purpose or use. No attempt has been
+    made in either the designed format or production of these data to define the limits or jurisdiction of any federal, state, or local
+    government. These data are intended for use only at the published scale or smaller and are for reference purposes only. They are not to
+    be construed as a legal document or survey instrument. A detailed on-the-ground survey and historical analysis of a single site may differ
+    from these data.
+
+    COPYRIGHT 2018, THE TRUSTEES OF INDIANA UNIVERSITY, INDIANA GEOLOGICAL AND WATER SURVEY, ALL RIGHTS RESERVED
+
+    CREDIT - It is requested that the CFO Program, Office of Land Quality, Indiana Department of Environmental Management be cited
+    in any products generated from this data. The following source citation should be included: [CONFINED_FEEDING_OPERATIONS_IDEM_IN.SHP:
+    Confined Feeding Operation Facilities in Indiana (Indiana Department of Environmental Management, Point Shapefile), digital compilation
+    by IGWS, 20181019].
+
+    LIMITATION OF WARRANTIES AND LIABILITY - This product is provided "AS IS", without any other warranties or conditions, expressed or implied,
+    including, but not limited to, warranties for product quality, or suitability to a particular purpose or use. The risk or liability resulting
+    from the use of this product is assumed by the user. Indiana University, Indiana Geological and Water Survey shares no liability with product
+    users indirect, incidental, special, or consequential damages whatsoever, including, but not limited to, loss of revenue or profit, lost or
+    damaged data or other commercial or economic loss. Indiana University, Indiana Geological Survey is not responsible for claims by a third
+    party. The maximum aggregate liability to the original purchaser shall not exceed the amount paid by you for the product.
+
+Distribution_Information:
+  Distributor:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Department of Environmental Management
+        Contact_Person: Miranda Hancock
+      Contact_Position: GIS Coordinator (Information Services)
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 100 North Senate Avenue
+        City: Indianapolis
+        State_or_Province: Indiana
+        Postal_Code: 46206-6015
+        Country: USA
+      Contact_Voice_Telephone: 317-232-8742
+      Contact_Facsimile_Telephone: 317-233-3403
+      Contact_Electronic_Mail_Address: MJHancoc@idem.in.gov
+      Hours_of_Service: M-F, 8:00am-5:00pm, Eastern Standard Time
+      Contact_Instructions: For inquiries, please e-mail
+
+  Resource_Description: CFO Shapefile
+
+  Distribution_Liability:
+    The following is excerpted from the metadata provided by IDEM, OLQ for the source shapefile IDEM_CFO.SHP:
+
+    "DISCLAIMER OF WARRANTIES
+
+    THE INDIANA DEPARTMENT OF ENVIRONMENTAL MANAGEMENT (IDEM), ITS EMPLOYEES, SUCCESSORS OR ASSIGNS MAKE NO REPRESENTATIONS
+    OR WARRANTIES ABOUT THE COMPLETENESS, SUITABILITY, RELIABILITY, AVAILABILITY AND ACCURACY OF DATA, SOFTWARE, INFORMATION
+    OR SERVICES PROVIDED.
+
+    TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, ANY INFORMATION RETRIEVED FROM OR DELIVERED TO AN INDIVIDUAL OR ENTITY
+    THROUGH THE AUSPICES OF IDEM ARE PROVIDED "AS IS" AND INCLUDES ALL FAULTS WITHOUT ANY EXPRESS OR IMPLIED WARRANTY
+    OF ANY KIND.  THE RECIPIENT, OF THE DATA, SOFTWARE, INFORMATION OR SERVICES, ACKNOWLEDGES AND AGREES THAT IT HAS RECEIVED
+    ADEQUATE NOTICE THAT USE OF THE DATA, SOFTWARE, INFORMATION OR SERVICES IS AT RECIPIENTS OWN RISK.
+
+    IDEM AND OR ITS RESPECTIVE SUPPLIERS HEREBY DISCLAIM ALL WARRANTIES AND CONDITIONS WITH REGARD TO THE AFOREMENTIONED MATERIAL,
+    INCLUDING WARRANTIES OF MERCHANTABILITY, TITLE, NONINFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE, LACK OF VIRUSES, ACCURACY
+    OR COMPLETENESS OF RESPONSES, RESULTS, LACK OF NEGLIGENCE OR LACK OF WORKMANLIKE EFFORT, QUIET ENJOYMENT, QUIET POSSESSION,
+    AND CORRESPONDENCE TO DESCRIPTION. FURTHER THE ABOVE LIST OF DISCLAIMED WARRANTIES IS NOT EXHAUSTIVE AS ANY AND ALL WARRANTIES
+    AND CONDITIONS ARE DISCLAIMED. THE ENTIRE RISK ARISING OUT OF THE USE OF OR PERFORMANCE OF THE DATA, SOFTWARE, INFORMATION
+    OR SERVICES IS BORNE BY THE RECIPIENT.
+
+    EXCLUSION OF INCIDENTAL, CONSEQUENTIAL AND CERTAIN OTHER DAMAGES.
+
+    TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL IDEM OR ITS SUPPLIERS BE LIABLE FOR ANY SPECIAL,
+    INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES WHATSOEVER, INCLUDING, BUT NOT LIMITED TO, DAMAGES FOR: LOSS OF PROFITS,
+    LOSS OF CONFIDENTIAL OR OTHER INFORMATION, BUSINESS INTERRUPTION, PERSONAL INJURY, LOSS OF PRIVACY, FAILURE TO MEET ANY
+    DUTY (INCLUDING GOOD FAITH AND REASONABLE CARE), NEGLIGENCE, AND ANY OTHER PECUNIARY OR OTHER LOSS WHATSOEVER, ARISING
+    OUT OF  OR IN ANY WAY RELATED TO THE USE OR INABILITY TO USE, THE DATA, SOFTWARE, INFORMATION OR SERVICES, EVEN IF THE
+    RECIPIENT IS ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.  RECIPIENT'S SOLE REMEDY IS TO DISCONTINUE THE USE OF THE DATA,
+    SOFTWARE, INFORMATION OR SERVICES."
+
+Metadata_Reference_Information:
+  Metadata_Date: 20030417
+  Metadata_Review_Date: 20181221
+  Metadata_Contact:
+    Contact_Information:
+      Contact_Organization_Primary:
+        Contact_Organization: Indiana Geological and Water Survey
+        Contact_Person: Chris Dintaman
+      Contact_Position: Geologist, GIS Specialist
+      Contact_Address:
+        Address_Type: Mailing and physical address
+        Address: 611 North Walnut Grove Avenue
+        City: Bloomington
+        State_or_Province: Indiana
+        Postal_Code: 47405-2208
+        Country: USA
+      Contact_Voice_Telephone: 812 856 5654
+      Contact_Facsimile_Telephone: 812 855 2862
+      Contact_Electronic_Mail_Address: cdintama@indiana.edu
+      Hours_of_Service: 0800 to 1700 Eastern Standard Time
+      Contact_Instructions: Monday through Friday, except holidays
+  Metadata_Standard_Name: FGDC CSDGM
+  Metadata_Standard_Version: FGDC-STD-001-1998
+  Metadata_Access_Constraints: None
+  Metadata_Use_Constraints:
+    This metadata file is intended to accompany the data set identified and received from the IGWS. It should not to be
+    altered or summarized. IGWS does not support secondary distribution. If this data set was received from anyone besides the IGWS, this
+    metadata file and the data set it describes may lack integrity.
