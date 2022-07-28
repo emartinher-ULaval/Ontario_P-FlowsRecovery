@@ -1,4 +1,4 @@
-\begin{thebibliography}{35}
+\begin{thebibliography}{36}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -249,6 +249,14 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.stelco.com/about-us/our-facilities}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Article
+\bibitem[{Sz{\"o}gi et~al.(2008)Sz{\"o}gi, Vanotti and
+  Hunt}]{szogi2008phosphorus}
+\bibinfo{author}{Sz{\"o}gi, A.}, \bibinfo{author}{Vanotti, M.},
+  \bibinfo{author}{Hunt, P.}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{Phosphorus recovery from poultry litter}.
+\newblock \bibinfo{journal}{Transactions of the ASABE} \bibinfo{volume}{51},
+  \bibinfo{pages}{1727--1734}.
 %Type = Misc
 \bibitem[{{United Nations Environment Programme}(2022)}]{UN_Phosphorus}
 \bibinfo{author}{{United Nations Environment Programme}}, \bibinfo{year}{2022}.

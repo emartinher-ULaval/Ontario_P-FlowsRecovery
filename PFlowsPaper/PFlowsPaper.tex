@@ -28,6 +28,14 @@
 \doublespacing
 \usepackage[flushleft]{threeparttable}
 \usepackage[colorlinks,citecolor=blue,urlcolor=blue]{hyperref} 
+%\usepackage{titlesec}
+%
+%\setcounter{secnumdepth}{4}
+%\titleformat{\paragraph}
+%{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+%\titlespacing*{\paragraph}
+%{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+
 %\usepackage{apacite}
 \bibliographystyle{elsarticle-harv}
 
@@ -213,45 +221,61 @@ The production of animal food products exhibits a lower phosphorus use efficienc
 \subsection{Potential of phosphorus recovery in Ontario}
 Assessment of different scenarios of P recovery in Ontario, P imports that would be saved, reduction of P dependency of the province, etc (all implications related with mass-balances)
 
-\subsubsection{Agricultural sector}
-Phosphorus can be recovered from different flows within the agricultural sector, including the production of manure. Phosphorus recovery from manure is performed through struvite precipitation.There exist different processes for struvite production at commercial stage, as described in Section ?REF?. \citet{martin2021geospatial} determined that the implementation of struvite production processes at livestock facilities is mainly driven by the scale of the CAFO, and thus they can be divided by into three clusters regarding the type of phosphorus recovery processes implemented, i.e., facilities with capacity for between 300 and 2,000 animal units, for between 2,000 and 5,000 animals units, and facilities large than 5,000 animal units. An animal unit (AU) is defined as an animal equivalent of 1,000 pounds (453.6 kg) live weight \citep{animal_unit_definition}. The most suitable phosphorus recovery for process for the facilities of each one of these clusters was determined by \citet{martin2021geospatial}, resulting in that  Multiform-type processes are the most suitable struvite produciton system for the cluster including the small-size CAFOs cluster (300-2,000 AUs), NuReSys-type systems are suitable for medium-size CAFOs (2,00-5,000 AUs), while that the suitable struvite system for large-scale CAFOs is Crystalactor-type processes. The investment and operating cost of these systems is collected in Table ?REF?.
+\subsubsection{Scenario 1: phosphorus recoverable with current technologies}
 
-The number of cattle animals is reported by the Census of Agriculture at Census Division level REF, but no available data on CAFOs size is available for the province of Ontario. Since this information is essential to determine the suitable phopshorus recovery process to be considered, and in turn the phosphorus recovery cost, the distribution of CAFOs sizes has been approximated to the CAFOs size distribution of other regions in the vicinity of the Great Lakes area, namely Ohio, Pennsylvania, Indiana, Michigan, and Wisconsin. The distribution of CAFOs size in each one of these regions has been approximated through a truncated normal distribution, since the possible size of livestock facilities is bounded between 300 animal units for being considered as an intensive livestock production facility REF, and 10,000 animal units in order to remove extra-large CAFOs that are outliers in the size distribution, avoiding excessive long tails distorting the distributions., as show in equation EQ REF. It has been found that two scenarios can be identified, a first scenario (Scenario 1) where the average size of CAFOs is larger, around 2,400 animal units based on the parameters of the states of Ohio, Wisconsin, and Michigan, and a second scenario (Scenario 2) based on the states of Pennsylvania and Indiana where the average size of CAFOs is smaller, lower than 1,500 animal units. Two CAFOs size distributions are proposed for Ontario based on each one of these scenarios, estimating the parameters of Eq. REF as the average parameters of the distributions in each scenario. The number of CAFOs in each cluster is determined through the Monte Carlo method, with the constrain that the sum of animal units of all CAFOs must not exceed the total number of animal units of Ontario, which is equal to 13,76,984 animal units for year 2019 REF. The distribution parameters and number of CAFOs belonging to each cluster are shown in Table \ref{table:CAFOsSizeScenarios}, while the CAFOs size distributions and  shown in Figure \ref{fig:CAFOsSize_Scenarios}. Further details on the estimation of CAFOs size distribution can be found in the Supplementary Information, Section ??.
+\paragraph{\textbf{Agricultural sector}}
+Phosphorus can be recovered from different flows within the agricultural sector, including the production of manure. Phosphorus recovery from cattle and swine manure is performed through struvite precipitation REF REF, existing different processes for struvite production at commercial stage, as described in Section ?REF?. Phosphorus recovery from poulty litter is based on acid extraction and further precipitation \citep{szogi2008phosphorus}. Since this technology shows a lower development level, their use has been considered in Scenario 2, see Section ??.  \citet{martin2021geospatial} determined that the implementation of struvite production processes at livestock facilities is mainly driven by the scale of the CAFO, and thus they can be divided by into three clusters regarding the type of phosphorus recovery processes implemented, i.e., facilities with capacity for between 300 and 2,000 animal units, for between 2,000 and 5,000 animals units, and facilities large than 5,000 animal units. An animal unit (AU) is defined as an animal equivalent of 1,000 pounds (453.6 kg) live weight \citep{animal_unit_definition}. The most suitable phosphorus recovery for process for the facilities of each one of these clusters was determined by \citet{martin2021geospatial}, resulting in that  Multiform-type processes are the most suitable struvite produciton system for the cluster including the small-size CAFOs cluster (300-2,000 AUs), NuReSys-type systems are suitable for medium-size CAFOs (2,00-5,000 AUs), while that the suitable struvite system for large-scale CAFOs is Crystalactor-type processes. The investment and operating cost of these systems is collected in Table ?REF?.
+
+The number of cattle animals is reported by the Census of Agriculture at Census Division level REF, but no available data on CAFOs size is available for the province of Ontario. Since this information is essential to determine the suitable phopshorus recovery process to be considered, and in turn the phosphorus recovery cost, the distribution of CAFOs sizes has been approximated to the cattle and swine CAFOs size distribution of other regions in the vicinity of the Great Lakes area, namely Ohio, Pennsylvania, Indiana, Michigan, and Wisconsin. The distribution of CAFOs size in each one of these regions has been approximated through a truncated normal distribution, since the possible size of livestock facilities is bounded between 300 animal units for being considered as an intensive livestock production facility REF, and 10,000 animal units in order to remove extra-large CAFOs that are outliers in the size distribution, avoiding excessive long tails distorting the distributions.
+For cattle CAFOs, it has been found that two scenarios can be identified, a first scenario (Scenario 1) where the average size of CAFOs is larger, around 2,400 animal units based on the parameters of the states of Ohio, Wisconsin, and Michigan, and a second scenario (Scenario 2) based on the states of Pennsylvania and Indiana where the average size of CAFOs is smaller, lower than 1,500 animal units. Two CAFOs size distributions are proposed for Ontario based on each one of these scenarios, estimating the parameters of Eq. REF as the average parameters of the distributions in each scenario, as shown in \ref{fig:CAFOsSize_Scenarios}. 
+For swine CAFOs, the size distribution patterns are similar for all the states studied, with the exception of the Wisconsin, which has been discarded due to the little number of swine facilities installed in this state. A truncated normal distribution with mean equal to 741 AUs and standard deviation equal to 456 AUs is assumed to stimate the distribution of swine CAFOs in Ontario, as shown in \ref{fig:CAFOsSize_Scenarios}.
+The distribution parameters for both cattle and swine CAFOs size are shown in Table \ref{table:CAFOsSizeScenarios}.
+The number of CAFOs in each cluster is determined through the Monte Carlo method, with the constrain that the sum of animal units of all CAFOs must not exceed the total number of animal units of Ontario, which for cattle is equal to 1,376,984 animal units for year 2019, which result in the release of 15,923 kt of manure per year and 13.27 kt of phosphorus per year, and for swine represent 506,768 animal units, 5,779 kt of manure per year, and 8.57 kt of phosphorus per year REF. The number of CAFOs belonging to each cluster are shown in Table \ref{table:CAFOsSizeScenarios}. Further details on the estimation of CAFOs size distribution can be found in the Supplementary Information, Section ??.
 
 \begin{figure}[H]
 	\centering
-	\begin{subfigure}[t]{0.7\textwidth}
+	\begin{subfigure}[t]{0.49\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{Figures/Scenario1_CAFOs_Size_Distribution.pdf} 
-		\caption{Scenario 1}
+		\includegraphics[width=\linewidth, trim={0.2cm 0.2cm 0.7cm 0.7cm},clip]{Figures/Scenario1_CAFOs_Size_Distribution.pdf} 
+		\caption{Cattle (scenario 1)}
 		\label{fig:CAFOsSize_Scenario1}
 	\end{subfigure}
-	\begin{subfigure}[t]{0.7\textwidth}
+	\begin{subfigure}[t]{0.49\textwidth}
 		\centering
-		\includegraphics[width=\linewidth]{Figures/Scenario2_CAFOs_Size_Distribution.pdf}
-		\caption{Scenario 2}
+		\includegraphics[width=\linewidth, trim={0.2cm 0.2cm 0.7cm 0.7cm},clip]{Figures/Scenario2_CAFOs_Size_Distribution.pdf}
+		\caption{Cattle (scenario 2)}
+		\label{fig:CAFOsSize_Scenario2}
+	\end{subfigure}
+
+\vspace{0.5cm}
+
+	\begin{subfigure}[t]{0.49\textwidth}
+		\centering
+		\includegraphics[width=\linewidth, trim={0.2cm 0.2cm 0.7cm 0.7cm},clip]{Figures/Scenario1_SwineCAFOs_Size_Distribution.pdf}
+		\caption{Swine}
 		\label{fig:CAFOsSize_Scenario2}
 	\end{subfigure}
 	
-	\caption{Proposed distribution of CAFOs size in the province of Ontario based on the size distribution of livestock facilities in other regions in the vicinity of the Great Lakes area. Scenario 1 is based on the pattern shown by the US states of Ohio, Wisconsin, and Michigan, which shows an average CAFO size around 2,4000 animal units, while Scenario 2 is based on the pattern shown by the US states of Pennsylvania and Indiana, with an average CAFO size around 1,3000 animal units.}
+	\caption{Proposed distribution of CAFOs size in the province of Ontario based on the size distribution of cattle and swine facilities in other regions in the vicinity of the Great Lakes area. Cattle scenario 1 is based on the pattern shown by the US states of Ohio, Wisconsin, and Michigan, which shows an average CAFO size around 2,4000 animal units, while cattle scenario 2 is based on the pattern shown by the US states of Pennsylvania and Indiana, with an average CAFO size around 1,3000 animal units.}
 	\label{fig:CAFOsSize_Scenarios}
 \end{figure}
 
 \begin{table}[h]
 	\centering
-	\caption{Truncated normal distribution parameters and number of CAFOs in each cluster for the scenarios studied regarding CAFOs size distribution.} \label{table:CAFOsSizeScenarios}
-	\resizebox{0.4\columnwidth}{!}{
+	\caption{Truncated normal distribution parameters and number of CAFOs in each cluster for the scenarios studied regarding cattle and swine CAFOs size distribution.} \label{table:CAFOsSizeScenarios}
+	\resizebox{0.6\columnwidth}{!}{
 		%		\begin{threeparttable}
-		\begin{tabular}{@{}ccc@{}}
+		\begin{tabular}{@{}cccc@{}}
 			\toprule
-			Parameter & Scenario 1 & Scenario 2 \\ \midrule
-			mean                                                                              & 2,423.40   & 1,463.94    \\
-			std                                                                               & 1,459.70   & 1,308.91   \\
-			a                                                                                 & 300        & 10,000      \\
-			b                                                                                 & 300        & 10,000      \\
-			\begin{tabular}[c]{@{}c@{}}Number of CAFOs\\ (300-2,000 AU)\end{tabular}           & 177        & 386        \\
-			\begin{tabular}[c]{@{}c@{}}Number of CAFOs\\ (2,000-5,000 AU)\end{tabular}          & 324        & 319        \\
-			\begin{tabular}[c]{@{}c@{}}Number of CAFOs\\ (\textgreater{}5,000 AU)\end{tabular} & 22         & 3          \\ \bottomrule
+			Parameter & Cattle (scenario 1) & Cattle (scenario 2) & Swine \\ \midrule
+			mean                                                                              & 2,423.40   & 1,463.94 & 741.42    \\
+			std                                                                               & 1,459.70   & 1,308.91 & 455.71   \\
+			a                                                                                 & 300        & 300  & 300    \\
+			b                                                                                 & 10,000        & 10,000 & 10,000     \\
+			\begin{tabular}[c]{@{}c@{}}Number of CAFOs\\ (300-2,000 AU)\end{tabular}           & 177        & 386 & 575        \\
+			\begin{tabular}[c]{@{}c@{}}Number of CAFOs\\ (2,000-5,000 AU)\end{tabular}          & 324        & 319   & 2     \\
+			\begin{tabular}[c]{@{}c@{}}Number of CAFOs\\ (\textgreater{}5,000 AU)\end{tabular} & 22         & 3    & 0      \\
+			Total AUs & 13,76,984 & 13,76,984 & 506,768 \\ \bottomrule
 		\end{tabular}
 		%			\begin{tablenotes}
 		%				\footnotesize
