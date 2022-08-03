@@ -91,7 +91,61 @@
 	\end{frontmatter}
 	
 	\tableofcontents
-	
+\section{Phosphorus recovery processes}	
+\subsection{Scaling CAFOs phosphorus recovery processes}
+We refer the reader to \citet{martin2021geospatial} for a detailed description on estimating the phosphorus recovery costs of processes from phosphorus recovery from livestock facilities. Capital costs are annualized through the application of an annual capital charge ratio $\left( ACCR\right)$ as defined by \citet{towler2013chemical}, shown in Eq. \ref{eq:ACCR}, assuming a typical interest rate $i$ of 5\% and a plant lifetime $n$ of 20 years.
+
+\begin{align}
+	& ACCR = \frac{i\left( 1 + i\right)^n }{\left(1+i \right)^n -1 } \label{eq:ACCR}
+\end{align}
+
+\subsection{Scaling municipal wastewater phosphorus recovery processes}
+Data on processes for phosphorus recovery from municipal wastewater is taken from \citet{egle_phosphorus_2016}. We assume that, similarly to other industrial activities \citep{dysert2005so}, the phosphorus recovery cost from municipal wastewater in function of the plant capacity shows an exponential behavior. In consequence, the cost-to-capacity method \citep{baumann2014cost} is used to estimate phosphorus recovery cost from municipal wastewater in function of the plant capacity, as shown in Eq. \ref{eq:CostoToCapacity1}, where $x$ denotes the scale factor 'facility 2' refers to the facility which cost is required while 'facility 1' denotes the facility whose data is known. The scale factor $x$ is estimated based on the data for different capacities reported by \citet{egle_phosphorus_2016} through the transformation of Eq. \ref{eq:CostoToCapacity1} by applying natural logarithms to both sides of the equation, as shown in Eq. \ref{eq:CostoToCapacityLinearization}. The scale factor obtained are shown in Table \ref{table:WWTPsPRecTechsScaleFactor}. The capacity magnitude has been normalized to the mass of phosphorus recovered.
+
+\begin{align}
+	& \frac{\text{Cost}_{\text{facilitiy 2}}}{\text{Cost}_{\text{facilitiy 1}}} = \left( \frac{\text{Capacity}_{\text{facilitiy 2}}}{\text{Capacity}_{\text{facilitiy 1}}} \right)^x \label{eq:CostoToCapacity1}\\
+	& x = \frac{\text{ln} \left(\frac{\text{Cost}_{\text{facilitiy 2}}}{\text{Cost}_{\text{facilitiy 1}}} \right) }{\text{ln} \left( \frac{\text{Capacity}_{\text{facilitiy 2}}}{\text{Capacity}_{\text{facilitiy 1}}}\right) } \label{eq:CostoToCapacityLinearization}
+\end{align}
+
+\begin{table}[h]
+	\centering
+	\caption{Estimation of scale factors for municipal wastewater phosphorus recovery systems.} \label{table:WWTPsPRecTechsScaleFactor}
+	\resizebox{0.99\columnwidth}{!}{
+		%		\begin{threeparttable}
+		\begin{tabular}{@{}ccccccc@{}}
+			\toprule
+			Inflow                                                                           & Technology        & Type                       & \begin{tabular}[c]{@{}c@{}}P recovery potential\\ (\% related to inflow)\end{tabular} & \begin{tabular}[c]{@{}c@{}}P inflow\\ (kg P/year)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Annual processing\\ cost (EUR)\end{tabular} & \begin{tabular}[c]{@{}c@{}}Scale factor \\  $x$  \end{tabular}                    \\ \midrule
+			\multirow{12}{*}{\begin{tabular}[c]{@{}c@{}}WWTPs\\ (liquid phase)\end{tabular}} & \multirow{2}{*}{Crystalactor}      & \multirow{2}{*}{Struvite/Calcium phosphate} & \multirow{2}{*}{38 }                                                                                   & 65700                                                          & 305920                                                      & \multirow{2}{*}{0.59} \\
+			&      &  &                                                                                    & 328500                                                         & 795893                                                      &                                    \\
+			& \multirow{2}{*}{Ostara Pearl}      & \multirow{2}{*}{Struvite}                   & \multirow{2}{*}{20}                                                                                 & 65700                                                          & 130856                                                      & \multirow{2}{*}{0.36} \\
+			&       &                    &                                                                                     & 328500                                                         & 235234                                                      &                                    \\
+			& \multirow{2}{*}{P-RoC}             & \multirow{2}{*}{Calcium phosphate}          & \multirow{2}{*}{27}                                                                                    & 65700                                                          & 75970                                                       & \multirow{2}{*}{0.78}  \\
+			&          &           &                                                                                     & 328500                                                         & 266025                                                      &                                    \\
+			& \multirow{2}{*}{REM-NUT}           & \multirow{2}{*}{Struvite}                   & \multirow{2}{*}{47}                                                                                    & 65700                                                          & 977933                                                      & \multirow{2}{*}{0.94} \\
+			&            &                    &                                                                                     & 328500                                                         & 4417171                                                     &                                    \\
+			& \multirow{2}{*}{AirPrex}           & \multirow{2}{*}{Struvite}                  & \multirow{2}{*}{15}                                                                                    & 65700                                                          & 74195                                                       & \multirow{2}{*}{0.38}  \\
+			&            &                    &                                                                                     & 328500                                                         & 137693                                                      &                                    \\
+			& \multirow{2}{*}{PRISA}             & \multirow{2}{*}{Struvite}                   & \multirow{2}{*}{18}                                                                                   & 65700                                                          & 186923                                                      & \multirow{2}{*}{0.43} \\
+			&              &                    &                                                                                     & 328500                                                         & 371578                                                      &                                    \\ \cmidrule(lr){2-7}
+			\multirow{10}{*}{WWTPs}                                                          & \multirow{2}{*}{Stuttgart process} & \multirow{2}{*}{Struvite}                   & \multirow{2}{*}{40}                                                                                    & 65700                                                          & 581730                                                      & \multirow{2}{*}{0.89}   \\ 
+			&  &                    &                                                                                     & 328500                                                         & 2419407                                                     &                                    \\
+			& \multirow{2}{*}{Gifhorn process}   & \multirow{2}{*}{Struvite}                   & \multirow{2}{*}{40}                                                                                    & 65700                                                          & 400384                                                      & \multirow{2}{*}{0.82} \\
+			&     &                    &                                                                                     & 328500                                                         & 1491509                                                     &                                    \\
+			& \multirow{2}{*}{PHOXNAN}           & \multirow{2}{*}{Struvite}                   & \multirow{2}{*}{51}                                                                                    & 65700                                                          & 891667                                                      & \multirow{2}{*}{0.84} \\
+			&            &                    &                                                                                     & 328500                                                         & 3468902                                                     &                                    \\
+			& \multirow{2}{*}{Aqua Reci}         & \multirow{2}{*}{Calcium phosphate}          & \multirow{2}{*}{61}                                                                                    & 65700                                                          & 939605                                                      & \multirow{2}{*}{0.82}  \\
+			&         &            &                                                                                     & 328500                                                         & 3529595                                                     &                                    \\
+			& \multirow{2}{*}{MEPHREC}           & \multirow{2}{*}{P rich slag}                & \multirow{2}{*}{68}                                                                                    & 65700                                                          & 1154473                                                     & \multirow{2}{*}{0.61} \\
+			&            &                &                                                                                     & 657000                                                         & 4715866                                                     &                                    \\ \bottomrule
+		\end{tabular}
+		%			\begin{tablenotes}
+		%				\footnotesize
+		%				\item 1: \citet{MilkOntario}
+		%			\end{tablenotes}
+		%	\end{threeparttable}
+	}
+\end{table}
+
 \section{Distribution of CAFOs size in regions of the the Great Lakes area}
 The size distribution of Ontario's CAFOs is not reported by public databases, but the number of animals is aggreggated at Census Division level REF, REF. As an approximation, the size distribution of CAFOs of other regions in the vicinity of the Great Lakes area reporting the size of CAFOs is calculated and extrapolated to the province of Ontario. The size distribution of CAFOs is determined for the US states of Ohio REF, Pennsylvania REF, Indiana REF, Michigan REF, and Wisconsin REF. The distribution of CAFOs size has been fit to a truncated normal distribution, since the possible size of livestock facilities is bounded between 300 animal units for being considered as an intensive livestock production facility REF, and 10,000 animal units in order to remove extra-large CAFOs that are outliers in the size distribution, avoiding excessive long tails distorting the distributions. The probability density distribution of a truncated normal distribution is shown in Eq. \ref{eq:tuncnorm}, where $\mu$, $\sigma^2$, $a$, and $b$ denote the mean, variance, and lower and upper bounds respectively, while $\Theta$ denotes the probability density distribution of the standard normal distribution, as shown in Eq. \ref{eq:PDFstandardnorm}, and $\Phi$ denotes the cumulative distribution function of the standard normal distribution, as shown in Eq. \ref{eqCDFstandardnorm}. Figure \ref{fig:CAFOsSizeDist} represent the distribution of CAFOs using the kernel density estimation (KDE) REF, and Table \ref{table:CAFOsFitParameters} collect the truncated normal distribution fitting parameters for each evaluated region.
 

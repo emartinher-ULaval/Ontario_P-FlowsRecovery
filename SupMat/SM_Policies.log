@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  3 AUG 2022 17:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  3 AUG 2022 16:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**PFlowsPaper.tex
-(./PFlowsPaper.tex
+**SM_Policies.tex
+(./SM_Policies.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03>
 (/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
@@ -87,7 +87,7 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \@sep=\skip49
 \@@sep=\skip50
 
-(./PFlowsPaper.spl) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(./SM_Policies.spl) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
@@ -95,7 +95,7 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count193
 )
 \splwrite=\write3
-\openout3 = `PFlowsPaper.spl'.
+\openout3 = `SM_Policies.spl'.
 
 \appnamewidth=\dimen145
 ) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -463,33 +463,27 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip61
 )
-(./PFlowsPaper.aux
+(./SM_Policies.aux)
+\openout1 = `SM_Policies.aux'.
 
-LaTeX Warning: Label `fig:CAFOsSize_Scenario2' multiply defined.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
+LaTeX Font Info:    ... okay on input line 64.
 
-
-LaTeX Warning: Label `sub@fig:CAFOsSize_Scenario2' multiply defined.
-
-)
-\openout1 = `PFlowsPaper.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 51.
-LaTeX Font Info:    ... okay on input line 51.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count306
 \scratchdimen=\dimen199
@@ -554,7 +548,7 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring ON on input line 51.
+Package hyperref Info: Link coloring ON on input line 64.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
@@ -566,217 +560,96 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count312
 )
-LaTeX Info: Redefining \ref on input line 51.
-LaTeX Info: Redefining \pageref on input line 51.
-LaTeX Info: Redefining \nameref on input line 51.
+LaTeX Info: Redefining \ref on input line 64.
+LaTeX Info: Redefining \pageref on input line 64.
+LaTeX Info: Redefining \nameref on input line 64.
 
-(./PFlowsPaper.out) (./PFlowsPaper.out)
+(./SM_Policies.out) (./SM_Policies.out)
 \@outlinefile=\write4
-\openout4 = `PFlowsPaper.out'.
+\openout4 = `SM_Policies.out'.
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 78.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) (./SM_Policies.toc)
+\tf@toc=\write5
+\openout5 = `SM_Policies.toc'.
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 85.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 85.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 85.
+(hyperref)                removing `\<def>-command' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 85.
+(hyperref)                removing `\cnotenum' on input line 102.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\<def>-command' on input line 102.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\@corref' on input line 102.
 
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3] [4] [5] [6]
-[7] [8]
-<Figures/TEmporary.png, id=261, 444.15938pt x 448.67625pt>
-File: Figures/TEmporary.png Graphic file (type png)
-<use Figures/TEmporary.png>
-Package pdftex.def Info: Figures/TEmporary.png  used on input line 187.
-(pdftex.def)             Requested size: 215.0023pt x 217.18324pt.
- [9] [10 <./Figures/TEmporary.png (PNG copy)>]
-LaTeX Font Info:    Calculating math sizes for size <5.6> on input line 203.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.91998> not available
-(Font)              size <5> substituted on input line 203.
-
-
-LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <2.8> not available
-(Font)              size <5> substituted on input line 203.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.91998> not available
-(Font)              size <5> substituted on input line 203.
-
-
-LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2.8> not available
-(Font)              size <5> substituted on input line 203.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.91998> not available
-(Font)              size <5> substituted on input line 203.
-
-
-LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2.8> not available
-(Font)              size <5> substituted on input line 203.
-
-
-Overfull \hbox (44.54054pt too wide) in paragraph at lines 204--283
- [][] 
- []
-
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-
-pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Diagram2-3.pdf): PDF inclusio
-n: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Diagram2-3.pdf, id=309, 420.33257pt x 550.81688pt>
-File: Figures/Diagram2-3.pdf Graphic file (type pdf)
-<use Figures/Diagram2-3.pdf>
-Package pdftex.def Info: Figures/Diagram2-3.pdf  used on input line 292.
-(pdftex.def)             Requested size: 430.00462pt x 563.51514pt.
-[11]
-Overfull \vbox (36.03856pt too high) has occurred while \output is active []
-
-
-[12 <./Figures/Diagram2-3.pdf>] [13] [14]
-<Figures/Scenario1_CAFOs_Size_Distribution.pdf, id=466, 533.85759pt x 352.05275
-pt>
-File: Figures/Scenario1_CAFOs_Size_Distribution.pdf Graphic file (type pdf)
-<use Figures/Scenario1_CAFOs_Size_Distribution.pdf>
-Package pdftex.def Info: Figures/Scenario1_CAFOs_Size_Distribution.pdf  used on
- input line 325.
-(pdftex.def)             Requested size: 210.70462pt x 135.33784pt.
-<Figures/Scenario2_CAFOs_Size_Distribution.pdf, id=468, 533.85759pt x 352.05275
-pt>
-File: Figures/Scenario2_CAFOs_Size_Distribution.pdf Graphic file (type pdf)
-<use Figures/Scenario2_CAFOs_Size_Distribution.pdf>
-Package pdftex.def Info: Figures/Scenario2_CAFOs_Size_Distribution.pdf  used on
- input line 331.
-(pdftex.def)             Requested size: 210.70462pt x 135.33784pt.
-<Figures/Scenario1_SwineCAFOs_Size_Distribution.pdf, id=470, 533.84062pt x 352.
-05275pt>
-File: Figures/Scenario1_SwineCAFOs_Size_Distribution.pdf Graphic file (type pdf
-)
-<use Figures/Scenario1_SwineCAFOs_Size_Distribution.pdf>
-Package pdftex.def Info: Figures/Scenario1_SwineCAFOs_Size_Distribution.pdf  us
-ed on input line 340.
-(pdftex.def)             Requested size: 210.70462pt x 135.33784pt.
-LaTeX Font Info:    Trying to load font information for OML+cmr on input line 3
-71.
-
-(/usr/share/texlive/texmf-dist/tex/latex/base/omlcmr.fd
-File: omlcmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <10> not available
-(Font)              Font shape `OML/cmm/m/it' tried instead on input line 371.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[15 <./Figures/Scenario1_CAFOs_Size_Distribution.pdf> <./Figures/Scenario2_CAFO
-s_Size_Distribution.pdf> <./Figures/Scenario1_SwineCAFOs_Size_Distribution.pdf>
-] (./PFlowsPaper.bbl
-Underfull \hbox (badness 6125) in paragraph at lines 16--22
-[]\OT1/cmr/m/n/10 Algoma Steel Inc., 2022.  Cor-po-rate Pro-file.  [][]$\OT1/cm
-tt/m/n/10 https : / / algoma . com / about-[]algoma /
- []
-
-[16]
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
-[]\OT1/cmr/m/n/10 Cheminfo Ser-vices Inc., 2019.  Eco-nomic As-sess-ment of the
- In-te-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 54--61
-\OT1/cmr/m/n/10 grated Steel In-dus-try.  [][]$\OT1/cmtt/m/n/10 https : / / www
- . canadiansteel . ca / files / resources /
- []
-
-
-Underfull \hbox (badness 1442) in paragraph at lines 54--61
-\OT1/cmtt/m/n/10 Final-[]Report-[]Economic-[]Assessment-[]of-[]the-[]Integrated
--[]Steel-[]Industry . pdf$[][]\OT1/cmr/m/n/10 .  [On-line;
- []
-
-[17]
-Underfull \hbox (badness 2181) in paragraph at lines 186--192
-[]\OT1/cmr/m/n/10 Opendatasoft, 2019.  Cen-sus di-vi-sions - Canada.  [][]$\OT1
-/cmtt/m/n/10 https : / / public . opendatasoft . com /
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 186--192
-\OT1/cmtt/m/n/10 explore / dataset / georef-[]canada-[]census-[]division / tabl
-e / ?disjunctive . prov _ name _
- []
-
-[18] [19] [20]) [21] [22] [23] (./PFlowsPaper.aux)
-
-LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 3.25pt have occurred.
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `PFlowsPaper.out' has not changed.
-(rerunfilecheck)             Checksum: E1693764BB3E9B385D9F1B5E7863C0BA;1767.
+[2] [3]
+<SupMat_Figures/CAFOs_Size_Distribution.pdf, id=97, 714.43787pt x 1074.7528pt>
+File: SupMat_Figures/CAFOs_Size_Distribution.pdf Graphic file (type pdf)
+<use SupMat_Figures/CAFOs_Size_Distribution.pdf>
+Package pdftex.def Info: SupMat_Figures/CAFOs_Size_Distribution.pdf  used on in
+put line 184.
+(pdftex.def)             Requested size: 348.30269pt x 523.97679pt.
+ [4] (./SM_Policies.bbl [5 <./SupMat_Figures/CAFOs_Size_Distribution.pdf>]) [6]
+ (./SM_Policies.aux)
+Package rerunfilecheck Info: File `SM_Policies.out' has not changed.
+(rerunfilecheck)             Checksum: 014D870BFB16968B9EA5432BDB1BCA48;363.
  ) 
 Here is how much of TeX's memory you used:
- 10938 strings out of 479304
- 173420 string characters out of 5869780
- 576428 words of memory out of 5000000
- 27812 multiletter control sequences out of 15000+600000
- 416682 words of font info for 83 fonts, out of 8000000 for 9000
+ 10609 strings out of 479304
+ 166090 string characters out of 5869780
+ 517786 words of memory out of 5000000
+ 27562 multiletter control sequences out of 15000+600000
+ 410518 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,23n,91p,1834b,662s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,17n,88p,1664b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><
-/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmtt8.pfb>
-Output written on PFlowsPaper.pdf (23 pages, 829390 bytes).
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.
+pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmtt8.pfb>
+Output written on SM_Policies.pdf (6 pages, 248339 bytes).
 PDF statistics:
- 792 PDF objects out of 1000 (max. 8388607)
- 566 compressed objects within 6 object streams
- 104 named destinations out of 1000 (max. 500000)
- 240 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 163 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 44 words of extra memory for PDF output out of 10000 (max. 10000000)
 

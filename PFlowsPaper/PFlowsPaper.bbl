@@ -1,4 +1,4 @@
-\begin{thebibliography}{36}
+\begin{thebibliography}{45}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -18,6 +18,14 @@
 \newblock
   \bibinfo{howpublished}{\url{https://algoma.com/about-algoma/corporate-profile/}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Misc
+\bibitem[{{AMPC}(2018)}]{Pearl2Kcost2}
+\bibinfo{author}{{AMPC}}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{Struvite or Traditional Chemical Phosphorus
+  Precipitation – What Option Rocks?}}
+\newblock
+  \bibinfo{howpublished}{\url{https://www.ampc.com.au/uploads/cgblog/id408/2018-1026_-_Final_Report.pdf}}.
+\newblock \bibinfo{note}{[Online; accessed 20-March-2019]}.
 %Type = Article
 \bibitem[{Boh and Clark(2020)}]{boh2020nitrogen}
 \bibinfo{author}{Boh, M.Y.}, \bibinfo{author}{Clark, O.G.},
@@ -66,6 +74,20 @@
 \newblock \bibinfo{journal}{Global environmental change} \bibinfo{volume}{19},
   \bibinfo{pages}{292--305}.
 %Type = Article
+\bibitem[{Egle et~al.(2016)Egle, Rechberger, Krampe and
+  Zessner}]{egle_phosphorus_2016}
+\bibinfo{author}{Egle, L.}, \bibinfo{author}{Rechberger, H.},
+  \bibinfo{author}{Krampe, J.}, \bibinfo{author}{Zessner, M.},
+  \bibinfo{year}{2016}.
+\newblock \bibinfo{title}{Phosphorus recovery from municipal wastewater: {An}
+  integrated comparative technological, environmental and economic assessment
+  of {P} recovery technologies}.
+\newblock \bibinfo{journal}{Science of The Total Environment}
+  \bibinfo{volume}{571}, \bibinfo{pages}{522--542}.
+\newblock \URLprefix
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0048969716314656},
+  \DOIprefix\doi{10.1016/j.scitotenv.2016.07.019}.
+%Type = Article
 \bibitem[{Ehlert et~al.(2003)Ehlert, Morel, Fotyma and
   Destain}]{ehlert2003potential}
 \bibinfo{author}{Ehlert, P.}, \bibinfo{author}{Morel, C.},
@@ -83,6 +105,16 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.fao.org/3/i2697e/i2697e.pdfg}}.
 \newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
+%Type = Article
+\bibitem[{Fern{\'a}ndez-Delgado et~al.(2022)Fern{\'a}ndez-Delgado, del
+  Amo-Mateos, Garc{\'\i}a-Cubero, Coca and Lucas}]{fernandez2022phosphorus}
+\bibinfo{author}{Fern{\'a}ndez-Delgado, M.}, \bibinfo{author}{del Amo-Mateos,
+  E.}, \bibinfo{author}{Garc{\'\i}a-Cubero, M.T.}, \bibinfo{author}{Coca, M.},
+  \bibinfo{author}{Lucas, S.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Phosphorus recovery from organic waste for its
+  agronomic valorization: technical and economic evaluation}.
+\newblock \bibinfo{journal}{Journal of Chemical Technology \& Biotechnology}
+  \bibinfo{volume}{97}, \bibinfo{pages}{167--178}.
 %Type = Misc
 \bibitem[{{Food and Agriculture Organization of the United
   Nations}(2022)}]{FAO_UkraineWar}
@@ -99,6 +131,15 @@
   \bibinfo{howpublished}{\url{https://food-nutrition.canada.ca/cnf-fce/index-eng.jsp}}.
 \newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
 %Type = Article
+\bibitem[{Jupp et~al.(2021)Jupp, Beijer, Narain, Schipper and
+  Slootweg}]{jupp2021phosphorus}
+\bibinfo{author}{Jupp, A.R.}, \bibinfo{author}{Beijer, S.},
+  \bibinfo{author}{Narain, G.C.}, \bibinfo{author}{Schipper, W.},
+  \bibinfo{author}{Slootweg, J.C.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Phosphorus recovery and recycling--closing the loop}.
+\newblock \bibinfo{journal}{Chemical Society Reviews} \bibinfo{volume}{50},
+  \bibinfo{pages}{87--101}.
+%Type = Article
 \bibitem[{Mart{\'\i}n-Hern{\'a}ndez et~al.(2021)Mart{\'\i}n-Hern{\'a}ndez,
   Mart{\'\i}n and Ruiz-Mercado}]{martin2021geospatial}
 \bibinfo{author}{Mart{\'\i}n-Hern{\'a}ndez, E.}, \bibinfo{author}{Mart{\'\i}n,
@@ -114,6 +155,12 @@
 \newblock \bibinfo{title}{Global phosphorus flows through agricultural trade}.
 \newblock \bibinfo{journal}{Global Environmental Change} \bibinfo{volume}{50},
   \bibinfo{pages}{133--141}.
+%Type = Book
+\bibitem[{Ohtake and Tsuneda(2019)}]{ohtake2019phosphorus}
+\bibinfo{author}{Ohtake, H.}, \bibinfo{author}{Tsuneda, S.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Phosphorus recovery and recycling}.
+\newblock \bibinfo{publisher}{Springer}.
 %Type = Article
 \bibitem[{Oldfield et~al.(2020)Oldfield, Rakhimbekova, Roy and
   Robinson}]{oldfield2020estimation}
@@ -174,6 +221,15 @@
   sources}, in: \bibinfo{editor}{Zhang, T.} (Ed.),
   \bibinfo{booktitle}{Phosphorus}. \bibinfo{publisher}{IntechOpen}.
   chapter~\bibinfo{chapter}{6}.
+%Type = Techreport
+\bibitem[{Schoumans et~al.(2010)Schoumans, Rulkens, Oenema and
+  Ehlert}]{schoumans2010phosphorus}
+\bibinfo{author}{Schoumans, O.}, \bibinfo{author}{Rulkens, W.},
+  \bibinfo{author}{Oenema, O.}, \bibinfo{author}{Ehlert, P.},
+  \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{Phosphorus recovery from animal manure: Technical
+  opportunities and agro-economical perspectives}.
+\newblock \bibinfo{type}{Technical Report}. Alterra.
 %Type = Article
 \bibitem[{Senthilkumar et~al.(2012)Senthilkumar, Nesme, Mollier and
   Pellerin}]{senthilkumar2012conceptual}
@@ -183,6 +239,14 @@
 \newblock \bibinfo{title}{{Conceptual design and quantification of phosphorus
   flows and balances at the country scale: The case of France}}.
 \newblock \bibinfo{journal}{Global Biogeochemical Cycles} \bibinfo{volume}{26}.
+%Type = Article
+\bibitem[{Sharma and Chandel(2021)}]{sharma2021life}
+\bibinfo{author}{Sharma, B.K.}, \bibinfo{author}{Chandel, M.K.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Life cycle cost analysis of municipal solid waste
+  management scenarios for mumbai, india}.
+\newblock \bibinfo{journal}{Waste Management} \bibinfo{volume}{124},
+  \bibinfo{pages}{293--302}.
 %Type = Misc
 \bibitem[{{Statistics Canada -- Statistique Canada}(2017)}]{CensusDivisionCD}
 \bibinfo{author}{{Statistics Canada -- Statistique Canada}},
@@ -257,6 +321,13 @@
 \newblock \bibinfo{title}{Phosphorus recovery from poultry litter}.
 \newblock \bibinfo{journal}{Transactions of the ASABE} \bibinfo{volume}{51},
   \bibinfo{pages}{1727--1734}.
+%Type = Book
+\bibitem[{Towler and Sinnott(2013)}]{towler2013chemical}
+\bibinfo{author}{Towler, G.}, \bibinfo{author}{Sinnott, R.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Chemical engineering design: principles, practice and
+  economics of plant and process design}.
+\newblock \bibinfo{publisher}{Butterworth-Heinemann}.
 %Type = Misc
 \bibitem[{{United Nations Environment Programme}(2022)}]{UN_Phosphorus}
 \bibinfo{author}{{United Nations Environment Programme}}, \bibinfo{year}{2022}.
@@ -297,6 +368,16 @@
 \newblock \bibinfo{title}{{Data on Export, Import, Tariff}}.
 \newblock \bibinfo{howpublished}{\url{https://wits.worldbank.org/}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Article
+\bibitem[{Zagklis et~al.(2020)Zagklis, Konstantinidou, Zafiri and
+  Kornaros}]{zagklis2020assessing}
+\bibinfo{author}{Zagklis, D.}, \bibinfo{author}{Konstantinidou, E.},
+  \bibinfo{author}{Zafiri, C.}, \bibinfo{author}{Kornaros, M.},
+  \bibinfo{year}{2020}.
+\newblock \bibinfo{title}{Assessing the economic viability of an animal
+  byproduct rendering plant: Case study of a slaughterhouse in greece}.
+\newblock \bibinfo{journal}{Sustainability} \bibinfo{volume}{12},
+  \bibinfo{pages}{5870}.
 %Type = Article
 \bibitem[{Zhou et~al.(2021)Zhou, Jiao, Ma, de~Vries, Zhang and
   Shen}]{zhou2021model}
