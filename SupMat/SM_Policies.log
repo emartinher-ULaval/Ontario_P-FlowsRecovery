@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  3 AUG 2022 16:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  9 AUG 2022 14:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -586,19 +586,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 102.
+(hyperref)                removing `\<def>-command' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 102.
+(hyperref)                removing `\cnotenum' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 102.
+(hyperref)                removing `\<def>-command' on input line 100.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 102.
+(hyperref)                removing `\@corref' on input line 100.
 
 [1
 
@@ -608,25 +608,26 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [2] [3]
-<SupMat_Figures/CAFOs_Size_Distribution.pdf, id=97, 714.43787pt x 1074.7528pt>
+<SupMat_Figures/CAFOs_Size_Distribution.pdf, id=100, 714.43787pt x 1074.7528pt>
+
 File: SupMat_Figures/CAFOs_Size_Distribution.pdf Graphic file (type pdf)
 <use SupMat_Figures/CAFOs_Size_Distribution.pdf>
 Package pdftex.def Info: SupMat_Figures/CAFOs_Size_Distribution.pdf  used on in
 put line 184.
 (pdftex.def)             Requested size: 348.30269pt x 523.97679pt.
- [4] (./SM_Policies.bbl [5 <./SupMat_Figures/CAFOs_Size_Distribution.pdf>]) [6]
- (./SM_Policies.aux)
+ [4] [5 <./SupMat_Figures/CAFOs_Size_Distribution.pdf>]
+(./SM_Policies.bbl) [6] (./SM_Policies.aux)
 Package rerunfilecheck Info: File `SM_Policies.out' has not changed.
-(rerunfilecheck)             Checksum: 014D870BFB16968B9EA5432BDB1BCA48;363.
+(rerunfilecheck)             Checksum: D65B6A3163770BDB8AD93F75364734AE;416.
  ) 
 Here is how much of TeX's memory you used:
- 10609 strings out of 479304
- 166090 string characters out of 5869780
- 517786 words of memory out of 5000000
- 27562 multiletter control sequences out of 15000+600000
+ 10613 strings out of 479304
+ 166149 string characters out of 5869780
+ 514936 words of memory out of 5000000
+ 27564 multiletter control sequences out of 15000+600000
  410518 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,17n,88p,1664b,423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,17n,88p,1664b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -646,10 +647,10 @@ t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts
 /type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmtt8.pfb>
-Output written on SM_Policies.pdf (6 pages, 248339 bytes).
+Output written on SM_Policies.pdf (6 pages, 250579 bytes).
 PDF statistics:
- 238 PDF objects out of 1000 (max. 8388607)
- 163 compressed objects within 2 object streams
- 31 named destinations out of 1000 (max. 500000)
- 44 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 245 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 33 named destinations out of 1000 (max. 500000)
+ 52 words of extra memory for PDF output out of 10000 (max. 10000000)
 
