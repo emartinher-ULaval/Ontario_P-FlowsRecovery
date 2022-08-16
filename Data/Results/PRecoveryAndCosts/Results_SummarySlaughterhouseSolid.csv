@@ -1,0 +1,4 @@
+,PInflow (kgPin/year),Minimum cost technology,Minimum cost P recovered (kg P/year),Minimum cost P recovered (% over inflow),Minimum cost P recovery cost (EUR/kg P recovered),Minimum cost P recovery cost (EUR/year),Maximum P recovery technology,Maximum P recovery P recovered (kg P/year),Maximum P recovery P recovered (% over inflow),Maximum P recovery P recovery cost (EUR/kg P recovered),Maximum P recovery P recovery cost (EUR/year)
+Cattle,2222000.0,AshDec depollution,1644280.0,74.0,16.4,26966192.0,RecoPhos,1666500.0,75.0,17.1,28497150.000000004
+Swine,621000.0,AshDec depollution,459540.0,74.0,16.4,7536455.999999999,RecoPhos,465750.0,75.0,17.1,7964325.000000001
+Poultry,904000.0,AshDec depollution,668960.0,74.0,16.4,10970943.999999998,RecoPhos,678000.0,75.0,17.1,11593800.000000002

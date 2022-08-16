@@ -1,0 +1,4 @@
+,PInflow (kgPin/year),Minimum cost technology,Minimum cost P recovered (kg P/year),Minimum cost P recovered (% over inflow),Minimum cost P recovery cost (EUR/kg P recovered),Minimum cost P recovery cost (EUR/year),Maximum P recovery technology,Maximum P recovery P recovered (kg P/year),Maximum P recovery P recovered (% over inflow),Maximum P recovery P recovery cost (EUR/kg P recovered),Maximum P recovery P recovery cost (EUR/year)
+Cattle,2222000.0,Ostara Pearl 10K,177760.0,8.0,20.114096939170302,3575481.871906913,Multiform,399960.0,18.0,31.868945715096352,12746303.528209938
+Swine,621000.0,Ostara Pearl 2K,49680.0,8.0,25.614171509305272,1272512.040582286,Multiform,111780.0,18.0,32.07577519160069,3585430.1509171254
+Poultry,904000.0,Ostara Pearl 2K,72320.0,8.0,22.479204100971877,1625696.040582286,Multiform,162720.0,18.0,32.36403162718589,5266275.226375688
