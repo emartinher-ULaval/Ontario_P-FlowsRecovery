@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{51}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -162,6 +162,16 @@
 \newblock \bibinfo{journal}{Chemical Society Reviews} \bibinfo{volume}{50},
   \bibinfo{pages}{87--101}.
 %Type = Article
+\bibitem[{Mart{\'\i}n-Hern{\'a}ndez et~al.(2022)Mart{\'\i}n-Hern{\'a}ndez, Hu,
+  Zavala, Mart{\'\i}n and Ruiz-Mercado}]{martin2022analysis}
+\bibinfo{author}{Mart{\'\i}n-Hern{\'a}ndez, E.}, \bibinfo{author}{Hu, Y.},
+  \bibinfo{author}{Zavala, V.M.}, \bibinfo{author}{Mart{\'\i}n, M.},
+  \bibinfo{author}{Ruiz-Mercado, G.J.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Analysis of incentive policies for phosphorus
+  recovery at livestock facilities in the great lakes area}.
+\newblock \bibinfo{journal}{Resources, Conservation and Recycling}
+  \bibinfo{volume}{177}, \bibinfo{pages}{105973}.
+%Type = Article
 \bibitem[{Mart{\'\i}n-Hern{\'a}ndez et~al.(2021)Mart{\'\i}n-Hern{\'a}ndez,
   Mart{\'\i}n and Ruiz-Mercado}]{martin2021geospatial}
 \bibinfo{author}{Mart{\'\i}n-Hern{\'a}ndez, E.}, \bibinfo{author}{Mart{\'\i}n,
@@ -260,7 +270,7 @@
   \bibinfo{year}{2010}.
 \newblock \bibinfo{title}{Phosphorus recovery from animal manure: Technical
   opportunities and agro-economical perspectives}.
-\newblock \bibinfo{type}{Technical Report}. Alterra.
+\newblock \bibinfo{type}{Technical Report}. {Alterra, Wageningen UR}.
 %Type = Article
 \bibitem[{Senthilkumar et~al.(2012)Senthilkumar, Nesme, Mollier and
   Pellerin}]{senthilkumar2012conceptual}
@@ -321,18 +331,26 @@
   \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210008801}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
 %Type = Misc
-\bibitem[{{Statistics Canada - Statisque Canada}(2022b)}]{PopulationCanada}
+\bibitem[{{Statistics Canada - Statisque Canada}(2022b)}]{CAFOSAvgSize}
 \bibinfo{author}{{Statistics Canada - Statisque Canada}},
   \bibinfo{year}{2022}b.
+\newblock \bibinfo{title}{{Livestock estimates}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/n1/daily-quotidien/220228/dq220228d-cansim-eng.htm}}.
+\newblock \bibinfo{note}{[Online; accessed 15-August-2022]}.
+%Type = Misc
+\bibitem[{{Statistics Canada - Statisque Canada}(2022c)}]{PopulationCanada}
+\bibinfo{author}{{Statistics Canada - Statisque Canada}},
+  \bibinfo{year}{2022}c.
 \newblock \bibinfo{title}{{Population estimates, quarterly}}.
 \newblock
   \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901}}.
 \newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
 %Type = Misc
 \bibitem[{{Statistics Canada - Statisque
-  Canada}(2022c)}]{TradeDataOnlineCanada}
+  Canada}(2022d)}]{TradeDataOnlineCanada}
 \bibinfo{author}{{Statistics Canada - Statisque Canada}},
-  \bibinfo{year}{2022}c.
+  \bibinfo{year}{2022}d.
 \newblock \bibinfo{title}{{Trade Data Online}}.
 \newblock
   \bibinfo{howpublished}{\url{https://www.ic.gc.ca//app/scr/tdst/tdo/crtr.html?&productType=HS6&lang=eng}}.
