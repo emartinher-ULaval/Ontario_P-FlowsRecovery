@@ -1,4 +1,4 @@
-\begin{thebibliography}{51}
+\begin{thebibliography}{54}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -13,12 +13,27 @@
 \ifx\xfnm\relax \def\xfnm[#1]{\unskip,\space#1}\fi
 %Type = Misc
 \bibitem[{{Agriculture and Agri-Food
-  Canada}(2021)}]{SlaughterhouseDistribution}
-\bibinfo{author}{{Agriculture and Agri-Food Canada}}, \bibinfo{year}{2021}.
+  Canada}(2021a)}]{SlaughterhouseDistribution}
+\bibinfo{author}{{Agriculture and Agri-Food Canada}}, \bibinfo{year}{2021}a.
 \newblock \bibinfo{title}{{Distribution of slaughtering activity}}.
 \newblock
   \bibinfo{howpublished}{\url{https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/red-meat-and-livestock-market-information/slaughter-and-carcass-weights/distribution-slaughtering-activity}}.
 \newblock \bibinfo{note}{[Online; accessed 22-August-2022]}.
+%Type = Misc
+\bibitem[{{Agriculture and Agri-Food Canada}(2021b)}]{SlaughterFederalPoultry}
+\bibinfo{author}{{Agriculture and Agri-Food Canada}}, \bibinfo{year}{2021}b.
+\newblock \bibinfo{title}{{Poultry slaughter reports}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/poultry-and-egg-market-information/slaughter}}.
+\newblock \bibinfo{note}{[Online; accessed 16-December-2021]}.
+%Type = Misc
+\bibitem[{{Agriculture and Agri-Food Canada}(2021c)}]{SlaughterFederalRedMeat}
+\bibinfo{author}{{Agriculture and Agri-Food Canada}}, \bibinfo{year}{2021}c.
+\newblock \bibinfo{title}{{Red meat and livestock slaughter and carcass
+  weights}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/red-meat-and-livestock-market-information/slaughter-and-carcass-weights}}.
+\newblock \bibinfo{note}{[Online; accessed 15-December-2021]}.
 %Type = Misc
 \bibitem[{{Algoma Steel Inc.}(2022)}]{AlgomaSteel}
 \bibinfo{author}{{Algoma Steel Inc.}}, \bibinfo{year}{2022}.
@@ -348,9 +363,19 @@
 \newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
 %Type = Misc
 \bibitem[{{Statistics Canada - Statisque
-  Canada}(2022d)}]{TradeDataOnlineCanada}
+  Canada}(2022d)}]{CAFOSAvgSizeAndNumber}
 \bibinfo{author}{{Statistics Canada - Statisque Canada}},
   \bibinfo{year}{2022}d.
+\newblock \bibinfo{title}{{Selected livestock and poultry, Census of
+  Agriculture historical data}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210015501}}.
+\newblock \bibinfo{note}{[Online; accessed 18-August-2022]}.
+%Type = Misc
+\bibitem[{{Statistics Canada - Statisque
+  Canada}(2022e)}]{TradeDataOnlineCanada}
+\bibinfo{author}{{Statistics Canada - Statisque Canada}},
+  \bibinfo{year}{2022}e.
 \newblock \bibinfo{title}{{Trade Data Online}}.
 \newblock
   \bibinfo{howpublished}{\url{https://www.ic.gc.ca//app/scr/tdst/tdo/crtr.html?&productType=HS6&lang=eng}}.

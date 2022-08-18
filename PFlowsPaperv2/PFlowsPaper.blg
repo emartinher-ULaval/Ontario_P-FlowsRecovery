@@ -5,45 +5,45 @@ The style file: elsarticle-harv.bst
 Database file #1: references.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty pages in Kausar19
-You've used 51 entries,
+You've used 54 entries,
             2990 wiz_defined-function locations,
-            927 strings with 15806 characters,
-and the built_in function-call counts, 28889 in all, are:
-= -- 2221
-> -- 994
-< -- 34
-+ -- 394
-- -- 334
-* -- 2928
-:= -- 4292
-add.period$ -- 174
-call.type$ -- 51
-change.case$ -- 388
+            942 strings with 16546 characters,
+and the built_in function-call counts, 30223 in all, are:
+= -- 2329
+> -- 1024
+< -- 37
++ -- 409
+- -- 343
+* -- 3047
+:= -- 4494
+add.period$ -- 186
+call.type$ -- 54
+change.case$ -- 409
 chr.to.int$ -- 48
-cite$ -- 52
-duplicate$ -- 2294
-empty$ -- 2184
-format.name$ -- 449
-if$ -- 5328
-int.to.chr$ -- 4
+cite$ -- 55
+duplicate$ -- 2411
+empty$ -- 2289
+format.name$ -- 461
+if$ -- 5574
+int.to.chr$ -- 7
 int.to.str$ -- 1
-missing$ -- 413
-newline$ -- 291
-num.names$ -- 206
-pop$ -- 833
+missing$ -- 431
+newline$ -- 309
+num.names$ -- 218
+pop$ -- 872
 preamble$ -- 1
-purify$ -- 315
+purify$ -- 330
 quote$ -- 0
-skip$ -- 668
+skip$ -- 702
 stack$ -- 0
-substring$ -- 1099
-swap$ -- 1507
+substring$ -- 1138
+swap$ -- 1577
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 450
+type$ -- 477
 warning$ -- 1
-while$ -- 189
+while$ -- 198
 width$ -- 0
-write$ -- 745
+write$ -- 790
 (There was 1 warning)
