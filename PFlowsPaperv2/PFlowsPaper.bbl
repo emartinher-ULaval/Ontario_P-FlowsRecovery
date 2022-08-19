@@ -1,4 +1,4 @@
-\begin{thebibliography}{54}
+\begin{thebibliography}{57}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -103,6 +103,22 @@
   food for thought}.
 \newblock \bibinfo{journal}{Global environmental change} \bibinfo{volume}{19},
   \bibinfo{pages}{292--305}.
+%Type = Article
+\bibitem[{Du et~al.(2019)Du, Gao, Ueda and Kitamura}]{du2019separation}
+\bibinfo{author}{Du, C.M.}, \bibinfo{author}{Gao, X.}, \bibinfo{author}{Ueda,
+  S.}, \bibinfo{author}{Kitamura, S.Y.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Separation and recovery of phosphorus from
+  steelmaking slag via a selective leaching--chemical precipitation process}.
+\newblock \bibinfo{journal}{Hydrometallurgy} \bibinfo{volume}{189},
+  \bibinfo{pages}{105109}.
+%Type = Article
+\bibitem[{Du et~al.(2022)Du, Gao, Ueda and Kitamura}]{du2022recovery}
+\bibinfo{author}{Du, C.m.}, \bibinfo{author}{Gao, X.}, \bibinfo{author}{Ueda,
+  S.}, \bibinfo{author}{Kitamura, S.y.}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{Recovery of high-quality phosphate from steelmaking
+  slag by a hydrometallurgical process}.
+\newblock \bibinfo{journal}{Science of The Total Environment}
+  \bibinfo{volume}{819}, \bibinfo{pages}{153125}.
 %Type = Article
 \bibitem[{Egle et~al.(2016)Egle, Rechberger, Krampe and
   Zessner}]{egle_phosphorus_2016}
@@ -442,6 +458,17 @@
 \newblock \bibinfo{title}{{Data on Export, Import, Tariff}}.
 \newblock \bibinfo{howpublished}{\url{https://wits.worldbank.org/}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Article
+\bibitem[{Yokoyama et~al.(2007)Yokoyama, Kubo, Mori, Okada, Takeuchi and
+  Nagasaka}]{yokoyama2007separation}
+\bibinfo{author}{Yokoyama, K.}, \bibinfo{author}{Kubo, H.},
+  \bibinfo{author}{Mori, K.}, \bibinfo{author}{Okada, H.},
+  \bibinfo{author}{Takeuchi, S.}, \bibinfo{author}{Nagasaka, T.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Separation and recovery of phosphorus from
+  steelmaking slags with the aid of a strong magnetic field}.
+\newblock \bibinfo{journal}{ISIJ international} \bibinfo{volume}{47},
+  \bibinfo{pages}{1541--1548}.
 %Type = Article
 \bibitem[{Zagklis et~al.(2020)Zagklis, Konstantinidou, Zafiri and
   Kornaros}]{zagklis2020assessing}

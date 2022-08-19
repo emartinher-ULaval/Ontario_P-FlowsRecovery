@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  18 AUG 2022 19:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  19 AUG 2022 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -604,40 +604,40 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/FigJorge.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/FigJorge.pdf, id=262, 555.02792pt x 497.21191pt>
+<Figures/FigJorge.pdf, id=250, 555.02792pt x 497.21191pt>
 File: Figures/FigJorge.pdf Graphic file (type pdf)
 <use Figures/FigJorge.pdf>
 Package pdftex.def Info: Figures/FigJorge.pdf  used on input line 195.
 (pdftex.def)             Requested size: 258.00539pt x 231.14044pt.
 [9] [10 <./Figures/FigJorge.pdf>] [11]
-LaTeX Font Info:    Calculating math sizes for size <5.6> on input line 230.
+LaTeX Font Info:    Calculating math sizes for size <5.6> on input line 232.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <3.91998> not available
-(Font)              size <5> substituted on input line 230.
+(Font)              size <5> substituted on input line 232.
 
 
 LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <2.8> not available
-(Font)              size <5> substituted on input line 230.
+(Font)              size <5> substituted on input line 232.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <3.91998> not available
-(Font)              size <5> substituted on input line 230.
+(Font)              size <5> substituted on input line 232.
 
 
 LaTeX Font Warning: Font shape `OML/cmm/m/it' in size <2.8> not available
-(Font)              size <5> substituted on input line 230.
+(Font)              size <5> substituted on input line 232.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <3.91998> not available
-(Font)              size <5> substituted on input line 230.
+(Font)              size <5> substituted on input line 232.
 
 
 LaTeX Font Warning: Font shape `OMS/cmsy/m/n' in size <2.8> not available
-(Font)              size <5> substituted on input line 230.
+(Font)              size <5> substituted on input line 232.
 
 
-Overfull \hbox (34.39949pt too wide) in paragraph at lines 231--311
+Overfull \hbox (34.39949pt too wide) in paragraph at lines 233--313
  [][] 
  []
 
@@ -648,31 +648,37 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Diagram2-3.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Diagram2-3.pdf, id=370, 420.33257pt x 550.81688pt>
+<Figures/Diagram2-3.pdf, id=357, 420.33257pt x 550.81688pt>
 File: Figures/Diagram2-3.pdf Graphic file (type pdf)
 <use Figures/Diagram2-3.pdf>
-Package pdftex.def Info: Figures/Diagram2-3.pdf  used on input line 322.
+Package pdftex.def Info: Figures/Diagram2-3.pdf  used on input line 323.
 (pdftex.def)             Requested size: 430.00462pt x 563.51514pt.
-[12]
-Overfull \vbox (36.03856pt too high) has occurred while \output is active []
+[12] [13]
+Overfull \vbox (84.98709pt too high) has occurred while \output is active []
 
 
-[13 <./Figures/Diagram2-3.pdf>]
-<Figures/Results_PlotSummary.pdf, id=500, 499.13383pt x 310.12102pt>
+[14 <./Figures/Diagram2-3.pdf>]
+Overfull \hbox (1.74623pt too wide) in paragraph at lines 332--333
+[]\OT1/cmr/m/n/10 Chemical in-dus-try in-volve sig-nif-i-cant phos-phjorus flow
+s, im-port-ing 22.2 kt/year into the province,
+ []
+
+[15]
+<Figures/Results_PlotSummary.pdf, id=498, 497.9421pt x 314.04192pt>
 File: Figures/Results_PlotSummary.pdf Graphic file (type pdf)
 <use Figures/Results_PlotSummary.pdf>
 Package pdftex.def Info: Figures/Results_PlotSummary.pdf  used on input line 34
 4.
-(pdftex.def)             Requested size: 387.00153pt x 240.45013pt.
-<Figures/Results_PlotSummarySpecific.pdf, id=502, 575.16473pt x 362.58624pt>
+(pdftex.def)             Requested size: 365.50655pt x 230.51852pt.
+ [16]
+<Figures/Results_PlotSummarySpecific.pdf, id=504, 583.74692pt x 366.50714pt>
 File: Figures/Results_PlotSummarySpecific.pdf Graphic file (type pdf)
 <use Figures/Results_PlotSummarySpecific.pdf>
 Package pdftex.def Info: Figures/Results_PlotSummarySpecific.pdf  used on input
  line 352.
-(pdftex.def)             Requested size: 387.00153pt x 243.96611pt.
- [14 <./Figures/Results_PlotSummary.pdf>]
-[15 <./Figures/Results_PlotSummarySpecific.pdf>] [16] [17] [18]
-(./PFlowsPaper.bbl
+(pdftex.def)             Requested size: 365.50655pt x 229.49142pt.
+ [17 <./Figures/Results_PlotSummary.pdf> <./Figures/Results_PlotSummarySpecific
+.pdf>] [18] [19] [20] [21] (./PFlowsPaper.bbl
 Underfull \hbox (badness 10000) in paragraph at lines 17--23
 []\OT1/cmr/m/n/10 Agriculture and Agri-Food Canada, 2021a.  Dis-tri-bu-tion of 
 slaugh-ter-ing ac-tiv-ity.
@@ -714,7 +720,7 @@ Underfull \hbox (badness 6125) in paragraph at lines 39--45
 tt/m/n/10 https : / / algoma . com / about-[]algoma /
  []
 
-[19]
+[22]
 Underfull \hbox (badness 10000) in paragraph at lines 84--91
 []\OT1/cmr/m/n/10 Cheminfo Ser-vices Inc., 2019.  Eco-nomic As-sess-ment of the
  In-te-
@@ -732,37 +738,37 @@ Underfull \hbox (badness 1442) in paragraph at lines 84--91
 -[]Steel-[]Industry . pdf$[][]\OT1/cmr/m/n/10 .  [On-line;
  []
 
-[20]
-Underfull \hbox (badness 5316) in paragraph at lines 165--172
+[23]
+Underfull \hbox (badness 5316) in paragraph at lines 181--188
 []\OT1/cmr/m/n/10 INAC Ser-vices, 2014.  Poul-try pro-cess-ing in Canada.  [][]
 $\OT1/cmtt/m/n/10 http : / / inacservices . com /
  []
 
-[21]
-Underfull \hbox (badness 2181) in paragraph at lines 242--248
+[24]
+Underfull \hbox (badness 2181) in paragraph at lines 258--264
 []\OT1/cmr/m/n/10 Opendatasoft, 2019.  Cen-sus di-vi-sions - Canada.  [][]$\OT1
 /cmtt/m/n/10 https : / / public . opendatasoft . com /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 242--248
+Underfull \hbox (badness 10000) in paragraph at lines 258--264
 \OT1/cmtt/m/n/10 explore / dataset / georef-[]canada-[]census-[]division / tabl
 e / ?disjunctive . prov _ name _
  []
 
-[22] [23] [24]) [25] [26] (./PFlowsPaper.aux)
+[25] [26] [27]) [28] [29] (./PFlowsPaper.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 3.25pt have occurred.
 
 Package rerunfilecheck Info: File `PFlowsPaper.out' has not changed.
-(rerunfilecheck)             Checksum: 5DB008BE941DDCC9BC84C8B34EFADD93;1630.
+(rerunfilecheck)             Checksum: C76B5DFAA75F552827B92A42C8EB9F3A;1402.
  ) 
 Here is how much of TeX's memory you used:
- 10936 strings out of 479304
- 173405 string characters out of 5869780
- 575285 words of memory out of 5000000
- 27806 multiletter control sequences out of 15000+600000
+ 10946 strings out of 479304
+ 173625 string characters out of 5869780
+ 576114 words of memory out of 5000000
+ 27813 multiletter control sequences out of 15000+600000
  416323 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  83i,21n,91p,2156b,581s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -786,10 +792,10 @@ type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt8.pfb>
-Output written on PFlowsPaper.pdf (26 pages, 813182 bytes).
+Output written on PFlowsPaper.pdf (29 pages, 818772 bytes).
 PDF statistics:
- 908 PDF objects out of 1000 (max. 8388607)
- 641 compressed objects within 7 object streams
- 114 named destinations out of 1000 (max. 500000)
- 221 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 921 PDF objects out of 1000 (max. 8388607)
+ 649 compressed objects within 7 object streams
+ 117 named destinations out of 1000 (max. 500000)
+ 197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
