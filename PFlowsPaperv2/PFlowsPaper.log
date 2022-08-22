@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  19 AUG 2022 15:14
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  22 AUG 2022 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -792,10 +792,10 @@ type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt8.pfb>
-Output written on PFlowsPaper.pdf (29 pages, 818772 bytes).
+Output written on PFlowsPaper.pdf (29 pages, 819350 bytes).
 PDF statistics:
- 921 PDF objects out of 1000 (max. 8388607)
- 649 compressed objects within 7 object streams
+ 922 PDF objects out of 1000 (max. 8388607)
+ 650 compressed objects within 7 object streams
  117 named destinations out of 1000 (max. 500000)
  197 words of extra memory for PDF output out of 10000 (max. 10000000)
 
