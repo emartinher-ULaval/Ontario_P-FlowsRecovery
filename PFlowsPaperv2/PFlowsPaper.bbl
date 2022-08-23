@@ -1,4 +1,4 @@
-\begin{thebibliography}{57}
+\begin{thebibliography}{61}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -151,6 +151,14 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.fao.org/3/i2697e/i2697e.pdfg}}.
 \newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
+%Type = Misc
+\bibitem[{{FAO \& IAEA}(2004)}]{FAO_PUses}
+\bibinfo{author}{{FAO \& IAEA}}, \bibinfo{year}{2004}.
+\newblock \bibinfo{title}{{Use of Phosphate Rocks for Sustainable
+  Agriculture}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.fao.org/3/y5053e/y5053e00.htm}}.
+\newblock \bibinfo{note}{[Online; accessed 23-August-2022]}.
 %Type = Article
 \bibitem[{Fern{\'a}ndez-Delgado et~al.(2022)Fern{\'a}ndez-Delgado, del
   Amo-Mateos, Garc{\'\i}a-Cubero, Coca and Lucas}]{fernandez2022phosphorus}
@@ -192,6 +200,14 @@
 \newblock \bibinfo{title}{Phosphorus recovery and recycling--closing the loop}.
 \newblock \bibinfo{journal}{Chemical Society Reviews} \bibinfo{volume}{50},
   \bibinfo{pages}{87--101}.
+%Type = Misc
+\bibitem[{Kaiser and Pagliari(2018)}]{UMin_P}
+\bibinfo{author}{Kaiser, D.E.}, \bibinfo{author}{Pagliari, P.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{Understanding phosphorus fertilizers}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://extension.umn.edu/phosphorus-and-potassium/understanding-phosphorus-fertilizers#process-619211}}.
+\newblock \bibinfo{note}{[Online; accessed 23-August-2022]}.
 %Type = Article
 \bibitem[{Mart{\'\i}n-Hern{\'a}ndez et~al.(2022)Mart{\'\i}n-Hern{\'a}ndez, Hu,
   Zavala, Mart{\'\i}n and Ruiz-Mercado}]{martin2022analysis}
@@ -275,6 +291,16 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.pollutionprobe.org/mapping-phosphorus-flows-in-the-ontario-economy/}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Article
+\bibitem[{Sampat et~al.(2021)Sampat, Hicks, Ruiz-Mercado and
+  Zavala}]{sampat2021valuing}
+\bibinfo{author}{Sampat, A.M.}, \bibinfo{author}{Hicks, A.},
+  \bibinfo{author}{Ruiz-Mercado, G.J.}, \bibinfo{author}{Zavala, V.M.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Valuing economic impact reductions of nutrient
+  pollution from livestock waste}.
+\newblock \bibinfo{journal}{Resources, Conservation and Recycling}
+  \bibinfo{volume}{164}, \bibinfo{pages}{105199}.
 %Type = Article
 \bibitem[{Sampat et~al.(2018)Sampat, Martin-Hernandez, Mart{\'\i}n and
   Zavala}]{sampat2018technologies}
@@ -411,6 +437,13 @@
 \newblock \bibinfo{title}{Phosphorus recovery from poultry litter}.
 \newblock \bibinfo{journal}{Transactions of the ASABE} \bibinfo{volume}{51},
   \bibinfo{pages}{1727--1734}.
+%Type = Misc
+\bibitem[{{The World Bank}(2022)}]{CommoditiesPrices}
+\bibinfo{author}{{The World Bank}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Annual Prices - Commodity Markets}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.worldbank.org/en/research/commodity-markets}}.
+\newblock \bibinfo{note}{[Online; accessed 23-August-2022]}.
 %Type = Book
 \bibitem[{Towler and Sinnott(2013)}]{towler2013chemical}
 \bibinfo{author}{Towler, G.}, \bibinfo{author}{Sinnott, R.},
