@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  9 AUG 2022 14:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  25 AUG 2022 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**SM_Policies.tex
-(./SM_Policies.tex
+**SM_PFlowsReport.tex
+(./SM_PFlowsReport.tex
 LaTeX2e <2020-10-01> patch level 4
 L3 programming layer <2021-01-09> xparse <2020-03-03>
 (/usr/share/texlive/texmf-dist/tex/latex/elsarticle/elsarticle.cls
@@ -87,7 +87,8 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 \@sep=\skip49
 \@@sep=\skip50
 
-(./SM_Policies.spl) (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(./SM_PFlowsReport.spl)
+(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip51
 \bibsep=\skip52
@@ -95,10 +96,11 @@ LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count193
 )
 \splwrite=\write3
-\openout3 = `SM_Policies.spl'.
+\openout3 = `SM_PFlowsReport.spl'.
 
 \appnamewidth=\dimen145
-) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/09/23 v2.17i AMS math features
 \@mathmargin=\skip53
 
@@ -463,8 +465,8 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip61
 )
-(./SM_Policies.aux)
-\openout1 = `SM_Policies.aux'.
+(./SM_PFlowsReport.aux)
+\openout1 = `SM_PFlowsReport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
 LaTeX Font Info:    ... okay on input line 64.
@@ -564,9 +566,9 @@ LaTeX Info: Redefining \ref on input line 64.
 LaTeX Info: Redefining \pageref on input line 64.
 LaTeX Info: Redefining \nameref on input line 64.
 
-(./SM_Policies.out) (./SM_Policies.out)
+(./SM_PFlowsReport.out) (./SM_PFlowsReport.out)
 \@outlinefile=\write4
-\openout4 = `SM_Policies.out'.
+\openout4 = `SM_PFlowsReport.out'.
 
 LaTeX Font Info:    Trying to load font information for U+msa on input line 91.
 
@@ -579,78 +581,65 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 91.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./SM_Policies.toc)
+)
+(./SM_PFlowsReport.toc)
 \tf@toc=\write5
-\openout5 = `SM_Policies.toc'.
+\openout5 = `SM_PFlowsReport.toc'.
 
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 100.
+(hyperref)                removing `\<def>-command' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\cnotenum' on input line 100.
+(hyperref)                removing `\cnotenum' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\<def>-command' on input line 100.
+(hyperref)                removing `\<def>-command' on input line 102.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\@corref' on input line 100.
+(hyperref)                removing `\@corref' on input line 102.
 
 [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2] [3]
-<SupMat_Figures/CAFOs_Size_Distribution.pdf, id=100, 714.43787pt x 1074.7528pt>
-
-File: SupMat_Figures/CAFOs_Size_Distribution.pdf Graphic file (type pdf)
-<use SupMat_Figures/CAFOs_Size_Distribution.pdf>
-Package pdftex.def Info: SupMat_Figures/CAFOs_Size_Distribution.pdf  used on in
-put line 184.
-(pdftex.def)             Requested size: 348.30269pt x 523.97679pt.
- [4] [5 <./SupMat_Figures/CAFOs_Size_Distribution.pdf>]
-(./SM_Policies.bbl) [6] (./SM_Policies.aux)
-Package rerunfilecheck Info: File `SM_Policies.out' has not changed.
-(rerunfilecheck)             Checksum: D65B6A3163770BDB8AD93F75364734AE;416.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2] [3]
+(./SM_PFlowsReport.bbl [4]) [5] (./SM_PFlowsReport.aux)
+Package rerunfilecheck Info: File `SM_PFlowsReport.out' has not changed.
+(rerunfilecheck)             Checksum: 200723DBF3073B5E73A823C16F8DCFAA;316.
  ) 
 Here is how much of TeX's memory you used:
- 10613 strings out of 479304
- 166149 string characters out of 5869780
- 514936 words of memory out of 5000000
- 27564 multiletter control sequences out of 15000+600000
+ 10600 strings out of 479304
+ 165901 string characters out of 5869780
+ 513515 words of memory out of 5000000
+ 27558 multiletter control sequences out of 15000+600000
  410518 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,17n,88p,1664b,401s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,17n,88p,1642b,470s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
-ublic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.
-pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
-usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texlive/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmtt8.pfb>
-Output written on SM_Policies.pdf (6 pages, 250579 bytes).
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></
+usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/tex
+live/texmf-dist/fonts/type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmtt8.pfb>
+Output written on SM_PFlowsReport.pdf (5 pages, 201430 bytes).
 PDF statistics:
- 245 PDF objects out of 1000 (max. 8388607)
- 170 compressed objects within 2 object streams
- 33 named destinations out of 1000 (max. 500000)
- 52 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 169 PDF objects out of 1000 (max. 8388607)
+ 142 compressed objects within 2 object streams
+ 28 named destinations out of 1000 (max. 500000)
+ 33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

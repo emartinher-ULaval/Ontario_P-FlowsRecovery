@@ -1,4 +1,4 @@
-\begin{thebibliography}{100}
+\begin{thebibliography}{103}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -239,6 +239,25 @@
   \bibinfo{howpublished}{\url{https://open.canada.ca/data/en/dataset/9e11e114-ef0d-4814-8d93-24af23716489}}.
 \newblock \bibinfo{note}{[Online; accessed 29-December-2021]}.
 %Type = Misc
+\bibitem[{{European Comission}(2018)}]{EurpeanComissionNewFertilizersGoal}
+\bibinfo{author}{{European Comission}}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{Circular Economy: Agreement on Commission proposal
+  to boost the use of organic and waste-based fertilisers}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://ec.europa.eu/commission/presscorner/detail/en/IP_18_6161}}.
+\newblock \bibinfo{note}{[Online; accessed 25-August-2022]}.
+%Type = Misc
+\bibitem[{{European Comission}(2022)}]{EurpeanComissionFertilizersRegulation}
+\bibinfo{author}{{European Comission}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Consolidated text: Regulation (EU) 2019/1009 of the
+  European Parliament and of the Council of 5 June 2019 laying down rules on
+  the making available on the market of EU fertilising products and amending
+  Regulations (EC) No 1069/2009 and (EC) No 1107/2009 and repealing Regulation
+  (EC) No 2003/2003 (Text with EEA relevance)Text with EEA relevance}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://eur-lex.europa.eu/eli/reg/2019/1009}}.
+\newblock \bibinfo{note}{[Online; accessed 25-August-2022]}.
+%Type = Misc
 \bibitem[{{FAO}(2011)}]{FoodLossesFAO}
 \bibinfo{author}{{FAO}}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{{Global food losses and food waste - Extent, causes
@@ -312,6 +331,14 @@
 \newblock
   \bibinfo{howpublished}{\url{https://food-nutrition.canada.ca/cnf-fce/index-eng.jsp}}.
 \newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
+%Type = Misc
+\bibitem[{{IISD}(2018)}]{NRRPlatform}
+\bibinfo{author}{{IISD}}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{{Nutrient Recovery and Reuse in Canada: Foundations
+  for a national framework}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.iisd.org/sites/default/files/meterial/nutrient-recovery-reuse-canada.pdf}}.
+\newblock \bibinfo{note}{[Online; accessed 25-August-2022]}.
 %Type = Misc
 \bibitem[{{INAC Services}(2014)}]{SlaughterhousePoultryAverageSize}
 \bibinfo{author}{{INAC Services}}, \bibinfo{year}{2014}.

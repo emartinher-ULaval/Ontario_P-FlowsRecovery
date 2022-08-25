@@ -1,5 +1,4 @@
 \contentsline {section}{\numberline {1}Phosphorus recovery processes}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Scaling CAFOs phosphorus recovery processes}{1}{subsection.1.1}%
 \contentsline {subsection}{\numberline {1.2}Scaling municipal wastewater phosphorus recovery processes}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Distribution of CAFOs size in regions of the the Great Lakes area}{2}{section.2}%
-\contentsline {section}{\numberline {3}Slaughter industry}{6}{section.3}%
+\contentsline {section}{\numberline {2}Slaughter industry}{4}{section.2}%
