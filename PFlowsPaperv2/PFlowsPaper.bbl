@@ -1,4 +1,4 @@
-\begin{thebibliography}{61}
+\begin{thebibliography}{100}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -35,6 +35,36 @@
   \bibinfo{howpublished}{\url{https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/red-meat-and-livestock-market-information/slaughter-and-carcass-weights}}.
 \newblock \bibinfo{note}{[Online; accessed 15-December-2021]}.
 %Type = Misc
+\bibitem[{{Agriculture and Agri-Food Canada}(2021d)}]{LivetoCarcassWeight}
+\bibinfo{author}{{Agriculture and Agri-Food Canada}}, \bibinfo{year}{2021}d.
+\newblock \bibinfo{title}{{Red meat conversion factors}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/red-meat-and-livestock-market-information/slaughter-and-carcass-weights/conversion-factors}}.
+\newblock \bibinfo{note}{[Online; accessed 16-December-2021]}.
+%Type = Misc
+\bibitem[{{Agriculture and Agri-Food Canada}(2022a)}]{FieldCropsCensus}
+\bibinfo{author}{{Agriculture and Agri-Food Canada}}, \bibinfo{year}{2022}a.
+\newblock \bibinfo{title}{{Field crops and hay, Census of Agriculture, 2011 and
+  2016}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210041601}}.
+\newblock \bibinfo{note}{[Online; accessed 16-December-2021]}.
+%Type = Misc
+\bibitem[{{Agriculture and Agri-Food Canada}(2022b)}]{FieldVegetablesCensus}
+\bibinfo{author}{{Agriculture and Agri-Food Canada}}, \bibinfo{year}{2022}b.
+\newblock \bibinfo{title}{{Field vegetables,, Census of Agriculture, 2011 and
+  2016}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210041801}}.
+\newblock \bibinfo{note}{[Online; accessed 16-December-2021]}.
+%Type = Misc
+\bibitem[{{Agriculture and Agri-Food Canada}(2022c)}]{GreenhousesCensus}
+\bibinfo{author}{{Agriculture and Agri-Food Canada}}, \bibinfo{year}{2022}c.
+\newblock \bibinfo{title}{{Greenhouse products and mushrooms,, 2011 and 2016}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042001}}.
+\newblock \bibinfo{note}{[Online; accessed 16-December-2021]}.
+%Type = Misc
 \bibitem[{{Algoma Steel Inc.}(2022)}]{AlgomaSteel}
 \bibinfo{author}{{Algoma Steel Inc.}}, \bibinfo{year}{2022}.
 \newblock \bibinfo{title}{{Corporate Profile}}.
@@ -49,6 +79,14 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.ampc.com.au/uploads/cgblog/id408/2018-1026_-_Final_Report.pdf}}.
 \newblock \bibinfo{note}{[Online; accessed 20-March-2019]}.
+%Type = Techreport
+\bibitem[{van Bochove et~al.(2010)van Bochove, Th{\'e}riault and
+  Denault}]{IROWC_PHandbook}
+\bibinfo{author}{van Bochove, E.}, \bibinfo{author}{Th{\'e}riault, G.},
+  \bibinfo{author}{Denault, J.T.}, \bibinfo{year}{2010}.
+\newblock \bibinfo{title}{{Indicator of risk of water contamination by
+  phosphorus (IROWC P): a handbook for presenting the IROWC P algorithms}}.
+\newblock \bibinfo{type}{Technical Report}. {Agriculture and Agri-Food Canada}.
 %Type = Article
 \bibitem[{Boh and Clark(2020)}]{boh2020nitrogen}
 \bibinfo{author}{Boh, M.Y.}, \bibinfo{author}{Clark, O.G.},
@@ -57,6 +95,23 @@
   systems}}.
 \newblock \bibinfo{journal}{Resources, Conservation and Recycling}
   \bibinfo{volume}{154}, \bibinfo{pages}{104639}.
+%Type = Article
+\bibitem[{Brake et~al.(1995)Brake, Havenstein, Ferket, Rives and
+  Giesbrecht}]{brake1995relationship}
+\bibinfo{author}{Brake, J.}, \bibinfo{author}{Havenstein, G.},
+  \bibinfo{author}{Ferket, P.}, \bibinfo{author}{Rives, D.},
+  \bibinfo{author}{Giesbrecht, F.}, \bibinfo{year}{1995}.
+\newblock \bibinfo{title}{Relationship of sex, strain, and body weight to
+  carcass yield and offal production in turkeys}.
+\newblock \bibinfo{journal}{Poultry science} \bibinfo{volume}{74},
+  \bibinfo{pages}{161--168}.
+%Type = Techreport
+\bibitem[{{Brown, Christine}(2013)}]{BrownCompositions}
+\bibinfo{author}{{Brown, Christine}}, \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{{Available Nutrients and Value for Manure From
+  Various Livestock Types}}.
+\newblock \bibinfo{type}{Technical Report}. Ontario Ministry of Agriculture and
+  Food and the Ministry of Rural Affairs.
 %Type = Book
 \bibitem[{Brunner and Rechberger(2016)}]{brunner2016handbook}
 \bibinfo{author}{Brunner, P.H.}, \bibinfo{author}{Rechberger, H.},
@@ -79,6 +134,15 @@
 \newblock \bibinfo{title}{{Statistical data}}.
 \newblock \bibinfo{howpublished}{\url{https://cfs.nrcan.gc.ca/statsprofile/}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Incollection
+\bibitem[{Chambers et~al.(2017)Chambers, Zaheer, Akhtar and
+  Abdel-Aal}]{chambers2017chicken}
+\bibinfo{author}{Chambers, J.R.}, \bibinfo{author}{Zaheer, K.},
+  \bibinfo{author}{Akhtar, H.}, \bibinfo{author}{Abdel-Aal, E.S.M.},
+  \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Chicken eggs}, in: \bibinfo{booktitle}{Egg
+  innovations and strategies for improvements}. \bibinfo{publisher}{Elsevier},
+  pp. \bibinfo{pages}{1--9}.
 %Type = Misc
 \bibitem[{{Cheminfo Services Inc.}(2019)}]{CheminfoServices}
 \bibinfo{author}{{Cheminfo Services Inc.}}, \bibinfo{year}{2019}.
@@ -95,6 +159,21 @@
   production, consumption, recycling, and environmental impacts}.
 \newblock \bibinfo{journal}{Global Environmental Change} \bibinfo{volume}{36},
   \bibinfo{pages}{139--152}.
+%Type = Article
+\bibitem[{Church et~al.(2018)Church, Hristov, Kleinman, Fishel, Reiner and
+  Bryant}]{church_versatility_2018}
+\bibinfo{author}{Church, C.D.}, \bibinfo{author}{Hristov, A.N.},
+  \bibinfo{author}{Kleinman, P.J.}, \bibinfo{author}{Fishel, S.K.},
+  \bibinfo{author}{Reiner, M.R.}, \bibinfo{author}{Bryant, R.B.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Versatility of the {MAnure} {PHosphorus} {EXtraction}
+  ({MAPHEX}) {System} in {Removing} {Phosphorus}, {Odor}, {Microbes}, and
+  {Alkalinity} from {Dairy} {Manures}: {A} {Four}-{Farm} {Case} {Study}}.
+\newblock \bibinfo{journal}{Applied Engineering in Agriculture}
+  \bibinfo{volume}{34}, \bibinfo{pages}{567--572}.
+\newblock \URLprefix
+  \url{http://elibrary.asabe.org/abstract.asp?AID=48976&t=3&dabs=Y&redir=&redirType=},
+  \DOIprefix\doi{10.13031/aea.12632}.
 %Type = Article
 \bibitem[{Cordell et~al.(2009)Cordell, Drangert and White}]{cordell2009story}
 \bibinfo{author}{Cordell, D.}, \bibinfo{author}{Drangert, J.O.},
@@ -144,6 +223,22 @@
 \newblock \bibinfo{journal}{Journal of plant nutrition and soil science}
   \bibinfo{volume}{166}, \bibinfo{pages}{409--415}.
 %Type = Misc
+\bibitem[{{Environment and Climate Change Canada}(2021a)}]{NPRI}
+\bibinfo{author}{{Environment and Climate Change Canada}},
+  \bibinfo{year}{2021}a.
+\newblock \bibinfo{title}{{About the National Pollutant Release Inventory}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/about-national-pollutant-release-inventory.html}}.
+\newblock \bibinfo{note}{[Online; accessed 29-December-2021]}.
+%Type = Misc
+\bibitem[{{Environment and Climate Change Canada}(2021b)}]{WSER}
+\bibinfo{author}{{Environment and Climate Change Canada}},
+  \bibinfo{year}{2021}b.
+\newblock \bibinfo{title}{{Wastewater Systems Effluent Regulations}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://open.canada.ca/data/en/dataset/9e11e114-ef0d-4814-8d93-24af23716489}}.
+\newblock \bibinfo{note}{[Online; accessed 29-December-2021]}.
+%Type = Misc
 \bibitem[{{FAO}(2011)}]{FoodLossesFAO}
 \bibinfo{author}{{FAO}}, \bibinfo{year}{2011}.
 \newblock \bibinfo{title}{{Global food losses and food waste - Extent, causes
@@ -177,6 +272,39 @@
 \newblock \bibinfo{title}{{The importance of Ukraine and the Russian Federation
   for global agricultural markets and the risks associated with the war in
   Ukraine}}.
+%Type = Article
+\bibitem[{Gal{\'a}n-Mart{\'i}n et~al.(2018)Gal{\'a}n-Mart{\'i}n, Pozo,
+  Azapagic, Grossmann, Mac~Dowell and Guill{\'e}n-Gos{\'a}lbez}]{galan2018time}
+\bibinfo{author}{Gal{\'a}n-Mart{\'i}n, A.}, \bibinfo{author}{Pozo, C.},
+  \bibinfo{author}{Azapagic, A.}, \bibinfo{author}{Grossmann, I.E.},
+  \bibinfo{author}{Mac~Dowell, N.}, \bibinfo{author}{Guill{\'e}n-Gos{\'a}lbez,
+  G.}, \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Time for global action: an optimised cooperative
+  approach towards effective climate change mitigation}.
+\newblock \bibinfo{journal}{Energy \& Environmental Science}
+  \bibinfo{volume}{11}, \bibinfo{pages}{572--581}.
+%Type = Misc
+\bibitem[{{Government of Canada}(2022)}]{GreenhouseWorkers}
+\bibinfo{author}{{Government of Canada}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Greenhouse Worker in Ontario - Job prospects}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.jobbank.gc.ca/marketreport/outlook-occupation/23339/ON}}.
+\newblock \bibinfo{note}{[Online; accessed 22-December-2021]}.
+%Type = Article
+\bibitem[{Hayse and Marion(1973)}]{hayse1973eviscerated}
+\bibinfo{author}{Hayse, P.L.}, \bibinfo{author}{Marion, W.W.},
+  \bibinfo{year}{1973}.
+\newblock \bibinfo{title}{Eviscerated yield, component parts, and meat, skin
+  and bone ratios in the chicken broiler}.
+\newblock \bibinfo{journal}{Poultry Science} \bibinfo{volume}{52},
+  \bibinfo{pages}{718--722}.
+%Type = Misc
+\bibitem[{{Health Canada}(2008)}]{NutrientValueHealthCanada}
+\bibinfo{author}{{Health Canada}}, \bibinfo{year}{2008}.
+\newblock \bibinfo{title}{{Nutrient Value of Some Common Foods}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.canada.ca/content/dam/hc-sc/migration/hc-sc/fn-an/alt_formats/pdf/nutrition/fiche-nutri-data/nvscf-vnqau-eng.pdf}}.
+\newblock \bibinfo{note}{[Online; accessed 14-December-2021]}.
 %Type = Misc
 \bibitem[{{Health Canada}(202)}]{CanadianNutrientFile}
 \bibinfo{author}{{Health Canada}}, \bibinfo{year}{202}.
@@ -206,7 +334,7 @@
   \bibinfo{year}{2018}.
 \newblock \bibinfo{title}{{Understanding phosphorus fertilizers}}.
 \newblock
-  \bibinfo{howpublished}{\url{https://extension.umn.edu/phosphorus-and-potassium/understanding-phosphorus-fertilizers#process-619211}}.
+  \bibinfo{howpublished}{\url{https://extension.umn.edu/phosphorus-and-potassium/understanding-phosphorus-fertilizers}}.
 \newblock \bibinfo{note}{[Online; accessed 23-August-2022]}.
 %Type = Article
 \bibitem[{Mart{\'\i}n-Hern{\'a}ndez et~al.(2022)Mart{\'\i}n-Hern{\'a}ndez, Hu,
@@ -260,6 +388,58 @@
 \newblock \bibinfo{journal}{Journal of Great Lakes Research}
   \bibinfo{volume}{46}, \bibinfo{pages}{1559--1569}.
 %Type = Misc
+\bibitem[{{Ontario Ministry of Agriculture and Food and the Ministry of Rural
+  Affairs}(2011)}]{GrowingVeggiesOntario}
+\bibinfo{author}{{Ontario Ministry of Agriculture and Food and the Ministry of
+  Rural Affairs}}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{{Growing Greenhouse Vegetables in Ontario}}.
+%Type = Misc
+\bibitem[{{Ontario Ministry of Agriculture and Food and the Ministry of Rural
+  Affairs}(2020a)}]{EggOntario}
+\bibinfo{author}{{Ontario Ministry of Agriculture and Food and the Ministry of
+  Rural Affairs}}, \bibinfo{year}{2020}a.
+\newblock \bibinfo{title}{{Ontario egg production}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://data.ontario.ca/dataset/ontario-egg-production}}.
+\newblock \bibinfo{note}{[Online; accessed 14-December-2021]}.
+%Type = Misc
+\bibitem[{{Ontario Ministry of Agriculture and Food and the Ministry of Rural
+  Affairs}(2020b)}]{MilkOntario}
+\bibinfo{author}{{Ontario Ministry of Agriculture and Food and the Ministry of
+  Rural Affairs}}, \bibinfo{year}{2020}b.
+\newblock \bibinfo{title}{{Ontario milk shipments by county}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://data.ontario.ca/en/dataset/ontario-milk-shipments-by-county}}.
+\newblock \bibinfo{note}{[Online; accessed 14-December-2021]}.
+%Type = Misc
+\bibitem[{{Ontario Ministry of Agriculture and Food and the Ministry of Rural
+  Affairs}(2021)}]{GNFOntario}
+\bibinfo{author}{{Ontario Ministry of Agriculture and Food and the Ministry of
+  Rural Affairs}}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{{Greenhouse Nutrient Feedwater Regulation}}.
+\newblock
+  \bibinfo{howpublished}{\url{http://www.omafra.gov.on.ca/english/nm/regs/gnfpro/gnfreg.htm}}.
+\newblock \bibinfo{note}{[Online; accessed 23-December-2021]}.
+%Type = Misc
+\bibitem[{{Ontario Ministry of Agriculture and Food and the Ministry of Rural
+  Affairs}(2022)}]{HorticulturalOntario}
+\bibinfo{author}{{Ontario Ministry of Agriculture and Food and the Ministry of
+  Rural Affairs}}, \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Horticultural Crops}}.
+\newblock
+  \bibinfo{howpublished}{\url{http://www.omafra.gov.on.ca/english/stats/hort/index.html}}.
+\newblock \bibinfo{note}{[Online; accessed 18-December-2021]}.
+%Type = Misc
+\bibitem[{{Ontario Ministry of the Environment, Conservation and
+  Parks}(2012)}]{GreenhouseReleases}
+\bibinfo{author}{{Ontario Ministry of the Environment, Conservation and
+  Parks}}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{Greenhouse Wastewater Monitoring Project (2010 and
+  2011)}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.ontario.ca/page/greenhouse-wastewater-monitoring-project-2010-and-2011}}.
+\newblock \bibinfo{note}{[Online; accessed 22-December-2021]}.
+%Type = Misc
 \bibitem[{{Ontario Ministry of the Environment, Conservation and
   Parks}(2019)}]{OntarioAquaculture}
 \bibinfo{author}{{Ontario Ministry of the Environment, Conservation and
@@ -269,6 +449,15 @@
   Ontario’s waters}}.
 \newblock \bibinfo{howpublished}{\url{https://ero.ontario.ca/notice/012-7186}}.
 \newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
+%Type = Misc
+\bibitem[{{Ontario Ministry of the Environment, Conservation and
+  Parks}(2021)}]{MTWE}
+\bibinfo{author}{{Ontario Ministry of the Environment, Conservation and
+  Parks}}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{{Municipal Treated Wastewater Effluent}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://data.ontario.ca/dataset/municipal-treated-wastewater-effluent}}.
+\newblock \bibinfo{note}{[Online; accessed 29-December-2021]}.
 %Type = Misc
 \bibitem[{{Opendatasoft}(2019)}]{CensusDivisionOpendatasoft}
 \bibinfo{author}{{Opendatasoft}}, \bibinfo{year}{2019}.
@@ -292,6 +481,22 @@
   \bibinfo{howpublished}{\url{https://www.pollutionprobe.org/mapping-phosphorus-flows-in-the-ontario-economy/}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
 %Type = Article
+\bibitem[{Reid et~al.(2019)Reid, Schneider and Joosse}]{reid2019addressing}
+\bibinfo{author}{Reid, K.}, \bibinfo{author}{Schneider, K.},
+  \bibinfo{author}{Joosse, P.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Addressing imbalances in phosphorus accumulation in
+  canadian agricultural soils}.
+\newblock \bibinfo{journal}{Journal of environmental quality}
+  \bibinfo{volume}{48}, \bibinfo{pages}{1156--1166}.
+%Type = Article
+\bibitem[{Reid and Schneider(2019)}]{reid2019phosphorus}
+\bibinfo{author}{Reid, K.}, \bibinfo{author}{Schneider, K.D.},
+  \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Phosphorus accumulation in canadian agricultural
+  soils over 30 yr}.
+\newblock \bibinfo{journal}{Canadian Journal of Soil Science}
+  \bibinfo{volume}{99}, \bibinfo{pages}{520--532}.
+%Type = Article
 \bibitem[{Sampat et~al.(2021)Sampat, Hicks, Ruiz-Mercado and
   Zavala}]{sampat2021valuing}
 \bibinfo{author}{Sampat, A.M.}, \bibinfo{author}{Hicks, A.},
@@ -301,6 +506,17 @@
   pollution from livestock waste}.
 \newblock \bibinfo{journal}{Resources, Conservation and Recycling}
   \bibinfo{volume}{164}, \bibinfo{pages}{105199}.
+%Type = Article
+\bibitem[{Sampat et~al.(2019)Sampat, Hu, Sharara, Aguirre-Villegas,
+  Ruiz-Mercado, Larson and Zavala}]{sampat2019coordinated}
+\bibinfo{author}{Sampat, A.M.}, \bibinfo{author}{Hu, Y.},
+  \bibinfo{author}{Sharara, M.}, \bibinfo{author}{Aguirre-Villegas, H.},
+  \bibinfo{author}{Ruiz-Mercado, G.}, \bibinfo{author}{Larson, R.A.},
+  \bibinfo{author}{Zavala, V.M.}, \bibinfo{year}{2019}.
+\newblock \bibinfo{title}{Coordinated management of organic waste and derived
+  products}.
+\newblock \bibinfo{journal}{Computers \& chemical engineering}
+  \bibinfo{volume}{128}, \bibinfo{pages}{352--363}.
 %Type = Article
 \bibitem[{Sampat et~al.(2018)Sampat, Martin-Hernandez, Mart{\'\i}n and
   Zavala}]{sampat2018technologies}
@@ -319,6 +535,15 @@
   sources}, in: \bibinfo{editor}{Zhang, T.} (Ed.),
   \bibinfo{booktitle}{Phosphorus}. \bibinfo{publisher}{IntechOpen}.
   chapter~\bibinfo{chapter}{6}.
+%Type = Article
+\bibitem[{Sardans and Pe{\~n}uelas(2013)}]{sardans2013tree}
+\bibinfo{author}{Sardans, J.}, \bibinfo{author}{Pe{\~n}uelas, J.},
+  \bibinfo{year}{2013}.
+\newblock \bibinfo{title}{Tree growth changes with climate and forest type are
+  associated with relative allocation of nutrients, especially phosphorus, to
+  leaves and wood}.
+\newblock \bibinfo{journal}{Global Ecology and Biogeography}
+  \bibinfo{volume}{22}, \bibinfo{pages}{494--507}.
 %Type = Techreport
 \bibitem[{Schoumans et~al.(2010)Schoumans, Rulkens, Oenema and
   Ehlert}]{schoumans2010phosphorus}
@@ -346,13 +571,61 @@
 \newblock \bibinfo{journal}{Waste Management} \bibinfo{volume}{124},
   \bibinfo{pages}{293--302}.
 %Type = Misc
-\bibitem[{{Statistics Canada -- Statistique Canada}(2017)}]{CensusDivisionCD}
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2021a)}]{LivestockCensusCattle}
 \bibinfo{author}{{Statistics Canada -- Statistique Canada}},
-  \bibinfo{year}{2017}.
-\newblock \bibinfo{title}{{Census division (CD)}}.
+  \bibinfo{year}{2021}a.
+\newblock \bibinfo{title}{{Cattle and calves on census day}}.
 \newblock
-  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/n1/pub/92-195-x/2016001/geo/cd-dr/cd-dr-eng.htm}}.
-\newblock \bibinfo{note}{[Online; accessed 23-November-2021]}.
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042401}}.
+\newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
+%Type = Misc
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2021b)}]{LivestockCensusOtherLivestock}
+\bibinfo{author}{{Statistics Canada -- Statistique Canada}},
+  \bibinfo{year}{2021}b.
+\newblock \bibinfo{title}{{Other livestock on census day}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042701}}.
+\newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
+%Type = Misc
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2021c)}]{LivestockCensusPig}
+\bibinfo{author}{{Statistics Canada -- Statistique Canada}},
+  \bibinfo{year}{2021}c.
+\newblock \bibinfo{title}{{Pigs on census day}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042601}}.
+\newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
+%Type = Misc
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2021d)}]{LivestockCensusPoultry}
+\bibinfo{author}{{Statistics Canada -- Statistique Canada}},
+  \bibinfo{year}{2021}d.
+\newblock \bibinfo{title}{{Poultry inventory on census day}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042801}}.
+\newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
+%Type = Misc
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2021e)}]{LivestockCensusSheep}
+\bibinfo{author}{{Statistics Canada -- Statistique Canada}},
+  \bibinfo{year}{2021}e.
+\newblock \bibinfo{title}{{Sheep and lambs on census day}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042501}}.
+\newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
+%Type = Misc
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2022)}]{FertilizerShipments}
+\bibinfo{author}{{Statistics Canada -- Statistique Canada}},
+  \bibinfo{year}{2022}.
+\newblock \bibinfo{title}{{Fertilizer shipments to Canadian agriculture
+  markets, by nutrient content and fertilizer year, cumulative data (x
+  1,000)}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210003901}}.
+\newblock \bibinfo{note}{[Online; accessed 09-February-2022]}.
 %Type = Misc
 \bibitem[{{Statistics Canada - Statisque Canada}(2015)}]{CanadaSepticSystems}
 \bibinfo{author}{{Statistics Canada - Statisque Canada}}, \bibinfo{year}{2015}.
@@ -422,6 +695,12 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.ic.gc.ca//app/scr/tdst/tdo/crtr.html?&productType=HS6&lang=eng}}.
 \newblock \bibinfo{note}{[Online; accessed 15-July-2022]}.
+%Type = Techreport
+\bibitem[{{Statistics Netherlands}(2012)}]{NetherlandsCompositions}
+\bibinfo{author}{{Statistics Netherlands}}, \bibinfo{year}{2012}.
+\newblock \bibinfo{title}{{Standardised calculation methods for animal manure
+  and nutrients. Standard data 1990–2008}}.
+\newblock \bibinfo{type}{Technical Report}. Statistics Netherlands.
 %Type = Misc
 \bibitem[{{Stelco Inc.}(2022)}]{Stelco}
 \bibinfo{author}{{Stelco Inc.}}, \bibinfo{year}{2022}.
@@ -437,6 +716,14 @@
 \newblock \bibinfo{title}{Phosphorus recovery from poultry litter}.
 \newblock \bibinfo{journal}{Transactions of the ASABE} \bibinfo{volume}{51},
   \bibinfo{pages}{1727--1734}.
+%Type = Article
+\bibitem[{Tan and Zhang(2011)}]{tan2011surface}
+\bibinfo{author}{Tan, C.}, \bibinfo{author}{Zhang, T.}, \bibinfo{year}{2011}.
+\newblock \bibinfo{title}{Surface runoff and sub-surface drainage phosphorus
+  losses under regular free drainage and controlled drainage with
+  sub-irrigation systems in southern ontario}.
+\newblock \bibinfo{journal}{Canadian Journal of Soil Science}
+  \bibinfo{volume}{91}, \bibinfo{pages}{349--359}.
 %Type = Misc
 \bibitem[{{The World Bank}(2022)}]{CommoditiesPrices}
 \bibinfo{author}{{The World Bank}}, \bibinfo{year}{2022}.
@@ -457,6 +744,20 @@
 \newblock \bibinfo{title}{{Resolution adopted by the United Nations Environment
   Assembly on 2 March 2022, UNEP/EA.5 Res.2, on Sustainable nitrogen
   management}}.
+%Type = Techreport
+\bibitem[{{United States Department of Agriculture}(2009)}]{USDAHandbook}
+\bibinfo{author}{{United States Department of Agriculture}},
+  \bibinfo{year}{2009}.
+\newblock \bibinfo{title}{{Agricultural Wate Management Field Handbook}}.
+\newblock \bibinfo{type}{Technical Report}. United States Department of
+  Agriculture (USDA).
+%Type = Misc
+\bibitem[{{U.S. Census Bureu}(2021)}]{CPIIndex}
+\bibinfo{author}{{U.S. Census Bureu}}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{{Current versus Constant (or Real) Dollars}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://www.census.gov/topics/income-poverty/income/guidance/current-vs-constant-dollars.html}}.
+\newblock \bibinfo{note}{[Online; accessed 23-August-2022]}.
 %Type = Misc
 \bibitem[{{U.S. Department of Agriculture}(2011)}]{animal_unit_definition}
 \bibinfo{author}{{U.S. Department of Agriculture}}, \bibinfo{year}{2011}.
@@ -474,6 +775,16 @@
   Member States}}.
 \newblock \bibinfo{journal}{Science of the Total Environment}
   \bibinfo{volume}{542}, \bibinfo{pages}{1078--1093}.
+%Type = Misc
+\bibitem[{Van~Staden et~al.(2021)Van~Staden, Van~Meter, Saurette, Basu, Parsons
+  and Van~Cappellen}]{VanStaden2021}
+\bibinfo{author}{Van~Staden, T.}, \bibinfo{author}{Van~Meter, K.},
+  \bibinfo{author}{Saurette, D.}, \bibinfo{author}{Basu, N.},
+  \bibinfo{author}{Parsons, C.}, \bibinfo{author}{Van~Cappellen, P.},
+  \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Anthropogenic phosphorus mass balance in ontario
+  counties and watersheds}.
+\newblock \bibinfo{howpublished}{10.20383/101.0208}.
 %Type = Article
 \bibitem[{Villalba et~al.(2008)Villalba, Liu, Schroder and
   Ayres}]{villalba2008global}
@@ -484,6 +795,15 @@
   from a production perspective}.
 \newblock \bibinfo{journal}{Journal of Industrial ecology}
   \bibinfo{volume}{12}, \bibinfo{pages}{557--569}.
+%Type = Article
+\bibitem[{Wang et~al.(2018)Wang, Zhang, Tan, Qi and Welacky}]{wang2018solid}
+\bibinfo{author}{Wang, Y.}, \bibinfo{author}{Zhang, T.}, \bibinfo{author}{Tan,
+  C.}, \bibinfo{author}{Qi, Z.}, \bibinfo{author}{Welacky, T.},
+  \bibinfo{year}{2018}.
+\newblock \bibinfo{title}{Solid cattle manure less prone to phosphorus loss in
+  tile drainage water}.
+\newblock \bibinfo{journal}{Journal of environmental quality}
+  \bibinfo{volume}{47}, \bibinfo{pages}{318--325}.
 %Type = Misc
 \bibitem[{{World Integrated Trade
   Solution}(2022)}]{WorldIntegratedTradeSolution}
@@ -491,6 +811,17 @@
 \newblock \bibinfo{title}{{Data on Export, Import, Tariff}}.
 \newblock \bibinfo{howpublished}{\url{https://wits.worldbank.org/}}.
 \newblock \bibinfo{note}{[Online; accessed 13-July-2022]}.
+%Type = Article
+\bibitem[{Yang et~al.(2007)Yang, De~Jong, Drury, Huffman, Kirkwood and
+  Yang}]{yang2007development}
+\bibinfo{author}{Yang, J.}, \bibinfo{author}{De~Jong, R.},
+  \bibinfo{author}{Drury, C.}, \bibinfo{author}{Huffman, E.},
+  \bibinfo{author}{Kirkwood, V.}, \bibinfo{author}{Yang, X.},
+  \bibinfo{year}{2007}.
+\newblock \bibinfo{title}{Development of a canadian agricultural nitrogen
+  budget (canb v2. 0) model and the evaluation of various policy scenarios}.
+\newblock \bibinfo{journal}{Canadian Journal of Soil Science}
+  \bibinfo{volume}{87}, \bibinfo{pages}{153--165}.
 %Type = Article
 \bibitem[{Yokoyama et~al.(2007)Yokoyama, Kubo, Mori, Okada, Takeuchi and
   Nagasaka}]{yokoyama2007separation}
@@ -512,6 +843,14 @@
   byproduct rendering plant: Case study of a slaughterhouse in greece}.
 \newblock \bibinfo{journal}{Sustainability} \bibinfo{volume}{12},
   \bibinfo{pages}{5870}.
+%Type = Article
+\bibitem[{Zhang et~al.(2015)Zhang, Tan, Zheng and Drury}]{zhang2015tile}
+\bibinfo{author}{Zhang, T.}, \bibinfo{author}{Tan, C.}, \bibinfo{author}{Zheng,
+  Z.}, \bibinfo{author}{Drury, C.}, \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Tile drainage phosphorus loss with long-term
+  consistent cropping systems and fertilization}.
+\newblock \bibinfo{journal}{Journal of environmental quality}
+  \bibinfo{volume}{44}, \bibinfo{pages}{503--511}.
 %Type = Article
 \bibitem[{Zhou et~al.(2021)Zhou, Jiao, Ma, de~Vries, Zhang and
   Shen}]{zhou2021model}
