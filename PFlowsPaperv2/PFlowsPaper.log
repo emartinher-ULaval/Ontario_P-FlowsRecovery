@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  29 AUG 2022 17:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  29 AUG 2022 19:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -654,37 +654,38 @@ Overfull \hbox (44.53674pt too wide) in paragraph at lines 273--354
 
 pdfTeX warning: /usr/bin/pdflatex (file ./Figures/Diagram2-3.pdf): PDF inclusio
 n: found PDF version <1.6>, but at most version <1.5> allowed
-<Figures/Diagram2-3.pdf, id=571, 420.33257pt x 550.81688pt>
+<Figures/Diagram2-3.pdf, id=573, 420.33257pt x 550.81688pt>
 File: Figures/Diagram2-3.pdf Graphic file (type pdf)
 <use Figures/Diagram2-3.pdf>
-Package pdftex.def Info: Figures/Diagram2-3.pdf  used on input line 376.
+Package pdftex.def Info: Figures/Diagram2-3.pdf  used on input line 384.
 (pdftex.def)             Requested size: 387.00153pt x 507.1611pt.
-[13] [14 <./Figures/Diagram2-3.pdf>] [15]
-<Figures/Results_PlotSummary.pdf, id=705, 497.9421pt x 314.04192pt>
+[13] [14 <./Figures/Diagram2-3.pdf>]
+<Figures/Results_PlotSummary.pdf, id=703, 497.9421pt x 314.04192pt>
 File: Figures/Results_PlotSummary.pdf Graphic file (type pdf)
 <use Figures/Results_PlotSummary.pdf>
-Package pdftex.def Info: Figures/Results_PlotSummary.pdf  used on input line 39
-5.
+Package pdftex.def Info: Figures/Results_PlotSummary.pdf  used on input line 40
+3.
 (pdftex.def)             Requested size: 365.50655pt x 230.51852pt.
-<Figures/Results_PlotSummarySpecific.pdf, id=707, 583.74692pt x 366.50714pt>
+ [15]
+<Figures/Results_PlotSummarySpecific.pdf, id=709, 583.74692pt x 366.50714pt>
 File: Figures/Results_PlotSummarySpecific.pdf Graphic file (type pdf)
 <use Figures/Results_PlotSummarySpecific.pdf>
 Package pdftex.def Info: Figures/Results_PlotSummarySpecific.pdf  used on input
- line 403.
+ line 411.
 (pdftex.def)             Requested size: 365.50655pt x 229.49142pt.
- [16 <./Figures/Results_PlotSummary.pdf>] [17 <./Figures/Results_PlotSummarySpe
-cific.pdf>] [18] [19] [20]
-<Figures/CommodityPrices.pdf, id=914, 384.64339pt x 268.93849pt>
+ [16 <./Figures/Results_PlotSummary.pdf> <./Figures/Results_PlotSummarySpecific
+.pdf>] [17] [18] [19] [20]
+<Figures/CommodityPrices.pdf, id=930, 384.64339pt x 268.93849pt>
 File: Figures/CommodityPrices.pdf Graphic file (type pdf)
 <use Figures/CommodityPrices.pdf>
-Package pdftex.def Info: Figures/CommodityPrices.pdf  used on input line 505.
+Package pdftex.def Info: Figures/CommodityPrices.pdf  used on input line 518.
 (pdftex.def)             Requested size: 279.50037pt x 195.42886pt.
  [21]
 [22 <./Figures/CommodityPrices.pdf>]
-<Figures/PSubstitution.pdf, id=1001, 696.43948pt x 472.83527pt>
+<Figures/PSubstitution.pdf, id=1009, 696.43948pt x 472.83527pt>
 File: Figures/PSubstitution.pdf Graphic file (type pdf)
 <use Figures/PSubstitution.pdf>
-Package pdftex.def Info: Figures/PSubstitution.pdf  used on input line 521.
+Package pdftex.def Info: Figures/PSubstitution.pdf  used on input line 534.
 (pdftex.def)             Requested size: 430.00462pt x 291.94273pt.
  [23 <./Figures/PSubstitution.pdf>]
 [24] (./PFlowsPaper.bbl
@@ -895,13 +896,13 @@ Package rerunfilecheck Info: File `PFlowsPaper.out' has not changed.
 (rerunfilecheck)             Checksum: F608AF00810B0B3E605BA3A30DF07718;1258.
  ) 
 Here is how much of TeX's memory you used:
- 11199 strings out of 479304
- 179488 string characters out of 5869780
- 573336 words of memory out of 5000000
- 27999 multiletter control sequences out of 15000+600000
+ 11203 strings out of 479304
+ 179605 string characters out of 5869780
+ 573363 words of memory out of 5000000
+ 28002 multiletter control sequences out of 15000+600000
  416323 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 83i,23n,91p,2156b,675s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 83i,23n,91p,2007b,675s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
@@ -922,10 +923,10 @@ type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt8.pfb>
-Output written on PFlowsPaper.pdf (37 pages, 892093 bytes).
+Output written on PFlowsPaper.pdf (37 pages, 892910 bytes).
 PDF statistics:
- 1391 PDF objects out of 1440 (max. 8388607)
- 988 compressed objects within 10 object streams
- 178 named destinations out of 1000 (max. 500000)
+ 1402 PDF objects out of 1440 (max. 8388607)
+ 999 compressed objects within 10 object streams
+ 179 named destinations out of 1000 (max. 500000)
  203 words of extra memory for PDF output out of 10000 (max. 10000000)
 
