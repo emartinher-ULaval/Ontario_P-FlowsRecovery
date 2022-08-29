@@ -1,4 +1,4 @@
-\begin{thebibliography}{103}
+\begin{thebibliography}{108}
 \expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
 \providecommand{\url}[1]{\texttt{#1}}
 \providecommand{\href}[2]{#2}
@@ -355,6 +355,14 @@
 \newblock \bibinfo{title}{Phosphorus recovery and recycling--closing the loop}.
 \newblock \bibinfo{journal}{Chemical Society Reviews} \bibinfo{volume}{50},
   \bibinfo{pages}{87--101}.
+%Type = Article
+\bibitem[{Kahiluoto et~al.(2021)Kahiluoto, Pickett and
+  Steffen}]{kahiluoto2021global}
+\bibinfo{author}{Kahiluoto, H.}, \bibinfo{author}{Pickett, K.E.},
+  \bibinfo{author}{Steffen, W.}, \bibinfo{year}{2021}.
+\newblock \bibinfo{title}{Global nutrient equity for people and the planet}.
+\newblock \bibinfo{journal}{Nature Food} \bibinfo{volume}{2},
+  \bibinfo{pages}{857--861}.
 %Type = Misc
 \bibitem[{Kaiser and Pagliari(2018)}]{UMin_P}
 \bibinfo{author}{Kaiser, D.E.}, \bibinfo{author}{Pagliari, P.},
@@ -363,6 +371,17 @@
 \newblock
   \bibinfo{howpublished}{\url{https://extension.umn.edu/phosphorus-and-potassium/understanding-phosphorus-fertilizers}}.
 \newblock \bibinfo{note}{[Online; accessed 23-August-2022]}.
+%Type = Article
+\bibitem[{Klinglmair et~al.(2015)Klinglmair, Lemming, Jensen, Rechberger,
+  Astrup and Scheutz}]{klinglmair2015phosphorus}
+\bibinfo{author}{Klinglmair, M.}, \bibinfo{author}{Lemming, C.},
+  \bibinfo{author}{Jensen, L.S.}, \bibinfo{author}{Rechberger, H.},
+  \bibinfo{author}{Astrup, T.F.}, \bibinfo{author}{Scheutz, C.},
+  \bibinfo{year}{2015}.
+\newblock \bibinfo{title}{Phosphorus in denmark: national and regional
+  anthropogenic flows}.
+\newblock \bibinfo{journal}{Resources, Conservation and Recycling}
+  \bibinfo{volume}{105}, \bibinfo{pages}{311--324}.
 %Type = Article
 \bibitem[{Mart{\'\i}n-Hern{\'a}ndez et~al.(2022)Mart{\'\i}n-Hern{\'a}ndez, Hu,
   Zavala, Mart{\'\i}n and Ruiz-Mercado}]{martin2022analysis}
@@ -391,6 +410,15 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.nasa.gov/pdf/458490main_TRL_Definitions.pdf}}.
 \newblock \bibinfo{note}{[Online; accessed 15-August-2022]}.
+%Type = Article
+\bibitem[{N{\"a}ttorp et~al.(2017)N{\"a}ttorp, Remmen and
+  Remy}]{nattorp2017cost}
+\bibinfo{author}{N{\"a}ttorp, A.}, \bibinfo{author}{Remmen, K.},
+  \bibinfo{author}{Remy, C.}, \bibinfo{year}{2017}.
+\newblock \bibinfo{title}{Cost assessment of different routes for phosphorus
+  recovery from wastewater using data from pilot and production plants}.
+\newblock \bibinfo{journal}{Water Science and Technology} \bibinfo{volume}{76},
+  \bibinfo{pages}{413--424}.
 %Type = Article
 \bibitem[{Nesme et~al.(2018)Nesme, Metson and Bennett}]{nesme2018global}
 \bibinfo{author}{Nesme, T.}, \bibinfo{author}{Metson, G.S.},
@@ -608,40 +636,70 @@
 \newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
 %Type = Misc
 \bibitem[{{Statistics Canada -- Statistique
-  Canada}(2021b)}]{LivestockCensusOtherLivestock}
+  Canada}(2021b)}]{CattleImportsExports}
 \bibinfo{author}{{Statistics Canada -- Statistique Canada}},
   \bibinfo{year}{2021}b.
+\newblock \bibinfo{title}{{Cattle statistics, supply and disposition of
+  cattle}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://open.canada.ca/data/en/dataset/e8785f41-2d3c-4dcc-a1ce-e70dac519b66}}.
+\newblock \bibinfo{note}{[Online; accessed 29-December-2021]}.
+%Type = Misc
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2021c)}]{HogsImportsExports}
+\bibinfo{author}{{Statistics Canada -- Statistique Canada}},
+  \bibinfo{year}{2021}c.
+\newblock \bibinfo{title}{{Hogs statistics, supply and disposition of hogs,
+  semi-annual}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://open.canada.ca/data/en/dataset/e3c88421-4c7e-4594-9b73-e04a958061e4}}.
+\newblock \bibinfo{note}{[Online; accessed 29-December-2021]}.
+%Type = Misc
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2021d)}]{LivestockCensusOtherLivestock}
+\bibinfo{author}{{Statistics Canada -- Statistique Canada}},
+  \bibinfo{year}{2021}d.
 \newblock \bibinfo{title}{{Other livestock on census day}}.
 \newblock
   \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042701}}.
 \newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
 %Type = Misc
 \bibitem[{{Statistics Canada -- Statistique
-  Canada}(2021c)}]{LivestockCensusPig}
+  Canada}(2021e)}]{LivestockCensusPig}
 \bibinfo{author}{{Statistics Canada -- Statistique Canada}},
-  \bibinfo{year}{2021}c.
+  \bibinfo{year}{2021}e.
 \newblock \bibinfo{title}{{Pigs on census day}}.
 \newblock
   \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042601}}.
 \newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
 %Type = Misc
 \bibitem[{{Statistics Canada -- Statistique
-  Canada}(2021d)}]{LivestockCensusPoultry}
+  Canada}(2021f)}]{LivestockCensusPoultry}
 \bibinfo{author}{{Statistics Canada -- Statistique Canada}},
-  \bibinfo{year}{2021}d.
+  \bibinfo{year}{2021}f.
 \newblock \bibinfo{title}{{Poultry inventory on census day}}.
 \newblock
   \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042801}}.
 \newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
 %Type = Misc
 \bibitem[{{Statistics Canada -- Statistique
-  Canada}(2021e)}]{LivestockCensusSheep}
+  Canada}(2021g)}]{LivestockCensusSheep}
 \bibinfo{author}{{Statistics Canada -- Statistique Canada}},
-  \bibinfo{year}{2021}e.
+  \bibinfo{year}{2021}g.
 \newblock \bibinfo{title}{{Sheep and lambs on census day}}.
 \newblock
   \bibinfo{howpublished}{\url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042501}}.
 \newblock \bibinfo{note}{[Online; accessed 29-November-2019]}.
+%Type = Misc
+\bibitem[{{Statistics Canada -- Statistique
+  Canada}(2021h)}]{SheepImportsExports}
+\bibinfo{author}{{Statistics Canada -- Statistique Canada}},
+  \bibinfo{year}{2021}h.
+\newblock \bibinfo{title}{{Sheep statistics, supply and disposition of sheep
+  and lambs}}.
+\newblock
+  \bibinfo{howpublished}{\url{https://open.canada.ca/data/en/dataset/12d4e931-c6b8-4df3-bf5b-0a25524fc6c1}}.
+\newblock \bibinfo{note}{[Online; accessed 29-December-2021]}.
 %Type = Misc
 \bibitem[{{Statistics Canada -- Statistique
   Canada}(2022)}]{FertilizerShipments}
@@ -785,14 +843,6 @@
 \newblock
   \bibinfo{howpublished}{\url{https://www.census.gov/topics/income-poverty/income/guidance/current-vs-constant-dollars.html}}.
 \newblock \bibinfo{note}{[Online; accessed 23-August-2022]}.
-%Type = Misc
-\bibitem[{{U.S. Department of Agriculture}(2011)}]{animal_unit_definition}
-\bibinfo{author}{{U.S. Department of Agriculture}}, \bibinfo{year}{2011}.
-\newblock \bibinfo{title}{{Animal Feeding Operations (AFO) and Concentrated
-  Animal Feeding Operations (CAFO)}}.
-\newblock
-  \bibinfo{howpublished}{\url{https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/plantsanimals/livestock/afo/}}.
-\newblock \bibinfo{note}{[Online; accessed 10-August-2020]}.
 %Type = Article
 \bibitem[{Van~Dijk et~al.(2016)Van~Dijk, Lesschen and
   Oenema}]{van2016phosphorus}
