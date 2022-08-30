@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  30 AUG 2022 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/Debian) (preloaded format=pdflatex 2022.1.2)  30 AUG 2022 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -924,7 +924,7 @@ Package rerunfilecheck Info: File `PFlowsPaper.out' has not changed.
 Here is how much of TeX's memory you used:
  11330 strings out of 479304
  181385 string characters out of 5869780
- 572956 words of memory out of 5000000
+ 572962 words of memory out of 5000000
  28122 multiletter control sequences out of 15000+600000
  416323 words of font info for 82 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -949,7 +949,7 @@ type1/public/amsfonts/cm/cmti7.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmtt10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
 s/cm/cmtt8.pfb>
-Output written on PFlowsPaper.pdf (37 pages, 1325492 bytes).
+Output written on PFlowsPaper.pdf (37 pages, 1325497 bytes).
 PDF statistics:
  1537 PDF objects out of 1728 (max. 8388607)
  1083 compressed objects within 11 object streams
