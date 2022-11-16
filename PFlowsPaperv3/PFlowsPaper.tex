@@ -1,6 +1,6 @@
 % !TeX spellcheck = en_US
-\documentclass[authoryear]{elsarticle}
-%\documentclass[]{elsarticle}
+%\documentclass[authoryear]{elsarticle}
+\documentclass[]{elsarticle}
 \usepackage{amsmath}
 \usepackage{amssymb}
 \usepackage{float}
@@ -26,7 +26,7 @@
 %\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
 \usepackage{afterpage}
 \usepackage{lineno}
-\linenumbers
+%\linenumbers
 \usepackage{setspace}
 \doublespacing
 \usepackage[flushleft]{threeparttable}
@@ -40,8 +40,8 @@
 %{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 %\usepackage{apacite}
-\bibliographystyle{elsarticle-harv}
-%\bibliographystyle{elsarticle-num}
+%\bibliographystyle{elsarticle-harv}
+\bibliographystyle{elsarticle-num}
 
 \makeatletter
 \def\ps@pprintTitle{%
@@ -104,7 +104,9 @@ However, the intensive use of fertilizers in agriculture has resulted in the ove
 %also known as concentrated animal feeding operations (CAFOs) \citep{animal_unit_definition},
 result in important difficulties in the management of the large amounts of manure produced. This is often spread on lands in the vicinity of the livestock operations, which in turn leads to the accumulation of phosphorus in the soil. Although soil acts as a phosphorus reservoir \citep{ehlert2003potential}, building-up a legacy P that can be used for future crops, it can also be transported to waterbodies by erosion and runoff, resulting in the eutrophication of aquatic ecosystems.
 
-The dual dimension of the anthropogenic use of phosphorus, i.e., its key role in the food production system and the negative environmental impacts associated with the phosphorus used in intensive agricultural techniques, has been stated by the United Nations Environment Assembly in the resolution UNEP/EA.5/Res.2 \citep{UN_Phosphorus}. An additional factor to be considered for addressing the phosphorus challenge is the non-renewable nature of phosphorus, since the phosphorus consumed is not replenished by natural means at human time scale, and there is currently no known synthetic substitute for this material \citep{cordell2009story}. Since phosphorus reserves are concentrated in a few number of regions, the supply of phosphorus from a limited number of suppliers lacks resilience and it has been proven that it can be globally disrupted by regional events and conflicts
+The dual dimension of the anthropogenic use of phosphorus, i.e., its key role in the food production system and the negative environmental impacts associated with the phosphorus used in intensive agricultural techniques, has been stated by the United Nations Environment Assembly
+%in the resolution UNEP/EA.5/Res.2
+\citep{UN_Phosphorus}. An additional factor to be considered for addressing the phosphorus challenge is the non-renewable nature of phosphorus, since the phosphorus consumed is not replenished by natural means at human time scale, and there is currently no known synthetic substitute for this material \citep{cordell2009story}. Since phosphorus reserves are concentrated in a few number of regions, the supply of phosphorus from a limited number of suppliers lacks resilience and it has been proven that it can be globally disrupted by regional events and conflicts
 %, resulting geopolitical tensions
 \citep{FAO_UkraineWar}. As a consequence, the recovery and recycling of phosphorus is not just a desirable but also a necessary approach to assure sustainable, reliable, and sovereign food production systems. 
 
@@ -157,42 +159,17 @@ Phosphorus flows have been mapped through a material flow analysis (MFA) \citep{
 \subsection{Estimation of phosphorus flows}
 The estimation of phosphorus flows in Ontario's economic sectors is based on
 %the methodology described in \citet{PFlows_Ontario}. It is based on
-the use of open data sources, often from governmental institutions, complemented with information from scientific articles when needed. In the next sections, we describe the general procedure followed to estimate the phosphorus flows of each sector. For a comprehensive description of the procedure followed for estimating each particular phosphorus flow, we refer the reader to the methodology described in \citet{PFlows_Ontario}.
+the use of open data sources, often from governmental institutions, complemented with information from scientific articles when needed. In the next sections, we describe the general procedure followed to estimate the phosphorus flows of each sector. For a comprehensive description of the procedure followed for estimating each particular phosphorus flow, we refer the reader to the Supplementary Material and the methodology described in \citep{PFlows_Ontario}.
 
 \subsubsection{Agriculture and aquaculture sector} \label{section:AgriSector}
-Phosphorus flows in the agricultural sector are estimated based on production data of livestock and crop products, as well as on fertilizer application data.
-%%For those production data were not available, a number of different methods were used to estimate the P flow based on approaches established in the literature. For example, 
-%Phosphorus inflows associated with synthetic fertilizers could be directly estimated based on application data reported in the Fertilizer
-%Shipments Survey (FSS) \citep{FertilizerShipments}. Phosphorus in livestock imports and exports is estimated from livestock trading data REF, multiplying the number of animals by the concentration of phosphorus in the different types of livestock REF,
-
-Phosphorus in livestock feeding and manure
-%meat and slaughterhouse waste
-is estimated based on the number and type of animals reported for Ontario
-%at Census Division level
-in the Census of Agriculture, including cattle \citep{LivestockCensusCattle}, swine \citep{LivestockCensusPig}, poultry \citep{LivestockCensusPoultry}, and other livestock \citep{LivestockCensusSheep, LivestockCensusOtherLivestock},
-%\citep{LivestockCensusCattle,LivestockCensusSheep,LivestockCensusPig,LivestockCensusPoultry,LivestockCensusOtherLivestock},
-multiplied by the phosphorus feeding requirements and concentration of phosphorus in manure \citep{NetherlandsCompositions,BrownCompositions, VanStaden2021}.
-%and carcasses REF respectively. 
-%The Census of Agriculture is published by Statistics Canada every five years (i.e., 2001, 2006, 2011, and 2016) for cattle52 REF, sheep53 REF, swine54 REF, poultry55 REF, and other livestock56 REF, with the exception of rabbits, where data is not available prior to 2009. The number of animals for the years in between census reporting have been estimated using a linear interpolation.
-We assumed that the number of animals reported is throughout the year (i.e., the animals culled are replaced by new ones). However, in the case of broilers and turkeys, the number of animals reported by the livestock census have been reduced by a factor of 0.68 (broilers) and 0.80 (turkeys), since these animals have life cycles of 43 and 80 days respectively, meaning barns are empty for 20 days between cycles \citep{yang2007development}.
-
-Phosphorus flows through the imports and exports of animals are estimated using data on animal imports and exports \citep{CattleImportsExports, HogsImportsExports, SheepImportsExports} multiplied by their phosphorus to live weight ratios \citep{NetherlandsCompositions}.
-
-Phosphorus contained in meat and slaughterhouse waste is based on the number of animals slaughtered reported by both federally and provincially licensed meat plants \citep{SlaughterFederalRedMeat, SlaughterFederalPoultry} multiplied by the concentration of phosphorus in carcasses \citep{LivetoCarcassWeight,hayse1973eviscerated,brake1995relationship,NetherlandsCompositions}.
-
-Phosphorus flows associated with the production of milk and eggs are based on provincial production data \citep{EggOntario,MilkOntario}, multiplying these products by their average phosphorus concentration \citep{NutrientValueHealthCanada,chambers2017chicken}.
+Phosphorus flows in the agricultural sector are estimated based on production data of livestock and crop products, as well as on fertilizer application data. Livestock data is obtained from the Census of Agriculture \citep{CensusOfAgricultureCanada}. The phosphorus contained in meat and slaughterhouse waste is based on the number of animals
+slaughtered reported by both federally and provincially licensed meat plants \citep{SlaughterFederalRedMeat, SlaughterFederalPoultry}, while the phosphorus in milk and eggs are based on provincial production data \citep{EggOntario,MilkOntario}.
 
 Phosphorus applied to open fields as synthetic fertilizer is estimated based on the amount of fertilizer products traded to Ontario’s agricultural markets containing phosphorus \citep{FertilizerShipments}. 
 %The distribution of phosphorus fertilizers among the Census Division of the province is based on the fraction of fertilized area of each census division, i.e., dividing the reported area of land fertilized for each census division by the total fertilized area of land in Ontario, removing the areas that correspond with greenhouse crops101, 102 103 REF. 
-Regarding manure, we assume that all of the manure generated by livestock is applied in crop fields \citep{IROWC_PHandbook}.
+Regarding manure, we assume that all of the manure generated by livestock is applied in crop fields \citep{IROWC_PHandbook}. The uptake of phosphorus by crops is determined based on the area used in each census division \citep{CensusDivisionOpendatasoft} to grow each type of crops by census division \citep{FieldCropsCensus,FieldVegetablesCensus,GreenhousesCensus} multiplied by the specific yield and phosphorus content for each crop type \citep{USDAHandbook}.  The phosphorus uptake by crops is divided according to whether it is taken up in the grain, fruit or vegetable, or straw and stover components of each type of crop. This is necessary to determine the amount of phosphorus that flows within food or animal feed (i.e., grains, fruits and vegetables), while straw and stover remain in the field after harvesting as crop residues. The phosphorus losses through both surface and subsurface runoffs have been accounted by using export coefficients \citep{zhang2015tile, wang2018solid,tan2011surface}. The legacy P in soils is estimated as the balance between phosphorus inflows and outflows in crop fields.
 
-The uptake of phosphorus by crops is determined based on the area used in each census division \citep{CensusDivisionOpendatasoft} to grow each type of crops by census division \citep{FieldCropsCensus,FieldVegetablesCensus,GreenhousesCensus} multiplied by the specific yield and phosphorus content for each crop type \citep{USDAHandbook}.  The phosphorus uptake by crops is divided according to whether it is taken up in the grain, fruit or vegetable, or straw and stover components of each type of crop. This is necessary to determine the amount of phosphorus that flows within food or feed (i.e., grains, fruits and vegetables), while straw and stover remain in the field after harvesting as crop residues.
-
-A fraction of the phosphorus applied to crop fields as manure or synthetic fertilizer is lost through erosion, runoff, and drainage. The magnitude of this flow depends on a range of factors, including the amount of phosphorus applied; soil composition, texture, and slope; and precipitations, resulting in a complex and data-intensive process for estimating the phosphorus transported out of the crop fields. As an approximation, we have estimated the phosphorus losses by using export coefficients determined for crop fields in Ontario corrected to account for both surface and subsurface runoffs for synthetic fertilizers (1.267 kg/ha/year), and liquid and solid manure (2.548 kg/ha/year and 1.717 kg/ha/year respectively) \citep{zhang2015tile, wang2018solid,tan2011surface}. In addition, a fraction of the P supplied to crop fields is not taken up by the plants and remains in soil, resulting in the accumulation of P over time as a result of synthetic fertilizer and manure over sustained periods of time, often applying phosphorus in greater quantities than crops require to ensure satisfactory yields \citep{reid2019addressing}. This buildup is often referred to as “legacy P”, and it is estimated as the balance between phosphorus inflows to crop fields (application of manure and synthetic fertilizers) and outflows (crop food and feed products, crop residues, and phosphorus losses by erosion and runoff).
-
-Regarding greenhouse crops, the data available was limited, resulting in an estimation of phosphorus applied as synthetic fertilizers based on the sum of phosphorus uptake by greenhouse crops
-%(i.e., tomatoes, peppers, and cucumbers)119
-and phosphorus releases from greenhouse irrigation systems also known as greenhouse nutrient feedwater (GNF) systems \citep{GNFOntario}. The phosphorus uptake by greenhouse crops is determined by multiplying the production of greenhouse crops \citep{HorticulturalOntario} by the phosphorus content of each vegetable type \citep{USDAHandbook}. The phosphorus releases from the GNF systems were estimated based on the average concentration of phosphorus in GNF outlet streams for  Ontario, 33.6 mg/L \citep{GreenhouseReleases}, and the total water discharges from GNF systems, assuming that the water discharges are equivalent to 25\% of the total water applied in greenhouses, which corresponds with the worst-case scenario of no water recirculation in the GNF systems \citep{GNFOntario}. The average water consumption in greenhouses in Ontario was assumed to be 1,000 L/m\textsuperscript{2}/year \citep{GrowingVeggiesOntario}. We have also estimated the phosphorus releases from the seasonal workers living in households in the vicinity of the greenhouses that may use septic systems, considering that the seasonal labour force in Ontario greenhouses is estimated to be 6,699 workers \citep{GreenhouseWorkers}, and an average phosphorus load rate of 0.0156 kg P/person/week from septic systems \citep{oldfield2020estimation}.
+Phosphorus application in greenhouses is estimated as the sum of phosphorus uptake by greenhouse crops \citep{HorticulturalOntario} and phosphorus releases from greenhouse irrigation systems, which is estimated based on the average concentration of phosphorus in greenhouse outlet streams, 33.6 mg/L \citep{GreenhouseReleases}, and the total water discharges from greenhouses assuming that the water discharges are equivalent to 25\% of the total water applied, which corresponds with the worst-case scenario of no water recirculation in the irrigation systems \citep{GNFOntario}. The average water consumption in greenhouses in Ontario was assumed to be 1,000 L/m\textsuperscript{2}/year \citep{GrowingVeggiesOntario}.
 
 %Phosphorus in aquaculture are mainly due to supply of feed as part of fish feed the grow of trouts, part of which is uptake by fishes, while the rest of phosphorus is released into aquatic ecosystems since aquaculture effluents are directly discharged to the environment
 Phosphorus enters aquaculture systems as fish feed, primarily in the growth of trouts. A fraction of this phosphorus goes to the fish and the remainder is discharged into aquatic ecosystems as aquaculture effluents
@@ -200,6 +177,46 @@ Phosphorus enters aquaculture systems as fish feed, primarily in the growth of t
 The total phosphorus in fish produced in Ontario
 %supplied to aquaculture as fish feed is taken from, while the phosphorus uptakes by fishes are 
 is calculated by multiplying the fish production \citep{StatisticsCanadaAquaculture} by their phosphorus content \citep{CanadianNutrientFile}, while the phosphorus content in the aquaculture waste effluents of Ontario is estimated to be 10 kg of phosphorus per ton of fish produced \citep{bureau2003chemical}. The phosphorus in Ontario fish feed that is supplied to aquaculture, is estimated to be the sum of the phosphorus in the fish produced and the phosphorus in aquaculture effluent.
+
+%%%For those production data were not available, a number of different methods were used to estimate the P flow based on approaches established in the literature. For example, 
+%%Phosphorus inflows associated with synthetic fertilizers could be directly estimated based on application data reported in the Fertilizer
+%%Shipments Survey (FSS) \citep{FertilizerShipments}. Phosphorus in livestock imports and exports is estimated from livestock trading data REF, multiplying the number of animals by the concentration of phosphorus in the different types of livestock REF,
+%
+%Phosphorus in livestock feeding and manure
+%%meat and slaughterhouse waste
+%is estimated based on the number and type of animals reported for Ontario
+%%at Census Division level
+%in the Census of Agriculture, including cattle \citep{LivestockCensusCattle}, swine \citep{LivestockCensusPig}, poultry \citep{LivestockCensusPoultry}, and other livestock \citep{LivestockCensusSheep, LivestockCensusOtherLivestock},
+%%\citep{LivestockCensusCattle,LivestockCensusSheep,LivestockCensusPig,LivestockCensusPoultry,LivestockCensusOtherLivestock},
+%multiplied by the phosphorus feeding requirements and concentration of phosphorus in manure \citep{NetherlandsCompositions,BrownCompositions, VanStaden2021}.
+%%and carcasses REF respectively. 
+%%The Census of Agriculture is published by Statistics Canada every five years (i.e., 2001, 2006, 2011, and 2016) for cattle52 REF, sheep53 REF, swine54 REF, poultry55 REF, and other livestock56 REF, with the exception of rabbits, where data is not available prior to 2009. The number of animals for the years in between census reporting have been estimated using a linear interpolation.
+%We assumed that the number of animals reported is throughout the year (i.e., the animals culled are replaced by new ones). However, in the case of broilers and turkeys, the number of animals reported by the livestock census have been reduced by a factor of 0.68 (broilers) and 0.80 (turkeys), since these animals have life cycles of 43 and 80 days respectively, meaning barns are empty for 20 days between cycles \citep{yang2007development}.
+%
+%Phosphorus flows through the imports and exports of animals are estimated using data on animal imports and exports \citep{CattleImportsExports, HogsImportsExports, SheepImportsExports} multiplied by their phosphorus to live weight ratios \citep{NetherlandsCompositions}.
+%
+%Phosphorus contained in meat and slaughterhouse waste is based on the number of animals slaughtered reported by both federally and provincially licensed meat plants \citep{SlaughterFederalRedMeat, SlaughterFederalPoultry} multiplied by the concentration of phosphorus in carcasses \citep{LivetoCarcassWeight,hayse1973eviscerated,brake1995relationship,NetherlandsCompositions}.
+%
+%Phosphorus flows associated with the production of milk and eggs are based on provincial production data \citep{EggOntario,MilkOntario}, multiplying these products by their average phosphorus concentration \citep{NutrientValueHealthCanada,chambers2017chicken}.
+%
+%Phosphorus applied to open fields as synthetic fertilizer is estimated based on the amount of fertilizer products traded to Ontario’s agricultural markets containing phosphorus \citep{FertilizerShipments}. 
+%%The distribution of phosphorus fertilizers among the Census Division of the province is based on the fraction of fertilized area of each census division, i.e., dividing the reported area of land fertilized for each census division by the total fertilized area of land in Ontario, removing the areas that correspond with greenhouse crops101, 102 103 REF. 
+%Regarding manure, we assume that all of the manure generated by livestock is applied in crop fields \citep{IROWC_PHandbook}.
+%
+%The uptake of phosphorus by crops is determined based on the area used in each census division \citep{CensusDivisionOpendatasoft} to grow each type of crops by census division \citep{FieldCropsCensus,FieldVegetablesCensus,GreenhousesCensus} multiplied by the specific yield and phosphorus content for each crop type \citep{USDAHandbook}.  The phosphorus uptake by crops is divided according to whether it is taken up in the grain, fruit or vegetable, or straw and stover components of each type of crop. This is necessary to determine the amount of phosphorus that flows within food or feed (i.e., grains, fruits and vegetables), while straw and stover remain in the field after harvesting as crop residues.
+%
+%A fraction of the phosphorus applied to crop fields as manure or synthetic fertilizer is lost through erosion, runoff, and drainage. The magnitude of this flow depends on a range of factors, including the amount of phosphorus applied; soil composition, texture, and slope; and precipitations, resulting in a complex and data-intensive process for estimating the phosphorus transported out of the crop fields. As an approximation, we have estimated the phosphorus losses by using export coefficients determined for crop fields in Ontario corrected to account for both surface and subsurface runoffs for synthetic fertilizers (1.267 kg/ha/year), and liquid and solid manure (2.548 kg/ha/year and 1.717 kg/ha/year respectively) \citep{zhang2015tile, wang2018solid,tan2011surface}. In addition, a fraction of the P supplied to crop fields is not taken up by the plants and remains in soil, resulting in the accumulation of P over time as a result of synthetic fertilizer and manure over sustained periods of time, often applying phosphorus in greater quantities than crops require to ensure satisfactory yields \citep{reid2019addressing}. This buildup is often referred to as “legacy P”, and it is estimated as the balance between phosphorus inflows to crop fields (application of manure and synthetic fertilizers) and outflows (crop food and feed products, crop residues, and phosphorus losses by erosion and runoff).
+%
+%Regarding greenhouse crops, the data available was limited, resulting in an estimation of phosphorus applied as synthetic fertilizers based on the sum of phosphorus uptake by greenhouse crops
+%%(i.e., tomatoes, peppers, and cucumbers)119
+%and phosphorus releases from greenhouse irrigation systems also known as greenhouse nutrient feedwater (GNF) systems \citep{GNFOntario}. The phosphorus uptake by greenhouse crops is determined by multiplying the production of greenhouse crops \citep{HorticulturalOntario} by the phosphorus content of each vegetable type \citep{USDAHandbook}. The phosphorus releases from the GNF systems were estimated based on the average concentration of phosphorus in GNF outlet streams for  Ontario, 33.6 mg/L \citep{GreenhouseReleases}, and the total water discharges from GNF systems, assuming that the water discharges are equivalent to 25\% of the total water applied in greenhouses, which corresponds with the worst-case scenario of no water recirculation in the GNF systems \citep{GNFOntario}. The average water consumption in greenhouses in Ontario was assumed to be 1,000 L/m\textsuperscript{2}/year \citep{GrowingVeggiesOntario}. We have also estimated the phosphorus releases from the seasonal workers living in households in the vicinity of the greenhouses that may use septic systems, considering that the seasonal labour force in Ontario greenhouses is estimated to be 6,699 workers \citep{GreenhouseWorkers}, and an average phosphorus load rate of 0.0156 kg P/person/week from septic systems \citep{oldfield2020estimation}.
+%
+%%Phosphorus in aquaculture are mainly due to supply of feed as part of fish feed the grow of trouts, part of which is uptake by fishes, while the rest of phosphorus is released into aquatic ecosystems since aquaculture effluents are directly discharged to the environment
+%Phosphorus enters aquaculture systems as fish feed, primarily in the growth of trouts. A fraction of this phosphorus goes to the fish and the remainder is discharged into aquatic ecosystems as aquaculture effluents
+%\citep{OntarioAquaculture}. 
+%The total phosphorus in fish produced in Ontario
+%%supplied to aquaculture as fish feed is taken from, while the phosphorus uptakes by fishes are 
+%is calculated by multiplying the fish production \citep{StatisticsCanadaAquaculture} by their phosphorus content \citep{CanadianNutrientFile}, while the phosphorus content in the aquaculture waste effluents of Ontario is estimated to be 10 kg of phosphorus per ton of fish produced \citep{bureau2003chemical}. The phosphorus in Ontario fish feed that is supplied to aquaculture, is estimated to be the sum of the phosphorus in the fish produced and the phosphorus in aquaculture effluent.
 
 \subsubsection{Industrial sector}
 Phosphorus flows through imports, production, exports and waste for the food, steel, and forestry industries of Ontario were mapped.
@@ -211,12 +228,16 @@ are estimated scaling each type of food
 traded in Canada \citep{TradeDataOnlineCanada}
 with the population of Ontario \citep{PopulationCanada}.
 %and then subtracting the amount of each type of food produced within Ontario.
-The phosphorus contained in each type of imported and exported food is estimated by multiplying the amount of each type of traded food by its phosphorus content \citep{CanadianNutrientFile}. Phosphorus flows in the form of food and organic waste are based on applying food loss factors for the steps associated with food processing, from the production of food raw materials to consumption \citep{FoodLossesFAO}, considering the food production and import values estimated in Section \ref{section:AgriSector}.
+%The phosphorus contained in each type of imported and exported food is estimated by multiplying the amount of each type of traded food by its phosphorus content \citep{CanadianNutrientFile}.
+Phosphorus flows in the form of food and organic waste are based on applying food loss factors for the steps associated with food processing, from the production of food raw materials to consumption \citep{FoodLossesFAO}.
+%, considering the food production and import values estimated in Section \ref{section:AgriSector}.
 
-The steel industry is the first non-food sector in terms of phosphorus use. The main phosphorus inflows of steel manufacturing are associated with the use of iron ore, coal, and coke, while the
+The main phosphorus inflows of steel manufacturing are associated with the use of iron ore, coal, and coke, while the
 %main outflow of phosphorus is within slag, which remove most of the impurities from steel, including phosphorus.
-main outflow of phosphorus is within slag, a by-product of steelmaking. During steelmaking, most of the impurities, including phosphorus, separate into the slag phase.
-It must be noted that, although some minor amounts of phosphorus can be desired in steel for making anti-corrosion surface coatings, it is largely considered an impurity in the steel manufacturing process. Phosphorus in these flows is estimated by multiplying their average phosphorus content (0.06\% P in iron ore, 0.05\% P for coal, 0.4\% P in slag, and 0.01\% in steel) \citep{yokoyama2007separation} by the steel production capacity of the facilities located in Ontario \citep{CheminfoServices, AlgomaSteel, Stelco, PFlows_Ontario} and the imports and exports of these materials \citep{WorldIntegratedTradeSolution, InterprovincialImportsExports}. The P in slag is estimated using component balancing.
+main outflow of phosphorus is within slag, a by-product of steelmaking. 
+%During steelmaking, most of the impurities, including phosphorus, separate into the slag phase.
+%It must be noted that, although some minor amounts of phosphorus can be desired in steel for making anti-corrosion surface coatings, it is largely considered an impurity in the steel manufacturing process.
+Phosphorus in these flows is estimated by multiplying their average phosphorus content (0.06\% P in iron ore, 0.05\% P for coal, 0.4\% P in slag, and 0.01\% in steel) \citep{yokoyama2007separation} by the steel production capacity of the facilities located in Ontario \citep{CheminfoServices, AlgomaSteel, Stelco, PFlows_Ontario} and the imports and exports of these materials \citep{WorldIntegratedTradeSolution, InterprovincialImportsExports}. The P in slag is estimated using component balancing.
 
 Phosphorus flows in Ontario's forestry industry include wood harvesting, wood products manufacturing, as well as the production of pulp and paper. The estimation of these phosphorus flows are the result of multiplying the production data of wood, wood products, pulp and paper, and their respective imports, exports, and waste streams \citep{CanadianForestServiceStatistics, InterprovincialImportsExports}, by their average phosphorus content.
 %which is assumed to be 0.01\% for wood \citep{sardans2013tree} and 0.005\% for pulp and paper products.
@@ -229,10 +250,37 @@ However,
 a significant fraction of phosphorus used in the industrial sector cannot be tracked due to the lack of data.
 %Regarding other industrial activities which could involve the use of phosphorus, the local production of phosphorus is assumed to be negligible since phosphorus is not mined or refined in Ontario, and the synthetic phosphorus fertilizer imports are accounted in the agricultural section.
 
-%{\color{red}Ask sidney what to do with food industry, and pet feed. My approach is to merge all of them as it is currently in the figure, but confirm with her}
+%Phosphorus flows through imports, production, exports and waste for the food, steel, and forestry industries of Ontario were mapped.
+%
+%%{\color{red} REVISAR POR SIDNEY }
+%Processed food imports and exports
+%are estimated scaling each type of food 
+%%available in Canada \citep{FoodAvailableCanada} 
+%traded in Canada \citep{TradeDataOnlineCanada}
+%with the population of Ontario \citep{PopulationCanada}.
+%%and then subtracting the amount of each type of food produced within Ontario.
+%The phosphorus contained in each type of imported and exported food is estimated by multiplying the amount of each type of traded food by its phosphorus content \citep{CanadianNutrientFile}. Phosphorus flows in the form of food and organic waste are based on applying food loss factors for the steps associated with food processing, from the production of food raw materials to consumption \citep{FoodLossesFAO}, considering the food production and import values estimated in Section \ref{section:AgriSector}.
+%
+%The steel industry is the first non-food sector in terms of phosphorus use. The main phosphorus inflows of steel manufacturing are associated with the use of iron ore, coal, and coke, while the
+%%main outflow of phosphorus is within slag, which remove most of the impurities from steel, including phosphorus.
+%main outflow of phosphorus is within slag, a by-product of steelmaking. During steelmaking, most of the impurities, including phosphorus, separate into the slag phase.
+%It must be noted that, although some minor amounts of phosphorus can be desired in steel for making anti-corrosion surface coatings, it is largely considered an impurity in the steel manufacturing process. Phosphorus in these flows is estimated by multiplying their average phosphorus content (0.06\% P in iron ore, 0.05\% P for coal, 0.4\% P in slag, and 0.01\% in steel) \citep{yokoyama2007separation} by the steel production capacity of the facilities located in Ontario \citep{CheminfoServices, AlgomaSteel, Stelco, PFlows_Ontario} and the imports and exports of these materials \citep{WorldIntegratedTradeSolution, InterprovincialImportsExports}. The P in slag is estimated using component balancing.
+%
+%Phosphorus flows in Ontario's forestry industry include wood harvesting, wood products manufacturing, as well as the production of pulp and paper. The estimation of these phosphorus flows are the result of multiplying the production data of wood, wood products, pulp and paper, and their respective imports, exports, and waste streams \citep{CanadianForestServiceStatistics, InterprovincialImportsExports}, by their average phosphorus content.
+%%which is assumed to be 0.01\% for wood \citep{sardans2013tree} and 0.005\% for pulp and paper products.
+%The average phosphorus content used for wood is 0.01\% \citep{sardans2013tree} and 0.005\% is estimated for pulp and paper products, using component balancing.
+%
+%%The general chemical facilities located in Ontario report 350 t/year of phosphorus as waste \citep{PFlows_Ontario}, in addition of imports and exports of chemical products. 
+%The local production of phosphorus is assumed to be negligible since phosphorus is not mined or refined in Ontario. Synthetic phosphorus fertilizer and phosphorus chemical imports are estimated similar to food imports.  The phosphorus fertilizer imports are accounted for in the agricultural section. Chemical facilities located in Ontario report 350 t/year of phosphorus as waste \citep{PFlows_Ontario}.
+%However,
+%%there exist a significant fraction of phosphorus used in the industrial sector that cannot be tracked due to the lack of data.
+%a significant fraction of phosphorus used in the industrial sector cannot be tracked due to the lack of data.
+%%Regarding other industrial activities which could involve the use of phosphorus, the local production of phosphorus is assumed to be negligible since phosphorus is not mined or refined in Ontario, and the synthetic phosphorus fertilizer imports are accounted in the agricultural section.
+%
+%%{\color{red}Ask sidney what to do with food industry, and pet feed. My approach is to merge all of them as it is currently in the figure, but confirm with her}
 
 \subsubsection{Urban sector}
-In this section, we include the phosphorus inflows and outflows through wastewater treatment plants (WWTPs), septic systems, and food and organic waste management facilities (landfills, composting sites, and anaerobic digestion facilities).
+%In this section, we include the phosphorus inflows and outflows through wastewater treatment plants (WWTPs), septic systems, and food and organic waste management facilities (landfills, composting sites, and anaerobic digestion facilities).
 
 %{\color{red}Jorge do you mind if the purposes of the papaer we stick with just one method? I think it is better, otherwise it becomes lengthy and confusing}
 
@@ -246,17 +294,17 @@ This methodology is shown in Figure \ref{fig:MethodWWTPs}.
 
 %{\color{red}Ask Jorge if I can make a new Figure}
 
-\begin{figure}[H]
-	\centering
-	%	\begin{subfigure}[t]{0.5\linewidth}
-	\includegraphics[width=0.6\linewidth, trim={0cm 0cm 0cm 0cm},clip]{Figures/FigJorge.pdf} 
-	\caption{Procedure for estimating phosphorus flows through wastewater treatment plants (MTWE: Municipal Treated Wastewater Effluent, NPRI: National Pollutant Release Inventory, WSER: Wastewater Systems Effluent Regulations, WWTP: Wastewater Treatment Plant).}
-	\label{fig:MethodWWTPs}
-\end{figure}
-
 There exist households that are not connected to any sewer system but they are equipped with septic systems to perform a rough treatment of the wastewater produced prior to its release into the environment. This typically consists of into a septic tank that separates solid matter from the wastewater, and a drainfield where the effluent is discharged. The estimation of phosphorus releases from septic systems is based on the fraction of households equipped with these systems, estimated at 13\% \citep{CanadaSepticSystems}, which are inhabited by an average of 2.58 individuals \citep{CanadaPersonPerHouse}. The average phosphorus load rate from septic systems assumed is 0.81 kg of phosphorus per person per year
 %for the Lake Erie Basin in Ontario by
 \citep{oldfield2020estimation}.
+
+\begin{figure}[H]
+	\centering
+	%	\begin{subfigure}[t]{0.5\linewidth}
+		\includegraphics[width=0.6\linewidth, trim={0cm 0cm 0cm 0cm},clip]{Figures/FigJorge.pdf} 
+		\caption{Procedure for estimating phosphorus flows through wastewater treatment plants (MTWE: Municipal Treated Wastewater Effluent, NPRI: National Pollutant Release Inventory, WSER: Wastewater Systems Effluent Regulations, WWTP: Wastewater Treatment Plant).}
+		\label{fig:MethodWWTPs}
+	\end{figure}
 
 \subsection{Phosphorus recovery techniques} \label{section:PRecoveryTechs}
 There exist different processes for phosphorus recovery from different sources which technical viability has been proven or is at advanced development stage, i.e., systems with technology readiness level (TRL) \citep{TRLDefinitions} of 6 or above (commercial or pilot plant stage). Since the flows from different processes have different properties, the techniques for phosphorus recovery vary between sectors and flows and, therefore, their recovery efficiencies, costs, and products obtained are different. Table \ref{table:TechParam}, which is included in the Appendix, shows a summary of the specifications of the phosphorus recovery technologies for different flows, including literature references where comprehensive descriptions of each system and its specifications can be found. We note that the phosphorus recovery processes currently available exceed the systems included in this work, nonetheless, the processes considered in this study are a selection of the main techniques for phosphorus recovery.
@@ -267,7 +315,7 @@ e.g., the multiple processes are based on struvite precipitation.
 %A collection of phosphorus recovery technologies for different streams can be found in the Table ??? of the Supplementary Material. 
 %Different scenarios are studied considered the technology readiness level (TRL) of the processes in order to determine the phosphorus that could be immediately recovered using commercial technologies (Scenario 1), the phosphorus that could be recovered in a near future by using technologies above pilot plant development stage (Scenario 2), and finally  prospective assessment of phosphorus recovery systems that at early research stages (Scenario 3). 
 
-Phosphorus recovery costs include operating and annualized capital costs. Capital costs are annualized through the application of an annual capital charge ratio $\left( ACCR\right)$ as defined by \citet{towler2013chemical}, assuming a typical interest rate of 5\% and a plant lifetime of 20 years. Dynamic phosphorus recovery costs in function of the processing capacity have been considered in order to capture the economies of scale for those technologies for which sufficient data are available.
+Phosphorus recovery costs include operating and annualized capital costs. Capital costs are annualized through the application of an annual capital charge ratio $\left( ACCR\right)$ \citep{towler2013chemical}, assuming a typical interest rate of 5\% and a plant lifetime of 20 years. Dynamic phosphorus recovery costs in function of the processing capacity have been considered in order to capture the economies of scale for those technologies for which sufficient data are available.
 
 In general terms, the processes for phosphorus recovery and recycling can be classified into those employed for the treatment of liquid streams, which are based on the formation of precipitates through the direct treatment of the liquid effluent, and those processes employed for the treatment of solid fractions, which usually require the pretreatment of the waste, e.g., through an incineration stage.
 
@@ -434,10 +482,10 @@ Two scenarios are selected for deeper analysis: the minimum cost scenario, in wh
 \subsubsection{Agricultural sector}
 Manure is an agricultural flow from which effective phosphorus recovery might be achieved since it can be collected from the intensive livestock operations and be further treated \citep{schoumans2010phosphorus}. The inventory of cattle, swine, poultry, and other livestock for Ontario in 2019 is 1,376,984, 506,768, 148,508, and 135,725 animal units respectively, resulting in the release of 13,274, 8,569, 6,457, and 2,283 metric tonnes of phosphorus per year through manure respectively. An animal unit is defined as an animal equivalent of 1,000 pounds (453.6 kg) live weight \citep{animal_unit_definition}.
 
-Phosphorus recovery from manure is highly influenced by the economies of scale and, therefore, by the scale of the livestock operations \citep{martin2021geospatial}. Since no data on the size distribution of livestock operations in Ontario is available, the average sizes of livestock facilities reported by \citet{CAFOSAvgSize} for the year 2019 are considered, resulting in average sizes for cattle, swine, poultry and other livestock (primarily sheep and lambs) facilities of 98, 168, 15 and 16 animal units respectively. The number of cattle, swine, poultry, and other livestock operations obtained is 14,051, 3,022, 10,069, and 8,636 respectively, which is in alignment with the number of livestock facilities reported by \citet{CAFOSAvgSizeAndNumber}.
+Phosphorus recovery from manure is highly influenced by the economies of scale and, therefore, by the scale of the livestock operations \citep{martin2021geospatial}. Since no data on the size distribution of livestock operations in Ontario is available, the average sizes of livestock facilities for the year 2019 are considered \citep{CAFOSAvgSize}, resulting in average sizes for cattle, swine, poultry and other livestock (primarily sheep and lambs) facilities of 98, 168, 15 and 16 animal units respectively. The number of cattle, swine, poultry, and other livestock operations obtained is 14,051, 3,022, 10,069, and 8,636 respectively, which is in alignment with the number of livestock facilities reported by other sources \citep{CAFOSAvgSizeAndNumber}.
 
 % animal units for year 2019, which result in the release of 15,923 kt of manure per year and 13.27 kt of phosphorus per year, and for swine represent 506,768 animal units, 5,779 kt of manure per year, and 8.57 kt of phosphorus per year REF. 
-Phosphorus is divided between the liquid and solid fractions of manure, being the solid fraction the one containing the largest amount of phosphorus, and thus the fraction from which larger amounts of phosphorus can be recovered at lower costs, as it can be observed in Figure \ref{fig:Results_PlotSummary}. However, it must be noted that phosphorus recovery from solid manure involved more complex processes, since they include the incineration of the waste, which in turn makes the process more energy intensive and may result in environmentally harmful emissions of gases. Cattle manure contains the larges amount of phosphorus as a consequence of being the largest manure flow, followed by swine and poultry manure. However, the comparison of the average phosphorus recovery costs per kilogram of phosphorus recovered shows that phosphorus recovery from swine liquid manure is more cost-effective, as shown in Figure \ref{fig:Results_PlotSummarySpecific}. This is due to the size of the swine intensive facilities, which in average are comprised by a larger number of animal units than cattle intensive facilities. This reveals the important role of the economies of scale in phosphorus recovery. However, in general terms the small size of the livestock operations in Ontario results in high phosphorus recovery costs, whose values range between 200 and 700 EUR/kg P recovered. These costs are significantly higher than the phosphorus recovery costs reported by \citet{martin2022analysis} for the comparatively larger livestock operations of the U.S. states in the Great Lakes area, whose average sizes range from 630 to 2,600 animal units, resulting in phosphorus recovery costs between 13 and 73 USD/kilogram of phosphorus recovered. The phosphorus recovery efficiency is similar for all livestock types since the processes selected are the modular physical separation system MAPHEX \citep{church_versatility_2018} due to the small scale of the livestock facilities.
+Phosphorus is divided between the liquid and solid fractions of manure, being the solid fraction the one containing the largest amount of phosphorus, and thus the fraction from which larger amounts of phosphorus can be recovered at lower costs, as it can be observed in Figure \ref{fig:Results_PlotSummary}. However, it must be noted that phosphorus recovery from solid manure involved more complex processes, since they include the incineration of the waste, which in turn makes the process more energy intensive and may result in environmentally harmful emissions of gases. Cattle manure contains the larges amount of phosphorus as a consequence of being the largest manure flow, followed by swine and poultry manure. However, the comparison of the average phosphorus recovery costs per kilogram of phosphorus recovered shows that phosphorus recovery from swine liquid manure is more cost-effective, as shown in Figure \ref{fig:Results_PlotSummarySpecific}. This is due to the size of the swine intensive facilities, which in average are comprised by a larger number of animal units than cattle intensive facilities. This reveals the important role of the economies of scale in phosphorus recovery. However, in general terms the small size of the livestock operations in Ontario results in high phosphorus recovery costs, whose values range between 200 and 700 EUR/kg P recovered. These costs are significantly higher than the phosphorus recovery costs reported for the comparatively larger livestock operations of the U.S. states in the Great Lakes area \citep{martin2022analysis}, whose average sizes range from 630 to 2,600 animal units, resulting in phosphorus recovery costs between 13 and 73 USD/kilogram of phosphorus recovered. The phosphorus recovery efficiency is similar for all livestock types since the processes selected are the modular physical separation system MAPHEX \citep{church_versatility_2018} due to the small scale of the livestock facilities.
 %For the case of solid manure it can be observed that all livestock types show a similar average phosphorus recovery cost as a result of the lack of data to stimate the effect of the economies of scale of these processes.
 It was not possible to evaluate the effect of the economies of scale for the processes intended to phosphorus recovery from the solid fraction of manure due to the lack of techno-economic data available for them.
 %determined that the implementation of struvite production processes at livestock facilities is mainly driven by the scale of the CAFO, and thus they can be divided by into three clusters regarding the type of phosphorus recovery processes implemented, i.e., facilities with capacity for between 300 and 2,000 animal units, for between 2,000 and 5,000 animals units, and facilities large than 5,000 animal units. An animal unit (AU) is defined as an animal equivalent of 1,000 pounds (453.6 kg) live weight \citep{animal_unit_definition}. The most suitable phosphorus recovery for process for the facilities of each one of these clusters was determined by \citet{martin2021geospatial}, resulting in that  Multiform-type processes are the most suitable struvite produciton system for the cluster including the small-size CAFOs cluster (300-2,000 AUs), NuReSys-type systems are suitable for medium-size CAFOs (2,00-5,000 AUs), while that the suitable struvite system for large-scale CAFOs is Crystalactor-type processes. The investment and operating cost of these systems is collected in Table ?REF?.
@@ -504,14 +552,15 @@ It was not possible to evaluate the effect of the economies of scale for the pro
 \subsubsection{Industrial and urban sector}
 Industrial and urban sectors are grouped since some flows belong to both sectors, particularly those related to wastewater and the organic fraction of industrial and municipal solid waste, including food waste.
 
-Slaughterhouse waste is an industrial flow from which phosphorus can be effectively recovered \citep{Pearl2Kcost2}. Data on individual capacities for the slaughterhouses in Ontario is not available to estimate the effect of the economies of scale on the cost of phosphorus recovery. Therefore, average slaughterhouse capacities are considered, which values are 104,017, 802,186, and $14.4 \cdot 10^6$ cattle, hog, and poultry heads slaughtered/$\left(\text{facility} \cdot \text{year}\right) $ respectively \citep{SlaughterhouseDistribution, SlaughterhousePoultryAverageSize}. Considering the inventory of slaughtered animals reported by \citet{SlaughterFederalRedMeat, SlaughterFederalPoultry}, 7, 6, and 17 cattle, hog, and poultry slaughtering facilities are obtained, with associated phosphorus flows of 317.4, 103.5, and 53.2 metric tonnes/$\left(\text{facility} \cdot \text{year}\right) $ respectively. Phosphorus flows from slaughtered sheep and rabbit are considered negligible due to the low number of animals slaughtered. Figure \ref{fig:Results_PlotSummary} shows that most of phosphorus can be recovered from the solid fraction of waste due to its larger phosphorus content. The variations between the minimum cost and maximum recovery scenarios are not significant for the solid slaughterhouse waste flow. However, for slaughterhouse wastewater, phosphorus recovery for the maximum recovery scenario increases by a factor of 2.3  over the minimum cost scenario, while the total recovery cost increases by a factor of 3.3, as it can be observed in Figure \ref{fig:Results_PlotSummarySpecific}. Therefore, the increase of phosphorus recovery efficiency results in a non-linear increase in the phosphorus recovery cost. The numerical results are collected in the Supplementary Material.
+Slaughterhouse waste is an industrial flow from which phosphorus can be effectively recovered \citep{Pearl2Kcost2}. Data on individual capacities for the slaughterhouses in Ontario is not available to estimate the effect of the economies of scale on the cost of phosphorus recovery. Therefore, average slaughterhouse capacities are considered, which values are 104,017, 802,186, and $14.4 \cdot 10^6$ cattle, hog, and poultry heads slaughtered/$\left(\text{facility} \cdot \text{year}\right) $ respectively \citep{SlaughterhouseDistribution, SlaughterhousePoultryAverageSize}. Considering the inventory of slaughtered animals \citep{SlaughterFederalRedMeat, SlaughterFederalPoultry}, 7, 6, and 17 cattle, hog, and poultry slaughtering facilities are obtained, with associated phosphorus flows of 317.4, 103.5, and 53.2 metric tonnes/$\left(\text{facility} \cdot \text{year}\right) $ respectively. Phosphorus flows from slaughtered sheep and rabbit are considered negligible due to the low number of animals slaughtered. Figure \ref{fig:Results_PlotSummary} shows that most of phosphorus can be recovered from the solid fraction of waste due to its larger phosphorus content. The variations between the minimum cost and maximum recovery scenarios are not significant for the solid slaughterhouse waste flow. However, for slaughterhouse wastewater, phosphorus recovery for the maximum recovery scenario increases by a factor of 2.3  over the minimum cost scenario, while the total recovery cost increases by a factor of 3.3, as it can be observed in Figure \ref{fig:Results_PlotSummarySpecific}. Therefore, the increase of phosphorus recovery efficiency results in a non-linear increase in the phosphorus recovery cost.
+%The numerical results are collected in the Supplementary Material.
 %The number of slaughtered animals can be found in Table ?? of Supplementary Material.
 
 %\subsubsection{Urban sector}
 Wastewater is a large flow containing significant amounts of phosphorus. Wastewater is collected and directed to wastewater treatment plants (WWTPs). These facilities produce a liquid water effluent with adequate environmental parameters for being released into the environment, and a sludge flow from the primary and secondary treatments. Phosphorus can be recovered from both flows, although most of the phosphorus is contained in the sludge fraction.
 The distribution of phosphorus assumed for treated liquid water and sludge is 14.1\% and 85.9\% respectively,
 %\citep{PFlows_Ontario},
-based on the data reported by NPRI and WSER databases \citep{NPRI, WSER}, which is in alignment with the distribution values reported by \citet{egle_phosphorus_2016}. The capacity of the wastewater treatment plants installed in Ontario, together with their phosphorus flows, have been analyzed to determine the effect of the economies of scale in the cost of phosphorus recovery.
+based on the data reported by NPRI and WSER databases \citep{NPRI, WSER}, which is in alignment with the distribution values reported by previous studies \citep{egle_phosphorus_2016}. The capacity of the wastewater treatment plants installed in Ontario, together with their phosphorus flows, have been analyzed to determine the effect of the economies of scale in the cost of phosphorus recovery.
 %{\color{red}{Data on Ontario wastewater treatment plants capacity and phosphorus releases is collected in the Supplementary Material}}
 %{\color{red}{*Jorge and Roy, would you agree with including this data as part of the Suplementary Material?*}}.
 Figure \ref{fig:Results_PlotSummary} shows that the potential for phosphorus recovery from sludge is greater than from the liquid fraction, as mentioned before. Little variation is observed between the minimum cost and maximum recovery scenarios for the recovery of phosphorus from sludge, which implies that there exists a certain degree of homogeneity in the current technologies for phosphorus recovery from sludge. This can also be appreciated in Figure \ref{fig:Results_PlotSummarySpecific}. It must be noted that the phosphorus recovery systems from sludge ashes reveal to be more effective, including the incineration cost, than the direct recovery of phosphorus from sludge due to the higher recovery efficiency of the former ones. Conversely, the phosphorus recovery from the liquid wastewater fraction shows a larger variability between both scenarios considered. The phosphorus recovered in the maximum recovery scenario is 1.7 times larger than in the minimum cost scenarios. However, this increase in the phosphorus recovery efficiency results in the increase of the recovery cost by a factor of 9.6, showing that similarly to the case of the liquid fraction of slaughterhouse waste, the achievement of greater recovery efficiencies through the use of more effective technologies results in an exponential increase of recovery costs.
@@ -522,7 +571,7 @@ Finally, there are some processes under development for the recovery of phosphor
 
 \subsection{Economic implications of phosphorus recovery in Ontario}
 In order to compare the costs derived from the recovery of anthropogenic phosphorus, Figure \ref{fig:CommodityPrices} shows the average phosphorus recovery cost in Ontario
-along with the long-term social and environmental economical losses derived from uncontrolled releases of phosphorus into the environment estimated by \citet{sampat2021valuing},
+along with the long-term social and environmental economical losses derived from uncontrolled releases of phosphorus into the environment \citep{sampat2021valuing},
 and
 the temporal evolution of prices for different phosphorus commodities reported by the World Bank's Commodity Markets report \citep{CommoditiesPrices}, i.e., phosphate rock, diammonium phosphate (DAP), and triple superphosphate (TSP) together. The costs are normalized per mass unit of phosphorus, assuming that the phosphorus content of commercial phosphorus rock ranges from 28 to 34\% in mass basis \citep{FAO_PUses, UMin_P}, while phosphorus content of DAP and TSP is 20\% and 19\% respectively. The prices have been adjusted to the year 2020 through the Consumer Price Index (CPI) elaborated by the U.S. Census Bureau \citep{CPIIndex}.
 
@@ -531,7 +580,7 @@ It can be observed that the average cost of phosphorus recovery in Ontario, valu
 \begin{figure}[H]
 	\centering
 	%	\begin{subfigure}[t]{0.5\linewidth}
-	\includegraphics[width=0.65\linewidth, trim={0cm 0cm 0cm 0cm},clip]{Figures/CommodityPrices.pdf} 
+	\includegraphics[width=0.75\linewidth, trim={0cm 0cm 0cm 0cm},clip]{Figures/CommodityPrices.pdf} 
 	\caption{Average phosphorus recovery cost in Ontario, economical losses derived from the releases of phosphorus into the environment \protect\citep{sampat2021valuing}, and temporal evolution of prices for different phosphorus commodities. Note that the scale of y-axis is different for top and bottom axes.}
 	\label{fig:CommodityPrices}
 \end{figure}
@@ -879,26 +928,20 @@ The Government of Canada through the Department of Environment and Climate Chang
 
 \appendix
 
-%\section{Phosphorus recovery technologies techno-economic data}
-%\begingroup
-%\vfill
-%\begin{rotate}{90}
-%\begin{landscape}[]
-%\begin{sideways}
 \begin{sidewaystable}[!htbp]%[!htbp]
 \section{Phosphorus recovery technologies techno-economic data}
 %\begin{table}[!htbp]%[!htbp]
 	\centering
-	\caption{Phosphorus recovery technologies considered in the study. For the treatment of manure we assumed that the units for the separation of the solid and liquid phases is already implemented in the livestock operations. $F$ denotes the phosphorus recovered as $\sfrac{\text{kg P}_{\text{recovered}}}{\text{year}}$, while $\lceil x \rceil$ represent the ceiling function applied to $x$. The definition of annual capital charge ratio $\left( ACCR\right)$ can be found in the Supplementary Material, Section 1.1. Refs: [1]: \protect\citet{martin2021geospatial},
-		[2]: \protect\citet{jupp2021phosphorus},
-		[3]: \protect\citet{egle_phosphorus_2016},
-		[4]: \protect\citet{schoumans2010phosphorus},
-		[5]: \protect\citet{szogi2008phosphorus},
-		[6]: \protect\citet{Pearl2Kcost2},
-		[7]: \protect\citet{zagklis2020assessing},
-		[8]: \protect\citet{fernandez2022phosphorus},
-		[9]: \protect\citet{ohtake2019phosphorus},
-		[10]: \protect\citet{sharma2021life}} \label{table:TechParam}
+	\caption{Phosphorus recovery technologies considered in the study. For the treatment of manure we assumed that the units for the separation of the solid and liquid phases is already implemented in the livestock operations. $F$ denotes the phosphorus recovered as $\sfrac{\text{kg P}_{\text{recovered}}}{\text{year}}$, while $\lceil x \rceil$ represent the ceiling function applied to $x$. The definition of annual capital charge ratio $\left( ACCR\right)$ can be found in the Supplementary Material, Section 1.1. Refs: 1: \protect\citep{martin2021geospatial},
+		2: \protect\citep{jupp2021phosphorus},
+		3: \protect\citep{egle_phosphorus_2016},
+		4: \protect\citep{schoumans2010phosphorus},
+		5: \protect\citep{szogi2008phosphorus},
+		6: \protect\citep{Pearl2Kcost2},
+		7: \protect\citep{zagklis2020assessing},
+		8: \protect\citep{fernandez2022phosphorus},
+		9: \protect\citep{ohtake2019phosphorus},
+		10: \protect\citep{sharma2021life}} \label{table:TechParam}
 		\resizebox{1.09\columnwidth}{!}{
 		\begin{threeparttable}
 		\begin{tabular}{@{}cccccccccc@{}}
@@ -1011,6 +1054,7 @@ The Government of Canada through the Department of Environment and Climate Chang
 		\end{threeparttable}
 	}
 \end{sidewaystable}
+
 %\end{sideways}
 %\end{landscape}
 %\end{rotate}

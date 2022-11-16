@@ -1,0 +1,499 @@
+\begin{thebibliography}{10}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Kausar19}
+S.~Samreen, S.~Kausar, Phosphorus fertilizer: The original and commercial
+  sources, in: T.~Zhang (Ed.), Phosphorus, IntechOpen, 2019, Ch.~6.
+
+\bibitem{pingali2012green}
+P.~L. Pingali, Green revolution: impacts, limits, and the path ahead,
+  Proceedings of the National Academy of Sciences 109~(31) (2012) 12302--12308.
+
+\bibitem{reid2019phosphorus}
+K.~Reid, K.~D. Schneider, Phosphorus accumulation in canadian agricultural
+  soils over 30 yr, Canadian Journal of Soil Science 99~(4) (2019) 520--532.
+
+\bibitem{ehlert2003potential}
+P.~Ehlert, C.~Morel, M.~Fotyma, J.-P. Destain, Potential role of phosphate
+  buffering capacity of soils in fertilizer management strategies fitted to
+  environmental goals, Journal of plant nutrition and soil science 166~(4)
+  (2003) 409--415.
+
+\bibitem{UN_Phosphorus}
+{United Nations Environment Programme}, {Resolution adopted by the United
+  Nations Environment Assembly on 2 March 2022, UNEP/EA.5 Res.2, on Sustainable
+  nitrogen management} (2022).
+
+\bibitem{cordell2009story}
+D.~Cordell, J.-O. Drangert, S.~White, The story of phosphorus: global food
+  security and food for thought, Global environmental change 19~(2) (2009)
+  292--305.
+
+\bibitem{FAO_UkraineWar}
+{Food and Agriculture Organization of the United Nations}, {The importance of
+  Ukraine and the Russian Federation for global agricultural markets and the
+  risks associated with the war in Ukraine} (2022).
+
+\bibitem{boh2020nitrogen}
+M.~Y. Boh, O.~G. Clark, {Nitrogen and phosphorus flows in Ontario’s food
+  systems}, Resources, Conservation and Recycling 154 (2020) 104639.
+
+\bibitem{zhou2021model}
+J.~Zhou, X.~Jiao, L.~Ma, W.~de~Vries, F.~Zhang, J.~Shen, Model-based analysis
+  of phosphorus flows in the food chain at county level in china and options
+  for reducing the losses towards green development, Environmental Pollution
+  288 (2021) 117768.
+
+\bibitem{nesme2018global}
+T.~Nesme, G.~S. Metson, E.~M. Bennett, Global phosphorus flows through
+  agricultural trade, Global Environmental Change 50 (2018) 133--141.
+
+\bibitem{villalba2008global}
+G.~Villalba, Y.~Liu, H.~Schroder, R.~U. Ayres, Global phosphorus flows in the
+  industrial economy from a production perspective, Journal of Industrial
+  ecology 12~(4) (2008) 557--569.
+
+\bibitem{chen2016half}
+M.~Chen, T.~Graedel, A half-century of global phosphorus flows, stocks,
+  production, consumption, recycling, and environmental impacts, Global
+  Environmental Change 36 (2016) 139--152.
+
+\bibitem{van2016phosphorus}
+K.~C. Van~Dijk, J.~P. Lesschen, O.~Oenema, {Phosphorus flows and balances of
+  the European Union Member States}, Science of the Total Environment 542
+  (2016) 1078--1093.
+
+\bibitem{klinglmair2015phosphorus}
+M.~Klinglmair, C.~Lemming, L.~S. Jensen, H.~Rechberger, T.~F. Astrup,
+  C.~Scheutz, Phosphorus in denmark: national and regional anthropogenic flows,
+  Resources, Conservation and Recycling 105 (2015) 311--324.
+
+\bibitem{senthilkumar2012conceptual}
+K.~Senthilkumar, T.~Nesme, A.~Mollier, S.~Pellerin, {Conceptual design and
+  quantification of phosphorus flows and balances at the country scale: The
+  case of France}, Global Biogeochemical Cycles 26~(2) (2012).
+
+\bibitem{martin2021geospatial}
+E.~Mart{\'\i}n-Hern{\'a}ndez, M.~Mart{\'\i}n, G.~J. Ruiz-Mercado, A geospatial
+  environmental and techno-economic framework for sustainable phosphorus
+  management at livestock facilities, Resources, Conservation and Recycling 175
+  (2021) 105843.
+
+\bibitem{sampat2018technologies}
+A.~M. Sampat, E.~Martin-Hernandez, M.~Mart{\'\i}n, V.~M. Zavala, Technologies
+  and logistics for phosphorus recovery from livestock waste, Clean
+  Technologies and Environmental Policy 20~(7) (2018) 1563--1579.
+
+\bibitem{egle_phosphorus_2016}
+L.~Egle, H.~Rechberger, J.~Krampe, M.~Zessner,
+  \href{https://linkinghub.elsevier.com/retrieve/pii/S0048969716314656}{Phosphorus
+  recovery from municipal wastewater: {An} integrated comparative
+  technological, environmental and economic assessment of {P} recovery
+  technologies}, Science of The Total Environment 571 (2016) 522--542.
+\newblock \href {https://doi.org/10.1016/j.scitotenv.2016.07.019}
+  {\path{doi:10.1016/j.scitotenv.2016.07.019}}.
+\newline\urlprefix\url{https://linkinghub.elsevier.com/retrieve/pii/S0048969716314656}
+
+\bibitem{nattorp2017cost}
+A.~N{\"a}ttorp, K.~Remmen, C.~Remy, Cost assessment of different routes for
+  phosphorus recovery from wastewater using data from pilot and production
+  plants, Water Science and Technology 76~(2) (2017) 413--424.
+
+\bibitem{kahiluoto2021global}
+H.~Kahiluoto, K.~E. Pickett, W.~Steffen, Global nutrient equity for people and
+  the planet, Nature Food 2~(11) (2021) 857--861.
+
+\bibitem{sampat2019coordinated}
+A.~M. Sampat, Y.~Hu, M.~Sharara, H.~Aguirre-Villegas, G.~Ruiz-Mercado, R.~A.
+  Larson, V.~M. Zavala, Coordinated management of organic waste and derived
+  products, Computers \& chemical engineering 128 (2019) 352--363.
+
+\bibitem{martin2022analysis}
+E.~Mart{\'\i}n-Hern{\'a}ndez, Y.~Hu, V.~M. Zavala, M.~Mart{\'\i}n, G.~J.
+  Ruiz-Mercado, Analysis of incentive policies for phosphorus recovery at
+  livestock facilities in the great lakes area, Resources, Conservation and
+  Recycling 177 (2022) 105973.
+
+\bibitem{brunner2016handbook}
+P.~H. Brunner, H.~Rechberger, Handbook of material flow analysis: For
+  environmental, resource, and waste engineers, CRC press, 2016.
+
+\bibitem{PFlows_Ontario}
+{Pollution Probe}, {Mapping Phosphorus Flows in the Ontario Economy. Exploring
+  Nutrient Recovery and Reuse Opportunites in a Provincial Context},
+  \url{https://www.pollutionprobe.org/mapping-phosphorus-flows-in-the-ontario-economy/},
+  [Online; accessed 13-July-2022] (2022).
+
+\bibitem{CensusOfAgricultureCanada}
+{Statistics Canada -- Statistique Canada}, {Census of fAgriculture},
+  \url{https://www.statcan.gc.ca/en/census-agriculture}, [Online; accessed
+  17-November-2022] (2022).
+
+\bibitem{SlaughterFederalRedMeat}
+{Agriculture and Agri-Food Canada}, {Red meat and livestock slaughter and
+  carcass weights},
+  \url{https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/red-meat-and-livestock-market-information/slaughter-and-carcass-weights},
+  [Online; accessed 15-December-2021] (2021).
+
+\bibitem{SlaughterFederalPoultry}
+{Agriculture and Agri-Food Canada}, {Poultry slaughter reports},
+  \url{https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/poultry-and-egg-market-information/slaughter},
+  [Online; accessed 16-December-2021] (2021).
+
+\bibitem{EggOntario}
+{Ontario Ministry of Agriculture and Food and the Ministry of Rural Affairs},
+  {Ontario egg production},
+  \url{https://data.ontario.ca/dataset/ontario-egg-production}, [Online;
+  accessed 14-December-2021] (2020).
+
+\bibitem{MilkOntario}
+{Ontario Ministry of Agriculture and Food and the Ministry of Rural Affairs},
+  {Ontario milk shipments by county},
+  \url{https://data.ontario.ca/en/dataset/ontario-milk-shipments-by-county},
+  [Online; accessed 14-December-2021] (2020).
+
+\bibitem{FertilizerShipments}
+{Statistics Canada -- Statistique Canada}, {Fertilizer shipments to Canadian
+  agriculture markets, by nutrient content and fertilizer year, cumulative data
+  (x 1,000)},
+  \url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210003901},
+  [Online; accessed 09-February-2022] (2022).
+
+\bibitem{IROWC_PHandbook}
+E.~van Bochove, G.~Th{\'e}riault, J.-T. Denault, {Indicator of risk of water
+  contamination by phosphorus (IROWC P): a handbook for presenting the IROWC P
+  algorithms}, Tech. rep., {Agriculture and Agri-Food Canada} (2010).
+
+\bibitem{CensusDivisionOpendatasoft}
+{Opendatasoft}, {Census divisions - Canada},
+  \url{https://public.opendatasoft.com/explore/dataset/georef-canada-census-division/table/?disjunctive.prov_name_en&disjunctive.cd_name_en&sort=year&refine.prov_name_en=Ontario},
+  [Online; accessed 29-November-2021] (2019).
+
+\bibitem{FieldCropsCensus}
+{Agriculture and Agri-Food Canada}, {Field crops and hay, Census of
+  Agriculture, 2011 and 2016},
+  \url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210041601},
+  [Online; accessed 16-December-2021] (2022).
+
+\bibitem{FieldVegetablesCensus}
+{Agriculture and Agri-Food Canada}, {Field vegetables,, Census of Agriculture,
+  2011 and 2016},
+  \url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210041801},
+  [Online; accessed 16-December-2021] (2022).
+
+\bibitem{GreenhousesCensus}
+{Agriculture and Agri-Food Canada}, {Greenhouse products and mushrooms,, 2011
+  and 2016},
+  \url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210042001},
+  [Online; accessed 16-December-2021] (2022).
+
+\bibitem{USDAHandbook}
+{United States Department of Agriculture}, {Agricultural Wate Management Field
+  Handbook}, Tech. rep., United States Department of Agriculture (USDA) (2009).
+
+\bibitem{zhang2015tile}
+T.~Zhang, C.~Tan, Z.~Zheng, C.~Drury, Tile drainage phosphorus loss with
+  long-term consistent cropping systems and fertilization, Journal of
+  environmental quality 44~(2) (2015) 503--511.
+
+\bibitem{wang2018solid}
+Y.~Wang, T.~Zhang, C.~Tan, Z.~Qi, T.~Welacky, Solid cattle manure less prone to
+  phosphorus loss in tile drainage water, Journal of environmental quality
+  47~(2) (2018) 318--325.
+
+\bibitem{tan2011surface}
+C.~Tan, T.~Zhang, Surface runoff and sub-surface drainage phosphorus losses
+  under regular free drainage and controlled drainage with sub-irrigation
+  systems in southern ontario, Canadian Journal of Soil Science 91~(3) (2011)
+  349--359.
+
+\bibitem{HorticulturalOntario}
+{Ontario Ministry of Agriculture and Food and the Ministry of Rural Affairs},
+  {Horticultural Crops},
+  \url{http://www.omafra.gov.on.ca/english/stats/hort/index.html}, [Online;
+  accessed 18-December-2021] (2022).
+
+\bibitem{GreenhouseReleases}
+{Ontario Ministry of the Environment, Conservation and Parks}, {Greenhouse
+  Wastewater Monitoring Project (2010 and 2011)},
+  \url{https://www.ontario.ca/page/greenhouse-wastewater-monitoring-project-2010-and-2011},
+  [Online; accessed 22-December-2021] (2012).
+
+\bibitem{GNFOntario}
+{Ontario Ministry of Agriculture and Food and the Ministry of Rural Affairs},
+  {Greenhouse Nutrient Feedwater Regulation},
+  \url{http://www.omafra.gov.on.ca/english/nm/regs/gnfpro/gnfreg.htm}, [Online;
+  accessed 23-December-2021] (2021).
+
+\bibitem{GrowingVeggiesOntario}
+{Ontario Ministry of Agriculture and Food and the Ministry of Rural Affairs},
+  {Growing Greenhouse Vegetables in Ontario} (2011).
+
+\bibitem{OntarioAquaculture}
+{Ontario Ministry of the Environment, Conservation and Parks}, {Provincial
+  policy objectives for managing effects of cage aquaculture operations on the
+  quality of water and sediment in Ontario’s waters},
+  \url{https://ero.ontario.ca/notice/012-7186}, [Online; accessed 15-July-2022]
+  (2019).
+
+\bibitem{StatisticsCanadaAquaculture}
+{Statistics Canada - Statisque Canada}, {Aquaculture, production and value},
+  \url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210010701},
+  [Online; accessed 15-July-2022] (2021).
+
+\bibitem{CanadianNutrientFile}
+{Health Canada}, {Canadian Nutrient File},
+  \url{https://food-nutrition.canada.ca/cnf-fce/index-eng.jsp}, [Online;
+  accessed 15-July-2022] (202).
+
+\bibitem{bureau2003chemical}
+D.~P. Bureau, S.~J. Gunther, C.~Y. Cho, {Chemical composition and preliminary
+  theoretical estimates of waste outputs of rainbow trout reared in commercial
+  cage culture operations in Ontario}, North American Journal of Aquaculture
+  65~(1) (2003) 33--38.
+
+\bibitem{TradeDataOnlineCanada}
+{Statistics Canada - Statisque Canada}, {Trade Data Online},
+  \url{https://www.ic.gc.ca//app/scr/tdst/tdo/crtr.html?&productType=HS6&lang=eng},
+  [Online; accessed 15-July-2022] (2022).
+
+\bibitem{PopulationCanada}
+{Statistics Canada - Statisque Canada}, {Population estimates, quarterly},
+  \url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1710000901},
+  [Online; accessed 15-July-2022] (2022).
+
+\bibitem{FoodLossesFAO}
+{FAO}, {Global food losses and food waste - Extent, causes and prevention},
+  \url{https://www.fao.org/3/i2697e/i2697e.pdfg}, [Online; accessed
+  15-July-2022] (2011).
+
+\bibitem{yokoyama2007separation}
+K.~Yokoyama, H.~Kubo, K.~Mori, H.~Okada, S.~Takeuchi, T.~Nagasaka, Separation
+  and recovery of phosphorus from steelmaking slags with the aid of a strong
+  magnetic field, ISIJ international 47~(10) (2007) 1541--1548.
+
+\bibitem{CheminfoServices}
+{Cheminfo Services Inc.}, {Economic Assessment of the Integrated Steel
+  Industry},
+  \url{https://www.canadiansteel.ca/files/resources/Final-Report-Economic-Assessment-of-the-Integrated-Steel-Industry.pdf},
+  [Online; accessed 13-July-2022] (2019).
+
+\bibitem{AlgomaSteel}
+{Algoma Steel Inc.}, {Corporate Profile},
+  \url{https://algoma.com/about-algoma/corporate-profile/}, [Online; accessed
+  13-July-2022] (2022).
+
+\bibitem{Stelco}
+{Stelco Inc.}, {Our Facilities},
+  \url{https://www.stelco.com/about-us/our-facilities}, [Online; accessed
+  13-July-2022] (2022).
+
+\bibitem{WorldIntegratedTradeSolution}
+{World Integrated Trade Solution}, {Data on Export, Import, Tariff},
+  \url{https://wits.worldbank.org/}, [Online; accessed 13-July-2022] (2022).
+
+\bibitem{InterprovincialImportsExports}
+{Statistics Canada - Statisque Canada}, {Interprovincial and international
+  trade flows, basic prices, summary level},
+  \url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=1210008801},
+  [Online; accessed 13-July-2022] (2022).
+
+\bibitem{CanadianForestServiceStatistics}
+{Canadian Forest Service}, {Statistical data},
+  \url{https://cfs.nrcan.gc.ca/statsprofile/}, [Online; accessed 13-July-2022]
+  (2020).
+
+\bibitem{sardans2013tree}
+J.~Sardans, J.~Pe{\~n}uelas, Tree growth changes with climate and forest type
+  are associated with relative allocation of nutrients, especially phosphorus,
+  to leaves and wood, Global Ecology and Biogeography 22~(4) (2013) 494--507.
+
+\bibitem{NPRI}
+{Environment and Climate Change Canada}, {About the National Pollutant Release
+  Inventory},
+  \url{https://www.canada.ca/en/environment-climate-change/services/national-pollutant-release-inventory/about-national-pollutant-release-inventory.html},
+  [Online; accessed 29-December-2021] (2021).
+
+\bibitem{WSER}
+{Environment and Climate Change Canada}, {Wastewater Systems Effluent
+  Regulations},
+  \url{https://open.canada.ca/data/en/dataset/9e11e114-ef0d-4814-8d93-24af23716489},
+  [Online; accessed 29-December-2021] (2021).
+
+\bibitem{MTWE}
+{Ontario Ministry of the Environment, Conservation and Parks}, {Municipal
+  Treated Wastewater Effluent},
+  \url{https://data.ontario.ca/dataset/municipal-treated-wastewater-effluent},
+  [Online; accessed 29-December-2021] (2021).
+
+\bibitem{CanadaSepticSystems}
+{Statistics Canada - Statisque Canada}, {Sewer and septic system connections.
+  Households and the Environment},
+  \url{https://www150.statcan.gc.ca/n1/pub/11-526-x/2013001/t059-eng.htm},
+  [Online; accessed 15-July-2022] (2015).
+
+\bibitem{CanadaPersonPerHouse}
+{Statistics Canada - Statisque Canada}, {Estimated number of households and
+  average household size by domain, Canada. User guide for the survey of
+  household spending},
+  \url{https://www150.statcan.gc.ca/n1/pub/62f0026m/2017002/app-ann-g-eng.htm},
+  [Online; accessed 15-July-2022] (2017).
+
+\bibitem{oldfield2020estimation}
+L.~Oldfield, S.~Rakhimbekova, J.~W. Roy, C.~E. Robinson, Estimation of
+  phosphorus loads from septic systems to tributaries in the canadian lake erie
+  basin, Journal of Great Lakes Research 46~(6) (2020) 1559--1569.
+
+\bibitem{TRLDefinitions}
+{National Aeronautics and Space Administration}, {Technology Readiness Level
+  Definitions}, \url{https://www.nasa.gov/pdf/458490main_TRL_Definitions.pdf},
+  [Online; accessed 15-August-2022] (2022).
+
+\bibitem{towler2013chemical}
+G.~Towler, R.~Sinnott, Chemical engineering design: principles, practice and
+  economics of plant and process design, Butterworth-Heinemann, 2013.
+
+\bibitem{church_versatility_2018}
+C.~D. Church, A.~N. Hristov, P.~J. Kleinman, S.~K. Fishel, M.~R. Reiner, R.~B.
+  Bryant,
+  \href{http://elibrary.asabe.org/abstract.asp?AID=48976&t=3&dabs=Y&redir=&redirType=}{Versatility
+  of the {MAnure} {PHosphorus} {EXtraction} ({MAPHEX}) {System} in {Removing}
+  {Phosphorus}, {Odor}, {Microbes}, and {Alkalinity} from {Dairy} {Manures}:
+  {A} {Four}-{Farm} {Case} {Study}}, Applied Engineering in Agriculture 34~(3)
+  (2018) 567--572.
+\newblock \href {https://doi.org/10.13031/aea.12632}
+  {\path{doi:10.13031/aea.12632}}.
+\newline\urlprefix\url{http://elibrary.asabe.org/abstract.asp?AID=48976&t=3&dabs=Y&redir=&redirType=}
+
+\bibitem{jupp2021phosphorus}
+A.~R. Jupp, S.~Beijer, G.~C. Narain, W.~Schipper, J.~C. Slootweg, Phosphorus
+  recovery and recycling--closing the loop, Chemical Society Reviews 50~(1)
+  (2021) 87--101.
+
+\bibitem{szogi2008phosphorus}
+A.~Sz{\"o}gi, M.~Vanotti, P.~Hunt, Phosphorus recovery from poultry litter,
+  Transactions of the ASABE 51~(5) (2008) 1727--1734.
+
+\bibitem{Pearl2Kcost2}
+{AMPC}, {Struvite or Traditional Chemical Phosphorus Precipitation – What
+  Option Rocks?},
+  \url{https://www.ampc.com.au/uploads/cgblog/id408/2018-1026_-_Final_Report.pdf},
+  [Online; accessed 20-March-2019] (2018).
+
+\bibitem{schoumans2010phosphorus}
+O.~Schoumans, W.~Rulkens, O.~Oenema, P.~Ehlert, Phosphorus recovery from animal
+  manure: Technical opportunities and agro-economical perspectives, Tech. rep.,
+  {Alterra, Wageningen UR} (2010).
+
+\bibitem{animal_unit_definition}
+{U.S. Department of Agriculture}, {Animal Feeding Operations (AFO) and
+  Concentrated Animal Feeding Operations (CAFO)},
+  \url{https://www.nrcs.usda.gov/wps/portal/nrcs/main/national/plantsanimals/livestock/afo/},
+  [Online; accessed 10-August-2020] (2011).
+
+\bibitem{CAFOSAvgSize}
+{Statistics Canada - Statisque Canada}, {Livestock estimates},
+  \url{https://www150.statcan.gc.ca/n1/daily-quotidien/220228/dq220228d-cansim-eng.htm},
+  [Online; accessed 15-August-2022] (2022).
+
+\bibitem{CAFOSAvgSizeAndNumber}
+{Statistics Canada - Statisque Canada}, {Selected livestock and poultry, Census
+  of Agriculture historical data},
+  \url{https://www150.statcan.gc.ca/t1/tbl1/en/tv.action?pid=3210015501},
+  [Online; accessed 18-August-2022] (2022).
+
+\bibitem{SlaughterhouseDistribution}
+{Agriculture and Agri-Food Canada}, {Distribution of slaughtering activity},
+  \url{https://agriculture.canada.ca/en/canadas-agriculture-sectors/animal-industry/red-meat-and-livestock-market-information/slaughter-and-carcass-weights/distribution-slaughtering-activity},
+  [Online; accessed 22-August-2022] (2021).
+
+\bibitem{SlaughterhousePoultryAverageSize}
+{INAC Services}, {Poultry processing in Canada},
+  \url{http://inacservices.com/poultry-processing-in-canada/}, [Online;
+  accessed 22-August-2022] (2014).
+
+\bibitem{du2022recovery}
+C.-m. Du, X.~Gao, S.~Ueda, S.-y. Kitamura, Recovery of high-quality phosphate
+  from steelmaking slag by a hydrometallurgical process, Science of The Total
+  Environment 819 (2022) 153125.
+
+\bibitem{du2019separation}
+C.-M. Du, X.~Gao, S.~Ueda, S.-Y. Kitamura, Separation and recovery of
+  phosphorus from steelmaking slag via a selective leaching--chemical
+  precipitation process, Hydrometallurgy 189 (2019) 105109.
+
+\bibitem{sampat2021valuing}
+A.~M. Sampat, A.~Hicks, G.~J. Ruiz-Mercado, V.~M. Zavala, Valuing economic
+  impact reductions of nutrient pollution from livestock waste, Resources,
+  Conservation and Recycling 164 (2021) 105199.
+
+\bibitem{CommoditiesPrices}
+{The World Bank}, {Annual Prices - Commodity Markets},
+  \url{https://www.worldbank.org/en/research/commodity-markets}, [Online;
+  accessed 23-August-2022] (2022).
+
+\bibitem{FAO_PUses}
+{FAO \& IAEA}, {Use of Phosphate Rocks for Sustainable Agriculture},
+  \url{https://www.fao.org/3/y5053e/y5053e00.htm}, [Online; accessed
+  23-August-2022] (2004).
+
+\bibitem{UMin_P}
+D.~E. Kaiser, P.~Pagliari, {Understanding phosphorus fertilizers},
+  \url{https://extension.umn.edu/phosphorus-and-potassium/understanding-phosphorus-fertilizers},
+  [Online; accessed 23-August-2022] (2018).
+
+\bibitem{CPIIndex}
+{U.S. Census Bureu}, {Current versus Constant (or Real) Dollars},
+  \url{https://www.census.gov/topics/income-poverty/income/guidance/current-vs-constant-dollars.html},
+  [Online; accessed 23-August-2022] (2021).
+
+\bibitem{galan2018time}
+A.~Gal{\'a}n-Mart{\'i}n, C.~Pozo, A.~Azapagic, I.~E. Grossmann, N.~Mac~Dowell,
+  G.~Guill{\'e}n-Gos{\'a}lbez, Time for global action: an optimised cooperative
+  approach towards effective climate change mitigation, Energy \& Environmental
+  Science 11~(3) (2018) 572--581.
+
+\bibitem{NRRPlatform}
+{IISD}, {Nutrient Recovery and Reuse in Canada: Foundations for a national
+  framework},
+  \url{https://www.iisd.org/sites/default/files/meterial/nutrient-recovery-reuse-canada.pdf},
+  [Online; accessed 25-August-2022] (2018).
+
+\bibitem{EurpeanComissionNewFertilizersGoal}
+{European Comission}, {Circular Economy: Agreement on Commission proposal to
+  boost the use of organic and waste-based fertilisers},
+  \url{https://ec.europa.eu/commission/presscorner/detail/en/IP_18_6161},
+  [Online; accessed 25-August-2022] (2018).
+
+\bibitem{EurpeanComissionFertilizersRegulation}
+{European Comission}, {Consolidated text: Regulation (EU) 2019/1009 of the
+  European Parliament and of the Council of 5 June 2019 laying down rules on
+  the making available on the market of EU fertilising products and amending
+  Regulations (EC) No 1069/2009 and (EC) No 1107/2009 and repealing Regulation
+  (EC) No 2003/2003 (Text with EEA relevance)Text with EEA relevance},
+  \url{https://eur-lex.europa.eu/eli/reg/2019/1009}, [Online; accessed
+  25-August-2022] (2022).
+
+\bibitem{zagklis2020assessing}
+D.~Zagklis, E.~Konstantinidou, C.~Zafiri, M.~Kornaros, Assessing the economic
+  viability of an animal byproduct rendering plant: Case study of a
+  slaughterhouse in greece, Sustainability 12~(14) (2020) 5870.
+
+\bibitem{fernandez2022phosphorus}
+M.~Fern{\'a}ndez-Delgado, E.~del Amo-Mateos, M.~T. Garc{\'\i}a-Cubero, M.~Coca,
+  S.~Lucas, Phosphorus recovery from organic waste for its agronomic
+  valorization: technical and economic evaluation, Journal of Chemical
+  Technology \& Biotechnology 97~(1) (2022) 167--178.
+
+\bibitem{ohtake2019phosphorus}
+H.~Ohtake, S.~Tsuneda, Phosphorus recovery and recycling, Springer, 2019.
+
+\bibitem{sharma2021life}
+B.~K. Sharma, M.~K. Chandel, Life cycle cost analysis of municipal solid waste
+  management scenarios for mumbai, india, Waste Management 124 (2021) 293--302.
+
+\end{thebibliography}

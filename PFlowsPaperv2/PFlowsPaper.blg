@@ -7,7 +7,7 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty pages in Kausar19
 You've used 109 entries,
             2990 wiz_defined-function locations,
-            1227 strings with 27941 characters,
+            1227 strings with 27945 characters,
 and the built_in function-call counts, 61474 in all, are:
 = -- 4732
 > -- 2150
